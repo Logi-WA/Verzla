@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.services;
 
 import java.util.List;
+import java.util.UUID;
 
 import is.hi.verzla_backend.entities.WishlistItem;
 
@@ -33,7 +34,7 @@ public interface WishlistService {
    *
    * @throws IllegalArgumentException if {@code userId} is {@code null}.
    */
-  List<WishlistItem> getWishlistByUserId(Long userId);
+  List<WishlistItem> getWishlistByUserId(UUID userId);
 
   /**
    * Adds a product to a user's wishlist.
@@ -45,7 +46,7 @@ public interface WishlistService {
    * @throws IllegalArgumentException if {@code userId} or {@code productId} is
    *                                  {@code null}.
    */
-  void addProductToWishlist(Long userId, Long productId);
+  void addProductToWishlist(UUID userId, UUID productId);
 
   /**
    * Removes a product from a user's wishlist.
@@ -57,9 +58,9 @@ public interface WishlistService {
    * @throws IllegalArgumentException if {@code userId} or {@code productId} is
    *                                  {@code null}.
    */
-  void removeWishlistItem(Long userId, Long wishlistItemId);
+  void removeWishlistItem(UUID userId, UUID wishlistItemId);
 
-  void addAllToCart(Long userId);
+  void addAllToCart(UUID userId);
 
-  void clearWishlist(Long userId);
+  void clearWishlist(UUID userId);
 }

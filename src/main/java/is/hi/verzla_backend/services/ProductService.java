@@ -1,7 +1,9 @@
 package is.hi.verzla_backend.services;
 
 import is.hi.verzla_backend.entities.Product;
+
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Service interface for managing products.
@@ -24,7 +26,7 @@ public interface ProductService {
      * @param id The ID of the product to retrieve.
      * @return The {@link Product} object with the specified ID.
      */
-    Product getProductById(Long id);
+    Product getProductById(UUID id);
 
     /**
      * Creates a new product.
@@ -42,7 +44,7 @@ public interface ProductService {
      * @param newDescription The new description for the product.
      * @return The updated {@link Product} object.
      */
-    Product updateProduct(Long id, String newName, String newDescription);
+    Product updateProduct(UUID id, String newName, String newDescription);
 
     /**
      * Updates the name of a specific product by its ID.
@@ -51,7 +53,7 @@ public interface ProductService {
      * @param newName The new name for the product.
      * @return The updated {@link Product} object.
      */
-    Product updateProductName(Long id, String newName);
+    Product updateProductName(UUID id, String newName);
 
     /**
      * Updates the description of a specific product by its ID.
@@ -60,5 +62,5 @@ public interface ProductService {
      * @param newDescription The new description for the product.
      * @return The updated {@link Product} object.
      */
-    Product updateProductDescription(Long id, String newDescription);
+    Product updateProductDescription(UUID id, String newDescription);
 }

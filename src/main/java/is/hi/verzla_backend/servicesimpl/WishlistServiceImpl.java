@@ -2,6 +2,7 @@ package is.hi.verzla_backend.servicesimpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -75,7 +76,7 @@ public class WishlistServiceImpl implements WishlistService {
    * @throws IllegalArgumentException if {@code userId} is {@code null}.
    */
   @Override
-  public List<WishlistItem> getWishlistByUserId(Long userId) {
+  public List<WishlistItem> getWishlistByUserId(UUID userId) {
     Wishlist wishlist = wishlistRepository.findByUser_Id(userId);
     return wishlist != null ? wishlist.getWishlistItems() : new ArrayList<>();
   }
@@ -91,7 +92,7 @@ public class WishlistServiceImpl implements WishlistService {
    *                                  {@code null}.
    */
   @Override
-  public void addProductToWishlist(Long userId, Long productId) {
+  public void addProductToWishlist(UUID userId, UUID productId) {
     Product product = productRepository
         .findById(productId)
         .orElseThrow(() -> new RuntimeException("Product not found with id " + productId));
@@ -131,7 +132,7 @@ public class WishlistServiceImpl implements WishlistService {
    *                                  {@code null}.
    */
   @Override
-  public void removeWishlistItem(Long userId, Long wishlistItemId) {
+  public void removeWishlistItem(UUID userId, UUID wishlistItemId) {
     WishlistItem item = wishlistItemRepository
         .findById(wishlistItemId)
         .orElseThrow(() -> new RuntimeException(
@@ -146,7 +147,7 @@ public class WishlistServiceImpl implements WishlistService {
   }
 
   @Override
-  public void addAllToCart(Long userId) {
+  public void addAllToCart(UUID userId) {
     Wishlist wishlist = wishlistRepository.findByUser_Id(userId);
     if (wishlist == null) {
       throw new RuntimeException("Wishlist not found for user");
@@ -161,7 +162,7 @@ public class WishlistServiceImpl implements WishlistService {
   }
 
   @Override
-  public void clearWishlist(Long userId) {
+  public void clearWishlist(UUID userId) {
     Wishlist wishlist = wishlistRepository.findByUser_Id(userId);
     if (wishlist != null) {
       wishlistItemRepository.deleteAllByWishlist(wishlist);

@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.services;
 
 import java.util.List;
+import java.util.UUID;
 
 import is.hi.verzla_backend.entities.CartItem;
 
@@ -15,7 +16,7 @@ public interface CartService {
    * @param userId The ID of the user whose cart items are to be retrieved.
    * @return A list of {@link CartItem} objects associated with the user.
    */
-  List<CartItem> getCartItemsByUserId(Long userId);
+  List<CartItem> getCartItemsByUserId(UUID userId);
 
   /**
    * Adds a product to the user's cart.
@@ -23,7 +24,7 @@ public interface CartService {
    * @param userId    The ID of the user adding the product.
    * @param productId The ID of the product to be added to the cart.
    */
-  void addProductToCart(Long userId, Long productId);
+  void addProductToCart(UUID userId, UUID productId);
 
   /**
    * Updates the quantity of a specific cart item.
@@ -32,7 +33,7 @@ public interface CartService {
    * @param quantity   The new quantity to set for the cart item.
    * @return The updated {@link CartItem}.
    */
-  void updateCartItemQuantity(Long cartItemId, int quantity, Long userId);
+  void updateCartItemQuantity(UUID cartItemId, int quantity, UUID userId);
 
   /**
    * Removes a product from the user's cart.
@@ -40,7 +41,7 @@ public interface CartService {
    * @param userId    The ID of the user whose cart item is to be removed.
    * @param productId The ID of the product to be removed from the cart.
    */
-  void removeCartItem(Long userId, Long cartItemId);
+  void removeCartItem(UUID userId, UUID cartItemId);
 
-  void buyCart(Long userId);
+  void buyCart(UUID userId);
 }

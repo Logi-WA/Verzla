@@ -2,6 +2,7 @@ package is.hi.verzla_backend.servicesimpl;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -46,7 +47,7 @@ public class CartServiceImpl implements CartService {
    * @return A list of {@link CartItem} objects in the user's cart.
    */
   @Override
-  public List<CartItem> getCartItemsByUserId(Long userId) {
+  public List<CartItem> getCartItemsByUserId(UUID userId) {
     Cart cart = cartRepository.findByUser_Id(userId);
     return cart != null ? cart.getCartItems() : new ArrayList<>();
   }
@@ -59,7 +60,7 @@ public class CartServiceImpl implements CartService {
    * @param productId The ID of the product to be added to the cart.
    */
   @Override
-  public void addProductToCart(Long userId, Long productId) {
+  public void addProductToCart(UUID userId, UUID productId) {
     Product product = productRepository
         .findById(productId)
         .orElseThrow(() -> new RuntimeException("Product not found with id " + productId));
@@ -98,9 +99,9 @@ public class CartServiceImpl implements CartService {
    */
   @Override
   public void updateCartItemQuantity(
-      Long cartItemId,
+      UUID cartItemId,
       int quantity,
-      Long userId) {
+      UUID userId) {
     CartItem cartItem = cartItemRepository
         .findById(cartItemId)
         .orElseThrow(() -> new RuntimeException("Cart item not found with id " + cartItemId));
@@ -121,7 +122,7 @@ public class CartServiceImpl implements CartService {
    * @param productId The ID of the product to be removed from the cart.
    */
   @Override
-  public void removeCartItem(Long userId, Long cartItemId) {
+  public void removeCartItem(UUID userId, UUID cartItemId) {
     CartItem item = cartItemRepository
         .findById(cartItemId)
         .orElseThrow(() -> new RuntimeException("Cart item not found with id " + cartItemId));
@@ -135,7 +136,7 @@ public class CartServiceImpl implements CartService {
   }
 
   @Override
-  public void buyCart(Long userId) {
+  public void buyCart(UUID userId) {
     Cart cart = cartRepository.findByUser_Id(userId);
     if (cart != null) {
       cartItemRepository.deleteAllByCart(cart);

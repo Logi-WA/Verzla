@@ -2,11 +2,13 @@ package is.hi.verzla_backend.entities;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.UUID;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -48,8 +50,9 @@ public class Wishlist {
    * </p>
    */
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   /**
    * The user associated with this wishlist.
@@ -86,7 +89,7 @@ public class Wishlist {
    *
    * @return the ID of the wishlist
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -95,7 +98,7 @@ public class Wishlist {
    *
    * @param id the ID to set
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

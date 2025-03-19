@@ -16,6 +16,8 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.OneToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotNull;
+import java.util.UUID;
+import jakarta.persistence.Column;
 
 /**
  * Represents a shopping cart associated with a specific user.
@@ -44,8 +46,9 @@ public class Cart {
    * </p>
    */
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   /**
    * The user associated with this cart.
@@ -82,7 +85,7 @@ public class Cart {
    *
    * @return the ID of the cart
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -91,7 +94,7 @@ public class Cart {
    *
    * @param id the ID to set
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.servicesimpl;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -43,7 +44,7 @@ public class ProductServiceImpl implements ProductService {
      * @throws RuntimeException if the product with the specified ID is not found.
      */
     @Override
-    public Product getProductById(Long id) {
+    public Product getProductById(UUID id) {
         return productRepository
             .findById(id)
             .orElseThrow(() -> new RuntimeException("Product not found with id " + id));
@@ -69,7 +70,7 @@ public class ProductServiceImpl implements ProductService {
      * @return The updated {@link Product} object.
      */
     @Override
-    public Product updateProduct(Long id, String newName, String newDescription) {
+    public Product updateProduct(UUID id, String newName, String newDescription) {
         Product product = productRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Product not found with id " + id));
         if (newName != null) {
@@ -89,7 +90,7 @@ public class ProductServiceImpl implements ProductService {
      * @return The updated {@link Product} object.
      */
     @Override
-    public Product updateProductName(Long id, String newName) {
+    public Product updateProductName(UUID id, String newName) {
         Product product = productRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Product not found with id " + id));
         if (newName != null) {
@@ -106,7 +107,7 @@ public class ProductServiceImpl implements ProductService {
      * @return The updated {@link Product} object.
      */
     @Override
-    public Product updateProductDescription(Long id, String newDescription) {
+    public Product updateProductDescription(UUID id, String newDescription) {
         Product product = productRepository.findById(id)
             .orElseThrow(() -> new RuntimeException("Product not found with id " + id));
         if (newDescription != null) {

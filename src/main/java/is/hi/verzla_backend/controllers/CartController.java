@@ -2,11 +2,12 @@ package is.hi.verzla_backend.controllers;
 
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -16,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import is.hi.verzla_backend.dto.ApiResponse;
+import is.hi.verzla_backend.dto.CartItemDto;
 import is.hi.verzla_backend.entities.CartItem;
 import is.hi.verzla_backend.services.CartService;
 import jakarta.servlet.http.HttpSession;
@@ -57,12 +60,29 @@ public class CartController {
    * Retrieves all cart items associated with the currently logged-in user.
    *
    * @param session The current HTTP session used to obtain the user ID.
-   * @return A {@code List} of {@link CartItem} objects in the user's cart.
+   * @return A {@code List} of {@link CartItemDto} objects in the user's cart.
    */
   @GetMapping
-  public List<CartItem> getCartItems(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
-    return cartService.getCartItemsByUserId(userId);
+  public ResponseEntity<ApiResponse<List<CartItemDto>>> getCartItems(HttpSession session) {
+    UUID userId = (UUID) session.getAttribute("userId");
+    if (userId == null) {
+      return ResponseEntity
+          .status(HttpStatus.UNAUTHORIZED)
+          .body(ApiResponse.error("User must be logged in to view cart"));
+    }
+
+    List<CartItem> cartItems = cartService.getCartItemsByUserId(userId);
+    List<CartItemDto> cartItemDtos = cartItems.stream()
+        .map(item -> new CartItemDto(
+            item.getId(),
+            item.getProduct().getId(),
+            item.getProduct().getName(),
+            item.getProduct().getImageUrl(),
+            item.getProduct().getPrice(),
+            item.getQuantity()))
+        .collect(Collectors.toList());
+
+    return ResponseEntity.ok(ApiResponse.success(cartItemDtos));
   }
 
   /**
@@ -82,13 +102,13 @@ public class CartController {
   public ResponseEntity<String> addToCart(
       @RequestBody ProductRequest productRequest,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body("User must be logged in to add items to cart");
     }
-    Long productId = productRequest.getProductId();
+    UUID productId = productRequest.getProductId();
     try {
       cartService.addProductToCart(userId, productId);
       return ResponseEntity.ok("Product added to cart");
@@ -112,10 +132,10 @@ public class CartController {
    */
   @PatchMapping("/{cartItemId}")
   public ResponseEntity<?> updateCartItemQuantity(
-      @PathVariable Long cartItemId,
+      @PathVariable UUID cartItemId,
       @RequestBody Map<String, Integer> requestBody,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
@@ -153,9 +173,9 @@ public class CartController {
    */
   @DeleteMapping("/{cartItemId}")
   public ResponseEntity<String> removeFromCart(
-      @PathVariable Long cartItemId,
+      @PathVariable UUID cartItemId,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
@@ -172,32 +192,6 @@ public class CartController {
   }
 
   /**
-   * Renders the cart page for the current user.
-   *
-   * @param session The current HTTP session used to obtain the user ID.
-   * @param model   The {@link Model} object used to pass data to the view.
-   * @return The name of the view template for the cart page, or a redirect
-   *         to the home page if the user is not logged in.
-   *
-   * @apiNote This method is intended for server-side rendering and may be used
-   *          in conjunction with templating engines like Thymeleaf.
-   */
-  @GetMapping("/cart")
-  public String viewCart(HttpSession session, Model model) {
-    Long userId = (Long) session.getAttribute("userId");
-    if (userId == null) {
-      // User is not logged in; redirect to home page or login page
-      return "redirect:/";
-    }
-
-    // Fetch cart items for the user
-    List<CartItem> cartItems = cartService.getCartItemsByUserId(userId);
-    model.addAttribute("cartItems", cartItems);
-
-    return "cart";
-  }
-
-  /**
    * Inner static class representing the payload for adding a product to the
    * shopping cart.
    */
@@ -206,14 +200,14 @@ public class CartController {
     /**
      * The ID of the product to be added to the cart.
      */
-    private Long productId;
+    private UUID productId;
 
     /**
      * Retrieves the product ID from the request.
      *
      * @return The ID of the product to add.
      */
-    public Long getProductId() {
+    public UUID getProductId() {
       return productId;
     }
 
@@ -222,14 +216,14 @@ public class CartController {
      *
      * @param productId The ID of the product to add.
      */
-    public void setProductId(Long productId) {
+    public void setProductId(UUID productId) {
       this.productId = productId;
     }
   }
 
   @PostMapping("/buy")
   public ResponseEntity<String> buyCart(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
           .body("User must be logged in to buy items");

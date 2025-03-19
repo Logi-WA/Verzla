@@ -2,6 +2,7 @@ package is.hi.verzla_backend.controllers;
 
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -77,7 +78,7 @@ public class UserController {
    * @apiNote Ensure that only authorized users can access user details.
    */
   @GetMapping("/{id}")
-  public ResponseEntity<?> getUserById(@PathVariable Long id) {
+  public ResponseEntity<?> getUserById(@PathVariable UUID id) {
     User user = userService.getUserById(id);
     if (user != null) {
       return ResponseEntity.ok(user);
@@ -127,7 +128,7 @@ public class UserController {
    * @apiNote Only certain fields should be updatable to maintain data integrity.
    */
   @PatchMapping("/{id}")
-  public ResponseEntity<?> patchUser(@PathVariable Long id, @RequestBody User userDetails) {
+  public ResponseEntity<?> patchUser(@PathVariable UUID id, @RequestBody User userDetails) {
     try {
       User updatedUser = userService.updateUser(id, userDetails);
       return ResponseEntity.ok(updatedUser);
@@ -152,7 +153,7 @@ public class UserController {
    */
   @PatchMapping("/{id}/password")
   public ResponseEntity<String> updatePassword(
-      @PathVariable Long id,
+      @PathVariable UUID id,
       @RequestBody String newPassword) {
     try {
       userService.updatePassword(id, newPassword);
@@ -179,7 +180,7 @@ public class UserController {
    *          integrity.
    */
   @DeleteMapping("/{userId}")
-  public ResponseEntity<String> deleteUser(@PathVariable Long userId) {
+  public ResponseEntity<String> deleteUser(@PathVariable UUID userId) {
     try {
       userService.deleteUser(userId);
       return ResponseEntity.ok("User deleted successfully");
@@ -202,7 +203,7 @@ public class UserController {
    */
   @GetMapping("/me")
   public ResponseEntity<?> getCurrentUser(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId != null) {
       User user = userService.getUserById(userId);
       if (user != null) {
@@ -228,7 +229,7 @@ public class UserController {
   public ResponseEntity<?> updateCurrentUser(
       @RequestBody User userDetails,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
@@ -267,7 +268,7 @@ public class UserController {
   public ResponseEntity<?> updateCurrentUserPassword(
       @RequestBody Map<String, String> passwords,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
@@ -306,14 +307,14 @@ public class UserController {
     /**
      * The ID of the product to be added to the cart.
      */
-    private Long productId;
+    private UUID productId;
 
     /**
      * Retrieves the product ID from the request.
      *
      * @return The ID of the product to add.
      */
-    public Long getProductId() {
+    public UUID getProductId() {
       return productId;
     }
 
@@ -322,7 +323,7 @@ public class UserController {
      *
      * @param productId The ID of the product to add.
      */
-    public void setProductId(Long productId) {
+    public void setProductId(UUID productId) {
       this.productId = productId;
     }
   }

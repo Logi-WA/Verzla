@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.servicesimpl;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -50,7 +51,7 @@ public class UserServiceImpl implements UserService {
    * @throws RuntimeException if the user with the specified ID is not found.
    */
   @Override
-  public User getUserById(Long id) {
+  public User getUserById(UUID id) {
     return userRepository
         .findById(id)
         .orElseThrow(() -> new RuntimeException("User not found with id " + id));
@@ -77,7 +78,7 @@ public class UserServiceImpl implements UserService {
    *                          the new email is already in use.
    */
   @Override
-  public User updateUser(Long id, User userDetails) {
+  public User updateUser(UUID id, User userDetails) {
     User user = userRepository
         .findById(id)
         .orElseThrow(() -> new RuntimeException("User not found with id " + id));
@@ -104,7 +105,7 @@ public class UserServiceImpl implements UserService {
    */
   @Override
   @Transactional
-  public void deleteUser(Long userId) {
+  public void deleteUser(UUID userId) {
     User user = userRepository.findById(userId)
         .orElseThrow(() -> new RuntimeException("User not found with id " + userId));
 
@@ -134,7 +135,7 @@ public class UserServiceImpl implements UserService {
    * @throws RuntimeException if the user with the specified ID is not found.
    */
   @Override
-  public User updatePassword(Long id, String newPassword) {
+  public User updatePassword(UUID id, String newPassword) {
     User user = userRepository
         .findById(id)
         .orElseThrow(() -> new RuntimeException("User not found with id " + id));

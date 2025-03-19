@@ -1,6 +1,10 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.UUID;
+
 import com.fasterxml.jackson.annotation.JsonBackReference;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -20,8 +24,9 @@ import jakarta.validation.constraints.PositiveOrZero;
 public class OrderItem {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   @NotNull(message = "Order cannot be null")
   @ManyToOne
@@ -45,7 +50,7 @@ public class OrderItem {
    *
    * @return the ID of the order item.
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -54,7 +59,7 @@ public class OrderItem {
    *
    * @param id the ID to set.
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

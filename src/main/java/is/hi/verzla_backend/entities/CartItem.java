@@ -1,5 +1,8 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.UUID;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -32,8 +35,9 @@ public class CartItem {
    * </p>
    */
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   /**
    * The product associated with this cart item.
@@ -78,7 +82,7 @@ public class CartItem {
    *
    * @return the ID of this cart item
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -87,7 +91,7 @@ public class CartItem {
    *
    * @param id the ID to set
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.servicesimpl;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -29,7 +30,7 @@ public class OrderServiceImpl implements OrderService {
    * @throws RuntimeException if the order with the specified ID is not found.
    */
   @Override
-  public Order getOrderById(Long id) {
+  public Order getOrderById(UUID id) {
     return orderRepository
         .findById(id)
         .orElseThrow(() -> new RuntimeException("Order not found with id " + id));
@@ -42,7 +43,7 @@ public class OrderServiceImpl implements OrderService {
    * @return A list of {@link Order} objects belonging to the specified user.
    */
   @Override
-  public List<Order> getOrdersByUserId(Long userId) {
+  public List<Order> getOrdersByUserId(UUID userId) {
     return orderRepository.findByUserId(userId);
   }
 
@@ -63,7 +64,7 @@ public class OrderServiceImpl implements OrderService {
    * @param id The ID of the order to delete.
    */
   @Override
-  public void deleteOrder(Long id) {
+  public void deleteOrder(UUID id) {
     orderRepository.deleteById(id);
   }
 }

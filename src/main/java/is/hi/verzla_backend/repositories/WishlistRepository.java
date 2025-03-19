@@ -1,6 +1,9 @@
 package is.hi.verzla_backend.repositories;
 
+import java.util.UUID;
+
 import is.hi.verzla_backend.entities.Wishlist;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 /**
@@ -13,7 +16,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @see org.springframework.data.jpa.repository.JpaRepository
  * @see is.hi.verzla_backend.entities.Wishlist
  */
-public interface WishlistRepository extends JpaRepository<Wishlist, Long> {
+public interface WishlistRepository extends JpaRepository<Wishlist, UUID> {
   /**
    * Finds a {@link Wishlist} by the ID of its associated user.
    *
@@ -23,5 +26,5 @@ public interface WishlistRepository extends JpaRepository<Wishlist, Long> {
    *
    * @throws IllegalArgumentException if {@code userId} is {@code null}.
    */
-  Wishlist findByUser_Id(Long userId);
+  Wishlist findByUser_Id(UUID userId);
 }

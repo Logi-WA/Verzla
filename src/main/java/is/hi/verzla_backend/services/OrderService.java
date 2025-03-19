@@ -1,7 +1,9 @@
 package is.hi.verzla_backend.services;
 
 import is.hi.verzla_backend.entities.Order;
+
 import java.util.List;
+import java.util.UUID;
 
 /**
  * Service interface for managing orders.
@@ -15,7 +17,7 @@ public interface OrderService {
    * @param id The ID of the order to retrieve.
    * @return The {@link Order} object with the specified ID.
    */
-  Order getOrderById(Long id);
+  Order getOrderById(UUID id);
 
   /**
    * Retrieves a list of orders associated with a specific user.
@@ -23,7 +25,7 @@ public interface OrderService {
    * @param userId The ID of the user whose orders are to be retrieved.
    * @return A list of {@link Order} objects associated with the user.
    */
-  List<Order> getOrdersByUserId(Long userId);
+  List<Order> getOrdersByUserId(UUID userId);
 
   /**
    * Creates a new order.
@@ -38,5 +40,5 @@ public interface OrderService {
    *
    * @param id The ID of the order to be deleted.
    */
-  void deleteOrder(Long id);
+  void deleteOrder(UUID id);
 }

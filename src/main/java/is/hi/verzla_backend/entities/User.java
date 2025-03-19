@@ -1,5 +1,7 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.UUID;
+
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 
 import jakarta.persistence.CascadeType;
@@ -38,8 +40,9 @@ public class User {
    * </p>
    */
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   /**
    * The name of the user.
@@ -103,7 +106,7 @@ public class User {
    *
    * @return the ID of the user
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -112,7 +115,7 @@ public class User {
    *
    * @param id the ID to set
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

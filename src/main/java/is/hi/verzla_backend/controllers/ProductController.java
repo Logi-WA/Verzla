@@ -2,6 +2,9 @@ package is.hi.verzla_backend.controllers;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -14,6 +17,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import is.hi.verzla_backend.dto.ApiResponse;
+import is.hi.verzla_backend.dto.ProductDto;
 import is.hi.verzla_backend.entities.Product;
 import is.hi.verzla_backend.services.ProductService;
 
@@ -34,10 +39,15 @@ public class ProductController {
      * @return A list of products, filtered by category if provided.
      */
     @GetMapping
-    public List<Product> getProducts(
+    public ResponseEntity<ApiResponse<List<ProductDto>>> getProducts(
         @RequestParam(required = false) String category
     ) {
-        return productService.getProducts(category);
+        List<Product> products = productService.getProducts(category);
+        List<ProductDto> productDtos = products.stream()
+            .map(this::convertToDto)
+            .collect(Collectors.toList());
+        
+        return ResponseEntity.ok(ApiResponse.success(productDtos));
     }
 
     /**
@@ -47,8 +57,13 @@ public class ProductController {
      * @return The Product object with the specified ID.
      */
     @GetMapping("/{id}")
-    public Product getProductById(@PathVariable Long id) {
-        return productService.getProductById(id);
+    public ResponseEntity<ApiResponse<ProductDto>> getProductById(@PathVariable UUID id) {
+        try {
+            Product product = productService.getProductById(id);
+            return ResponseEntity.ok(ApiResponse.success(convertToDto(product)));
+        } catch (Exception e) {
+            return ResponseEntity.notFound().build();
+        }
     }
 
     /**
@@ -71,7 +86,7 @@ public class ProductController {
      */
     @PatchMapping("/{id}")
     public ResponseEntity<?> updateProduct(
-        @PathVariable Long id,
+        @PathVariable UUID id,
         @RequestBody Map<String, String> updates
     ) {
         try {
@@ -93,7 +108,7 @@ public class ProductController {
      */
     @PatchMapping("/{id}/name")
     public ResponseEntity<?> updateProductName(
-        @PathVariable Long id,
+        @PathVariable UUID id,
         @RequestBody Map<String, String> updates
     ) {
         try {
@@ -114,7 +129,7 @@ public class ProductController {
      */
     @PatchMapping("/{id}/description")
     public ResponseEntity<?> updateProductDescription(
-        @PathVariable Long id,
+        @PathVariable UUID id,
         @RequestBody Map<String, String> updates
     ) {
         try {
@@ -124,6 +139,24 @@ public class ProductController {
         } catch (Exception e) {
             return ResponseEntity.badRequest().body("Failed to update product description.");
         }
+    }
+
+    // Helper method to convert Product entity to ProductDto
+    private ProductDto convertToDto(Product product) {
+        ProductDto dto = new ProductDto();
+        dto.setId(product.getId());
+        dto.setName(product.getName());
+        dto.setPrice(product.getPrice());
+        dto.setImageUrl(product.getImageUrl());
+        dto.setDescription(product.getDescription());
+        
+        // Map categories to just their names
+        Set<String> categoryNames = product.getCategories().stream()
+            .map(category -> category.getName())
+            .collect(Collectors.toSet());
+        dto.setCategories(categoryNames);
+        
+        return dto;
     }
 
     // Inner classes for request bodies (if needed)

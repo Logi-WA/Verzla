@@ -1,13 +1,16 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import jakarta.validation.constraints.NotEmpty;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Represents a product category that can be associated with multiple products.
@@ -16,8 +19,9 @@ import java.util.Set;
 public class Category {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   @NotEmpty(message = "Category name cannot be empty")
   private String name;
@@ -44,7 +48,7 @@ public class Category {
    *
    * @return the ID of the category.
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -53,7 +57,7 @@ public class Category {
    *
    * @param id the ID to set.
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.repositories;
 
 import java.util.List;
+import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
@@ -21,7 +22,7 @@ import is.hi.verzla_backend.entities.WishlistItem;
  * @see is.hi.verzla_backend.entities.WishlistItem
  */
 public interface WishlistItemRepository
-    extends JpaRepository<WishlistItem, Long> {
+    extends JpaRepository<WishlistItem, UUID> {
   /**
    * Finds a {@link WishlistItem} by its associated {@link Wishlist} and
    * {@link Product}.

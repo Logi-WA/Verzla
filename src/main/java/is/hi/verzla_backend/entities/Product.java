@@ -1,5 +1,10 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.HashSet;
+import java.util.Set;
+import java.util.UUID;
+
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -8,8 +13,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.validation.constraints.NotEmpty;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * Represents a product in the e-commerce system, including its name, price,
@@ -19,8 +22,9 @@ import java.util.Set;
 public class Product {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   @NotEmpty(message = "Product name cannot be empty")
   private String name;
@@ -42,7 +46,7 @@ public class Product {
    *
    * @return the ID of the product.
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -51,7 +55,7 @@ public class Product {
    *
    * @param id the ID to set.
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 

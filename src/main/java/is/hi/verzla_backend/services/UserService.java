@@ -1,6 +1,7 @@
 package is.hi.verzla_backend.services;
 
 import java.util.List;
+import java.util.UUID;
 
 import is.hi.verzla_backend.entities.User;
 
@@ -24,7 +25,7 @@ public interface UserService {
    * @param id The ID of the user to retrieve.
    * @return The {@link User} object with the specified ID.
    */
-  User getUserById(Long id);
+  User getUserById(UUID id);
 
   /**
    * Creates a new user.
@@ -41,14 +42,14 @@ public interface UserService {
    * @param userDetails The new details for the user.
    * @return The updated {@link User} object.
    */
-  User updateUser(Long id, User userDetails);
+  User updateUser(UUID id, User userDetails);
 
   /**
    * Deletes a user by their ID.
    *
    * @param userId The ID of the user to delete.
    */
-  void deleteUser(Long userId);
+  void deleteUser(UUID userId);
 
   /**
    * Updates the password for a specific user.
@@ -57,7 +58,7 @@ public interface UserService {
    * @param newPassword The new password for the user.
    * @return The updated {@link User} object.
    */
-  User updatePassword(Long id, String newPassword);
+  User updatePassword(UUID id, String newPassword);
 
   /**
    * Retrieves a user by their email address.

@@ -1,11 +1,12 @@
 package is.hi.verzla_backend.controllers;
 
 import java.util.List;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import is.hi.verzla_backend.dto.ApiResponse;
+import is.hi.verzla_backend.dto.WishlistItemDto;
 import is.hi.verzla_backend.entities.WishlistItem;
 import is.hi.verzla_backend.services.WishlistService;
 import jakarta.servlet.http.HttpSession;
@@ -54,12 +57,30 @@ public class WishlistController {
    * Retrieves all wishlist items associated with the currently logged-in user.
    *
    * @param session The current HTTP session used to obtain the user ID.
-   * @return A {@code List} of {@link WishlistItem} objects belonging to the user.
+   * @return A {@code List} of {@link WishlistItemDto} objects belonging to the user.
    */
   @GetMapping
-  public List<WishlistItem> getWishlist(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
-    return wishlistService.getWishlistByUserId(userId);
+  public ResponseEntity<ApiResponse<List<WishlistItemDto>>> getWishlist(HttpSession session) {
+    UUID userId = (UUID) session.getAttribute("userId");
+    if (userId == null) {
+      return ResponseEntity
+          .status(HttpStatus.UNAUTHORIZED)
+          .body(ApiResponse.error("User must be logged in to view wishlist"));
+    }
+    
+    List<WishlistItem> wishlistItems = wishlistService.getWishlistByUserId(userId);
+    List<WishlistItemDto> wishlistItemDtos = wishlistItems.stream()
+        .map(item -> new WishlistItemDto(
+            item.getId(),
+            item.getProduct().getId(),
+            item.getProduct().getName(),
+            item.getProduct().getImageUrl(),
+            item.getProduct().getPrice(),
+            item.getProduct().getDescription()
+        ))
+        .collect(Collectors.toList());
+    
+    return ResponseEntity.ok(ApiResponse.success(wishlistItemDtos));
   }
 
   /**
@@ -79,13 +100,13 @@ public class WishlistController {
   public ResponseEntity<String> addToWishlist(
       @RequestBody ProductRequest productRequest,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body("User must be logged in to add items to wishlist");
     }
-    Long productId = productRequest.getProductId();
+    UUID productId = productRequest.getProductId();
     try {
       wishlistService.addProductToWishlist(userId, productId);
       return ResponseEntity.ok("Product added to wishlist");
@@ -110,9 +131,9 @@ public class WishlistController {
    */
   @DeleteMapping("/{wishlistItemId}")
   public ResponseEntity<String> removeFromWishlist(
-      @PathVariable Long wishlistItemId,
+      @PathVariable UUID wishlistItemId,
       HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
@@ -129,32 +150,6 @@ public class WishlistController {
   }
 
   /**
-   * Renders the wishlist page for the current user.
-   *
-   * @param session The current HTTP session used to obtain the user ID.
-   * @param model   The {@link Model} object used to pass data to the view.
-   * @return The name of the view template for the wishlist page, or a redirect
-   *         to the home page if the user is not logged in.
-   *
-   * @apiNote This method is intended for server-side rendering and may be used
-   *          in conjunction with templating engines like Thymeleaf.
-   */
-  @GetMapping("/wishlist")
-  public String viewWishlist(HttpSession session, Model model) {
-    Long userId = (Long) session.getAttribute("userId");
-    if (userId == null) {
-      return "redirect:/";
-    }
-
-    // Fetch wishlist items for the user
-    List<WishlistItem> wishlistItems = wishlistService.getWishlistByUserId(
-        userId);
-    model.addAttribute("wishlistItems", wishlistItems);
-
-    return "wishlist";
-  }
-
-  /**
    * Inner static class representing the payload for adding a product to the
    * wishlist.
    */
@@ -163,14 +158,14 @@ public class WishlistController {
     /**
      * The ID of the product to be added to the wishlist.
      */
-    private Long productId;
+    private UUID productId;
 
     /**
      * Retrieves the product ID from the request.
      *
      * @return The ID of the product to add.
      */
-    public Long getProductId() {
+    public UUID getProductId() {
       return productId;
     }
 
@@ -179,14 +174,14 @@ public class WishlistController {
      *
      * @param productId The ID of the product to add.
      */
-    public void setProductId(Long productId) {
+    public void setProductId(UUID productId) {
       this.productId = productId;
     }
   }
 
   @PostMapping("/addAllToCart")
   public ResponseEntity<String> addAllToCart(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
           .body("User must be logged in to perform this action");
@@ -202,7 +197,7 @@ public class WishlistController {
 
   @DeleteMapping("/clear")
   public ResponseEntity<String> clearWishlist(HttpSession session) {
-    Long userId = (Long) session.getAttribute("userId");
+    UUID userId = (UUID) session.getAttribute("userId");
     if (userId == null) {
       return ResponseEntity.status(HttpStatus.UNAUTHORIZED)
           .body("User must be logged in to perform this action");

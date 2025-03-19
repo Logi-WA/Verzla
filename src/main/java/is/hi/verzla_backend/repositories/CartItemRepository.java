@@ -1,5 +1,7 @@
 package is.hi.verzla_backend.repositories;
 
+import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import is.hi.verzla_backend.entities.Cart;
@@ -10,7 +12,7 @@ import is.hi.verzla_backend.entities.Product;
  * Repository interface for performing CRUD operations on {@link CartItem}
  * entities.
  */
-public interface CartItemRepository extends JpaRepository<CartItem, Long> {
+public interface CartItemRepository extends JpaRepository<CartItem, UUID> {
 
   /**
    * Finds a {@link CartItem} by the associated cart and product.

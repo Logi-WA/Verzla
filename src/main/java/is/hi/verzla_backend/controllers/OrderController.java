@@ -1,5 +1,7 @@
 package is.hi.verzla_backend.controllers;
 
+import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,7 +28,7 @@ public class OrderController {
    * @return The Order object with the specified ID.
    */
   @GetMapping("/{id}")
-  public Order getOrderDetails(@PathVariable Long id) {
+  public Order getOrderDetails(@PathVariable UUID id) {
     return orderService.getOrderById(id);
   }
 }

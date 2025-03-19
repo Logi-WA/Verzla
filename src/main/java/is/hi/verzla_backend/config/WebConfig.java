@@ -9,18 +9,36 @@ public class WebConfig implements WebMvcConfigurer {
 
   @Override
   public void addCorsMappings(CorsRegistry registry) {
+    // Configure CORS for all API endpoints
     registry.addMapping("/api/**")
-        .allowedOrigins("*") // In production, replace with specific Android app origin
-        .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
+        .allowedOrigins(
+            "http://localhost:8081",     // Web development
+            "http://localhost:3000",     // React development
+            "capacitor://localhost",     // Capacitor
+            "ionic://localhost",         // Ionic local
+            "http://localhost",          // Local apps
+            "file://"                    // Android/iOS file protocol
+        )
+        .allowedMethods("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS")
         .allowedHeaders("*")
-        .allowCredentials(false)
+        .exposedHeaders("Authorization")  // Allow Authorization header to be exposed
+        .allowCredentials(true)
         .maxAge(3600);
 
+    // Configure CORS for auth endpoints
     registry.addMapping("/auth/**")
-        .allowedOrigins("*") // In production, replace with specific Android app origin
+        .allowedOrigins(
+            "http://localhost:8081",
+            "http://localhost:3000", 
+            "capacitor://localhost",
+            "ionic://localhost",
+            "http://localhost",
+            "file://"
+        )
         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
         .allowedHeaders("*")
-        .allowCredentials(false)
+        .exposedHeaders("Authorization")
+        .allowCredentials(true)
         .maxAge(3600);
   }
 }

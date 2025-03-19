@@ -1,7 +1,14 @@
 package is.hi.verzla_backend.entities;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.UUID;
+
 import com.fasterxml.jackson.annotation.JsonManagedReference;
+
 import jakarta.persistence.CascadeType;
+import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -12,9 +19,6 @@ import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
 
 /**
  * Represents an order placed by a user, containing details such as order date, status, and associated order items.
@@ -24,8 +28,9 @@ import java.util.List;
 public class Order {
 
   @Id
-  @GeneratedValue(strategy = GenerationType.IDENTITY)
-  private Long id;
+  @GeneratedValue(strategy = GenerationType.UUID)
+  @Column(name = "id", updatable = false, nullable = false)
+  private UUID id;
 
   @NotNull(message = "User cannot be null")
   @ManyToOne
@@ -52,7 +57,7 @@ public class Order {
    *
    * @return the ID of the order.
    */
-  public Long getId() {
+  public UUID getId() {
     return id;
   }
 
@@ -61,7 +66,7 @@ public class Order {
    *
    * @param id the ID to set.
    */
-  public void setId(Long id) {
+  public void setId(UUID id) {
     this.id = id;
   }
 
