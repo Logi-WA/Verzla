@@ -30,8 +30,8 @@ spring-test/test-output/
 
 # Maven artifacts
 #pom.xml
-verzla/target/
-!verzla/.mvn/wrapper/maven-wrapper.jar
+/target/
+!/.mvn/wrapper/maven-wrapper.jar
 
 # Eclipse artifacts, including WTP generated manifests
 bin
@@ -61,4 +61,8 @@ cached-antora-playbook.yml
 node_modules
 
 ### Fonts ###
-# verzla/src/main/resources/static/fonts/**/*.otf
+# /src/main/resources/static/fonts/**/*.otf
+
+.env
+.env.*
+/src/main/resources/db
