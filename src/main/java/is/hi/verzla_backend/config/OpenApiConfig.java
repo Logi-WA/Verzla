@@ -22,12 +22,11 @@ public class OpenApiConfig {
     public OpenAPI customOpenAPI() {
         return new OpenAPI()
                 .components(new Components()
-                        .addSecuritySchemes("session-auth", 
-                            new SecurityScheme()
-                                .type(SecurityScheme.Type.APIKEY)
-                                .in(SecurityScheme.In.COOKIE)
-                                .name("JSESSIONID")
-                        ))
+                        .addSecuritySchemes("session-auth",
+                                new SecurityScheme()
+                                        .type(SecurityScheme.Type.APIKEY)
+                                        .in(SecurityScheme.In.COOKIE)
+                                        .name("JSESSIONID")))
                 .info(new Info()
                         .title("Verzla Backend API")
                         .description("RESTful API for the Verzla Mobile Application")
@@ -37,8 +36,7 @@ public class OpenApiConfig {
                                 .url("http://www.apache.org/licenses/LICENSE-2.0.html")))
                 .servers(List.of(
                         new Server()
-                                .url("http://localhost:8080")
-                                .description("Development Server")
-                ));
+                                .url("https://verzla-71cda7a37a2e.herokuapp.com")
+                                .description("Production Server")));
     }
 }
