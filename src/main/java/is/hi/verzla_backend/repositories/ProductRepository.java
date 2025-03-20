@@ -20,4 +20,12 @@ public interface ProductRepository extends JpaRepository<Product, UUID> {
    * @return A list of {@link Product} entities belonging to the specified category.
    */
   List<Product> findByCategories_Name(String categoryName);
+
+  /**
+   * Finds a product by its name.
+   *
+   * @param name The name of the product to find.
+   * @return The {@link Product} entity associated with the specified name.
+   */
+  Product findByName(String name);
 }

@@ -62,3 +62,7 @@ node_modules
 
 ### Fonts ###
 # /src/main/resources/static/fonts/**/*.otf
+
+.env
+.env.*
+/src/main/resources/db
