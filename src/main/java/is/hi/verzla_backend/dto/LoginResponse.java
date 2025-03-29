@@ -4,19 +4,20 @@ import java.util.UUID;
 
 /**
  * Response DTO for successful login attempts.
- * Contains user information for client applications.
+ * Contains user information and JWT token for client applications.
  */
 public class LoginResponse {
     private UUID userId;
     private String name;
     private String email;
-    private String sessionId;
+    private String token;
+    private String type = "Bearer";
 
-    public LoginResponse(UUID userId, String name, String email, String sessionId) {
+    public LoginResponse(UUID userId, String name, String email, String token) {
         this.userId = userId;
         this.name = name;
         this.email = email;
-        this.sessionId = sessionId;
+        this.token = token;
     }
 
     public UUID getUserId() {
@@ -43,11 +44,19 @@ public class LoginResponse {
         this.email = email;
     }
 
-    public String getSessionId() {
-        return sessionId;
+    public String getToken() {
+        return token;
     }
 
-    public void setSessionId(String sessionId) {
-        this.sessionId = sessionId;
+    public void setToken(String token) {
+        this.token = token;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
     }
 }

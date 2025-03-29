@@ -7,6 +7,9 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PatchMapping;
@@ -17,8 +20,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import is.hi.verzla_backend.entities.User;
+import is.hi.verzla_backend.security.UserDetailsImpl;
 import is.hi.verzla_backend.services.UserService;
-import jakarta.servlet.http.HttpSession;
 import jakarta.validation.Valid;
 
 /**
@@ -64,6 +67,7 @@ public class UserController {
    * @apiNote This operation is typically restricted to administrative users.
    */
   @GetMapping
+  @PreAuthorize("hasRole('ADMIN')")
   public List<User> getAllUsers() {
     return userService.getAllUsers();
   }
@@ -191,21 +195,20 @@ public class UserController {
   }
 
   /**
-   * Retrieves the currently logged-in user from the session.
+   * Retrieves the currently logged-in user from the security context.
    *
-   * @param session The current HTTP session.
    * @return A {@link ResponseEntity} containing the {@link User} entity if logged
-   *         in,
-   *         or an unauthorized response if not.
+   *         in, or an unauthorized response if not.
    *
    * @apiNote This endpoint is useful for frontend applications to fetch user
    *          details.
    */
   @GetMapping("/me")
-  public ResponseEntity<?> getCurrentUser(HttpSession session) {
-    UUID userId = (UUID) session.getAttribute("userId");
-    if (userId != null) {
-      User user = userService.getUserById(userId);
+  public ResponseEntity<?> getCurrentUser() {
+    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+    if (authentication != null && authentication.getPrincipal() instanceof UserDetailsImpl) {
+      UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
+      User user = userService.getUserById(userDetails.getId());
       if (user != null) {
         return ResponseEntity.ok(user);
       }
@@ -219,27 +222,23 @@ public class UserController {
    * Updates the details of the currently logged-in user.
    *
    * @param userDetails The updated user details.
-   * @param session     The current HTTP session.
    * @return A {@link ResponseEntity} containing the updated {@link User} entity,
    *         or an unauthorized response if not logged in.
    *
    * @apiNote Only certain fields should be updatable to maintain data integrity.
    */
   @PatchMapping("/me")
-  public ResponseEntity<?> updateCurrentUser(
-      @RequestBody User userDetails,
-      HttpSession session) {
-    UUID userId = (UUID) session.getAttribute("userId");
-    if (userId == null) {
+  public ResponseEntity<?> updateCurrentUser(@RequestBody User userDetails) {
+    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+    if (authentication == null || !(authentication.getPrincipal() instanceof UserDetailsImpl)) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body("User not logged in");
     }
 
+    UUID userId = ((UserDetailsImpl) authentication.getPrincipal()).getId();
     try {
       User updatedUser = userService.updateUser(userId, userDetails);
-      session.setAttribute("userName", updatedUser.getName());
-      session.setAttribute("userEmail", updatedUser.getEmail());
       return ResponseEntity.ok(updatedUser);
     } catch (IllegalArgumentException e) {
       return ResponseEntity
@@ -258,23 +257,21 @@ public class UserController {
    * @param passwords A {@code Map} containing the current and new passwords.
    *                  Expected keys: {@code "currentPassword"} and
    *                  {@code "newPassword"}.
-   * @param session   The current HTTP session.
    * @return A {@link ResponseEntity} containing a confirmation message or an
    *         error response if the current password is incorrect or not logged in.
    *
    * @apiNote Passwords should be securely hashed before being stored.
    */
   @PatchMapping("/me/password")
-  public ResponseEntity<?> updateCurrentUserPassword(
-      @RequestBody Map<String, String> passwords,
-      HttpSession session) {
-    UUID userId = (UUID) session.getAttribute("userId");
-    if (userId == null) {
+  public ResponseEntity<?> updateCurrentUserPassword(@RequestBody Map<String, String> passwords) {
+    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+    if (authentication == null || !(authentication.getPrincipal() instanceof UserDetailsImpl)) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body("User not logged in");
     }
 
+    UUID userId = ((UserDetailsImpl) authentication.getPrincipal()).getId();
     String currentPassword = passwords.get("currentPassword");
     String newPassword = passwords.get("newPassword");
 

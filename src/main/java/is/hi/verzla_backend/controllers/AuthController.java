@@ -3,6 +3,10 @@ package is.hi.verzla_backend.controllers;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 import is.hi.verzla_backend.dto.ApiResponse;
 import is.hi.verzla_backend.dto.LoginRequest;
 import is.hi.verzla_backend.dto.LoginResponse;
-import is.hi.verzla_backend.entities.User;
 import is.hi.verzla_backend.repositories.UserRepository;
-import jakarta.servlet.http.HttpSession;
+import is.hi.verzla_backend.security.JwtUtils;
+import is.hi.verzla_backend.security.UserDetailsImpl;
 
 /**
  * Controller for handling authentication-related actions such as login and logout.
@@ -24,38 +28,47 @@ public class AuthController {
 
   @Autowired
   private UserRepository userRepository;
+  
+  @Autowired
+  private AuthenticationManager authenticationManager;
+  
+  @Autowired
+  private JwtUtils jwtUtils;
 
   /**
-   * Handles user login by verifying credentials and starting a session if successful.
+   * Handles user login by verifying credentials and issuing a JWT token if successful.
    *
    * @param loginRequest The login request containing username (email) and password.
-   * @param session The HTTP session to store user information.
-   * @return ResponseEntity with success message if login is successful, or an error message if login fails.
+   * @return ResponseEntity with success message and JWT token if login is successful, or an error message if login fails.
    */
   @PostMapping("/login")
   public ResponseEntity<ApiResponse<LoginResponse>> login(
-      @RequestBody LoginRequest loginRequest,
-      HttpSession session) {
-    // Fetch user by email
-    User user = userRepository.findByEmail(loginRequest.getUsername());
-    if (user != null && user.getPassword().equals(loginRequest.getPassword())) {
-      // Passwords match
-      // Store user info in session
-      session.setAttribute("userId", user.getId());
-      session.setAttribute("userName", user.getName());
-      session.setAttribute("userEmail", user.getEmail());
+      @RequestBody LoginRequest loginRequest) {
+    try {
+      // Authenticate user with Spring Security
+      Authentication authentication = authenticationManager.authenticate(
+          new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
+      );
       
-      // Create response with user details
+      // Set authentication in security context
+      SecurityContextHolder.getContext().setAuthentication(authentication);
+      
+      // Get user details
+      UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
+      
+      // Generate JWT token
+      String jwt = jwtUtils.generateJwtToken(userDetails.getUsername(), userDetails.getId());
+      
+      // Create response with user details and token
       LoginResponse loginResponse = new LoginResponse(
-          user.getId(), 
-          user.getName(), 
-          user.getEmail(),
-          session.getId()
+          userDetails.getId(), 
+          userDetails.getName(), 
+          userDetails.getEmail(),
+          jwt
       );
       
       return ResponseEntity.ok(ApiResponse.success("Login successful", loginResponse));
-    } else {
-      // User not found or password doesn't match
+    } catch (Exception e) {
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body(ApiResponse.error("Invalid credentials"));
@@ -63,15 +76,15 @@ public class AuthController {
   }
 
   /**
-   * Handles user logout by invalidating the current session.
+   * No server-side logout is needed with JWT authentication.
+   * Client should simply discard the token.
    *
-   * @param session The HTTP session to be invalidated.
    * @return ResponseEntity with success message indicating the logout was successful.
    */
   @PostMapping("/logout")
-  public ResponseEntity<ApiResponse<Void>> logout(HttpSession session) {
-    // Invalidate session
-    session.invalidate();
+  public ResponseEntity<ApiResponse<Void>> logout() {
+    // With JWT, server-side logout is not needed
+    // The client simply discards the token
     return ResponseEntity.ok(ApiResponse.success("Logout successful", null));
   }
 }
