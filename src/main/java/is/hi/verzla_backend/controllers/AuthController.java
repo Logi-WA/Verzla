@@ -7,6 +7,7 @@ import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import is.hi.verzla_backend.dto.ApiResponse;
 import is.hi.verzla_backend.dto.LoginRequest;
 import is.hi.verzla_backend.dto.LoginResponse;
+import is.hi.verzla_backend.entities.User;
 import is.hi.verzla_backend.repositories.UserRepository;
 import is.hi.verzla_backend.security.JwtUtils;
 import is.hi.verzla_backend.security.UserDetailsImpl;
@@ -34,9 +36,15 @@ public class AuthController {
   
   @Autowired
   private JwtUtils jwtUtils;
+  
+  @Autowired
+  private PasswordEncoder passwordEncoder;
 
   /**
    * Handles user login by verifying credentials and issuing a JWT token if successful.
+   * For backward compatibility with existing users, this method tries two authentication methods:
+   * 1. Standard Spring Security authentication with encoded passwords
+   * 2. Direct comparison with plain text passwords for existing users
    *
    * @param loginRequest The login request containing username (email) and password.
    * @return ResponseEntity with success message and JWT token if login is successful, or an error message if login fails.
@@ -45,18 +53,14 @@ public class AuthController {
   public ResponseEntity<ApiResponse<LoginResponse>> login(
       @RequestBody LoginRequest loginRequest) {
     try {
-      // Authenticate user with Spring Security
+      // Try Spring Security authentication first (for new users with encoded passwords)
       Authentication authentication = authenticationManager.authenticate(
           new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
       );
       
-      // Set authentication in security context
+      // If authentication is successful, proceed with token generation
       SecurityContextHolder.getContext().setAuthentication(authentication);
-      
-      // Get user details
       UserDetailsImpl userDetails = (UserDetailsImpl) authentication.getPrincipal();
-      
-      // Generate JWT token
       String jwt = jwtUtils.generateJwtToken(userDetails.getUsername(), userDetails.getId());
       
       // Create response with user details and token
@@ -69,6 +73,24 @@ public class AuthController {
       
       return ResponseEntity.ok(ApiResponse.success("Login successful", loginResponse));
     } catch (Exception e) {
+      // If Spring Security authentication fails, try legacy plain text comparison
+      User user = userRepository.findByEmail(loginRequest.getUsername());
+      if (user != null && user.getPassword().equals(loginRequest.getPassword())) {
+        // Plain text password matches, generate token
+        String jwt = jwtUtils.generateJwtToken(user.getEmail(), user.getId());
+        
+        // Create response with user details and token
+        LoginResponse loginResponse = new LoginResponse(
+            user.getId(), 
+            user.getName(), 
+            user.getEmail(),
+            jwt
+        );
+        
+        return ResponseEntity.ok(ApiResponse.success("Login successful", loginResponse));
+      }
+      
+      // Both authentication methods failed
       return ResponseEntity
           .status(HttpStatus.UNAUTHORIZED)
           .body(ApiResponse.error("Invalid credentials"));
