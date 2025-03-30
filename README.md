@@ -1,75 +1,83 @@
-# Endpoints
+# Verzla Backend
 
-## Assignment 2
+This repository houses the codebase for a persistent RESTful API server for the Verzla Android application. The backend is built with Spring Boot and provides authentication, product management, user management, cart and wishlist functionality, and more.
 
-1. `POST /auth/login` *(1)*
-2. `GET /api/categories` *(1)*
+## Project Overview
 
-## Assignment 3
+Verzla is an e-commerce platform designed for mobile devices, with this backend providing all necessary services for the Android application. The API follows RESTful principles and uses JWT-based authentication for secure access.
 
-### Ass. 3 - Endpoints
+## Technology Stack
 
-1. `GET /api/products` *(1)*
-    Retrieve all resources in a collection (e.g. All users, all items)
-2. `GET /api/categories` *(1)*
-    Retrieve all resources in a collection (e.g. All users, all items)
-3. `GET /api/users` *(1)*
-    Retrieve all resources in a collection (e.g. All users, all items)
-4. `GET /api/products/{id}` *(1)*
-    Retrieve a single resource by ID (e.g. Item, user, order based on unique identifier)
-5. `POST /api/users` *(2)*
-    Create new resource (e.g. New item, new user account)
-6. `GET /api/users/me` *(2)*
-    Retrieve user-specific data (e.g. User profile, user settings)
-7. `PATCH /api/users/me` *(2)*
-    Partially update resource details (e.g. update user profile, change multiple item details)
-8. `PATCH /api/users/me/password` *(2)*
-    Partially update resource details (e.g. update user profile, change multiple item details)
-9. `POST /api/cart` *(2)*
-    Create an association between resources (e.g. Add item to users favorites)
-10. `POST /api/wishlist` *(2)*
-    Create an association between resources (e.g. Add item to users favorites)
-11. `GET /api/cart` *(2)*
-    Retrieve associated resources (e.g. User favorites, user orders)
-12. `GET /api/wishlist` *(2)*
-    Retrieve associated resources (e.g. User favorites, user orders)
-13. `PATCH /api/cart/{id}` *(3)*
-    Update nested resource (e.g. update specific attributes of items in an order)
+- **Framework**: Spring Boot
+- **Database**: PostgreSQL (configured via Spring Data JPA)
+- **Authentication**: JWT (JSON Web Tokens)
+- **Documentation**: OpenAPI 3.0 (Swagger)
+- **Database Migration**: Flyway
 
-## Assignment 4
+## API Documentation
 
-New view `admin` added. Accessible in the dropdown menu in the top right for logged in users.
+API documentation is available through Swagger UI when the application is running:
+- Local: `http://localhost:8080/swagger-ui.html`
+- Production: `https://verzla-71cda7a37a2e.herokuapp.com/swagger-ui.html`
 
-### Ass. 4 - Functional Endpoints
+## Architecture
 
-1. `GET /api/users` *(1)*
-    The new admin dashboard provides a table of all users in the database.
-2. `GET /api/products` *(1)*
-    The admin dashboard also provides a table of all products in the database.
-3. `PATCH /api/products/{id}/name` *(1)*
-    Allows updating the name of a product.
-4. `PATCH /api/products/{id}/description` *(1)*
-    Allows updating the description of a product.
-5. `POST /api/products` *(2)*
-    A button has been added to the wishlist page to add a product to a cart.
-6. `DELETE /api/wishlist/{wishlistItemId}` *(2)*
-    A button has been added to the wishlist page to remove a product from a wishlist.
-7. `DELETE /api/cart/{cartItemId}` *(2)*
-    A button has been added to the cart page to remove a product from a cart.
-8. `PATCH /api/cart/{cartItemId}` *(3)*
-    Buttons have been added to the cart page to increment/decrement the quantity of an item in a cart
-9. `POST /api/wishlist/addAllToCart` *(3)* - (Submit batch data)
-    Button has been added to the wishlist page that adds all items in the users wishlist to the users cart
-10. `DELETE /api/wishlist/clear` *(3)* - (Bulk delete resources)
-    Button has been added to the wishlist page that remove all items from the users wishlist
-11. `POST /api/cart/buy` *(3)* - (Submit batch data)
-    Button has been added to the cart page that 'buys' all items in the users cart
+The application follows a layered architecture:
+- **Controllers**: Handle HTTP requests and responses
+- **Services**: Contain business logic
+- **Repositories**: Provide data access
+- **Entities**: Map to database tables
+- **DTOs**: Transfer data between layers
+- **Security**: Handle authentication and authorization
 
-## Assignment 5
+## API Endpoints
 
-### Ass. 5 - Functional Endpoints
+The following sections list the primary API endpoints grouped by functionality.
 
-1. `GET /product/{id}` *(1)*
-   Returns a view of a single product page
-2. `DELETE /api/users/{userId}` *(2)*
-   Deletes a user and every orphan the has.
+### Authentication
+
+- `POST /auth/login` - Authenticate user and receive JWT token
+
+### Categories
+
+- `GET /api/categories` - Retrieve all product categories
+- `GET /api/categories/{categoryId}` - Retrieve a specific category by ID
+- `GET /api/categories/name/{name}` - Retrieve a specific category by name
+- `POST /api/categories` - Create a new category
+- `PUT /api/categories/{categoryId}` - Update an existing category
+- `DELETE /api/categories/{categoryId}` - Delete a category
+- `GET /api/categories/{categoryId}/product-count` - Get the number of products in a category
+- `GET /api/products/{productId}/categories` - Get all categories for a specific product
+
+### Products
+
+- `GET /api/products` - Retrieve all products
+- `GET /api/products/{id}` - Retrieve a single product by ID
+- `POST /api/products` - Create a new product
+- `PATCH /api/products/{id}/name` - Update a product's name
+- `PATCH /api/products/{id}/description` - Update a product's description
+
+### Users
+
+- `GET /api/users` - Retrieve all users
+- `POST /api/users` - Create a new user
+- `GET /api/users/me` - Retrieve current user's data
+- `PATCH /api/users/me` - Update current user's profile
+- `PATCH /api/users/me/password` - Update current user's password
+- `DELETE /api/users/{userId}` - Delete a user
+
+### Cart
+
+- `GET /api/cart` - Retrieve user's cart
+- `POST /api/cart` - Add item to cart
+- `PATCH /api/cart/{id}` - Update cart item quantity
+- `DELETE /api/cart/{cartItemId}` - Remove item from cart
+- `POST /api/cart/buy` - Process purchase of cart items
+
+### Wishlist
+
+- `GET /api/wishlist` - Retrieve user's wishlist
+- `POST /api/wishlist` - Add item to wishlist
+- `DELETE /api/wishlist/{wishlistItemId}` - Remove item from wishlist
+- `POST /api/wishlist/addAllToCart` - Add all wishlist items to cart
+- `DELETE /api/wishlist/clear` - Clear user's wishlist

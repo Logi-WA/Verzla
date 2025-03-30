@@ -51,16 +51,33 @@ public interface WishlistService {
   /**
    * Removes a product from a user's wishlist.
    *
-   * @param userId    The ID of the user.
-   * @param productId The ID of the product to be removed from the wishlist.
+   * @param userId        The ID of the user.
+   * @param wishlistItemId The ID of the wishlist item to be removed.
    *
-   * @throws RuntimeException         if the user or product cannot be found.
-   * @throws IllegalArgumentException if {@code userId} or {@code productId} is
+   * @throws RuntimeException         if the user or wishlist item cannot be found.
+   * @throws IllegalArgumentException if {@code userId} or {@code wishlistItemId} is
    *                                  {@code null}.
    */
   void removeWishlistItem(UUID userId, UUID wishlistItemId);
 
+  /**
+   * Adds all products in the user's wishlist to their shopping cart.
+   *
+   * @param userId The ID of the user whose wishlist items should be added to cart.
+   *
+   * @throws RuntimeException         if the user cannot be found or if there's an issue
+   *                                  with adding items to the cart.
+   * @throws IllegalArgumentException if {@code userId} is {@code null}.
+   */
   void addAllToCart(UUID userId);
 
+  /**
+   * Removes all items from a user's wishlist.
+   *
+   * @param userId The ID of the user whose wishlist should be cleared.
+   *
+   * @throws RuntimeException         if the user cannot be found.
+   * @throws IllegalArgumentException if {@code userId} is {@code null}.
+   */
   void clearWishlist(UUID userId);
 }
