@@ -13,26 +13,92 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.JoinTable;
 import jakarta.persistence.ManyToMany;
 import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.PositiveOrZero;
 
 /**
- * Represents a product in the e-commerce system, including its name, price,
- * description, and associated categories.
+ * Represents a product in the Verzla e-commerce system.
+ * 
+ * <p>This entity contains all the details of a product available for purchase, including:
+ * <ul>
+ *   <li>Basic information such as name and description</li>
+ *   <li>Pricing information</li>
+ *   <li>Image URL for product display</li>
+ *   <li>Product categorization through many-to-many relationship with categories</li>
+ * </ul>
+ * </p>
+ * 
+ * <p>Products are central to the e-commerce functionality, being referenced by:
+ * <ul>
+ *   <li>Cart items when users add products to their shopping carts</li>
+ *   <li>Wishlist items when users add products to their wishlists</li>
+ *   <li>Order items when products are purchased</li>
+ * </ul>
+ * </p>
+ * 
+ * <p>The entity uses Jakarta Persistence API annotations for ORM mapping
+ * and Jakarta Validation annotations for ensuring data integrity.</p>
+ * 
+ * @see is.hi.verzla_backend.entities.Category
+ * @see is.hi.verzla_backend.entities.CartItem
+ * @see is.hi.verzla_backend.entities.WishlistItem
+ * @see is.hi.verzla_backend.entities.OrderItem
  */
 @Entity
 public class Product {
 
+  /**
+   * The unique identifier for the product.
+   * <p>
+   * Uses UUID for globally unique identification across systems.
+   * Generated automatically during entity creation.
+   * </p>
+   */
   @Id
   @GeneratedValue(strategy = GenerationType.UUID)
   @Column(name = "id", updatable = false, nullable = false)
   private UUID id;
 
+  /**
+   * The name of the product.
+   * <p>
+   * Required field that cannot be empty. Used for display and search.
+   * </p>
+   */
   @NotEmpty(message = "Product name cannot be empty")
   private String name;
 
-  private double price;  // Price of the product
-  private String imageUrl;  // URL to the product image
-  private String description;  // Brief description of the product
+  /**
+   * The price of the product in the application's currency.
+   * <p>
+   * Must be zero or positive value.
+   * </p>
+   */
+  @PositiveOrZero(message = "Price must be zero or positive")
+  private double price;
+  
+  /**
+   * URL pointing to the product's image.
+   * <p>
+   * Can reference local or cloud-hosted images.
+   * </p>
+   */
+  private String imageUrl;
+  
+  /**
+   * Detailed description of the product.
+   * <p>
+   * Contains product features, specifications, and other details.
+   * </p>
+   */
+  private String description;
 
+  /**
+   * Categories associated with this product.
+   * <p>
+   * Establishes a many-to-many relationship with Category entities.
+   * Uses a join table named "product_categories" to represent the relationship.
+   * </p>
+   */
   @ManyToMany
   @JoinTable(
     name = "product_categories",

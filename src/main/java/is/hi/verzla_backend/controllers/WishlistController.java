@@ -146,9 +146,20 @@ public class WishlistController {
   }
 
   /**
-   * Adds all items from the wishlist to the cart.
+   * Adds all items from the user's wishlist to their shopping cart.
    *
-   * @return ResponseEntity with success or error message
+   * <p>This endpoint transfers all products currently in the user's wishlist to their 
+   * shopping cart, allowing for a quick conversion of wished-for items into potential 
+   * purchases. The original wishlist items remain intact after the operation.</p>
+   * 
+   * <p>If the user's wishlist is empty, the operation succeeds with no items added to the cart.</p>
+   *
+   * @return ResponseEntity with a success message if the operation completes successfully,
+   *         or an error message with appropriate HTTP status code if it fails
+   *
+   * @apiNote The user must be logged in to perform this operation. If the user
+   *          is not authenticated, an {@code UNAUTHORIZED} status is returned.
+   * @see is.hi.verzla_backend.services.CartService#addProductToCart(UUID, UUID)
    */
   @PostMapping("/addAllToCart")
   public ResponseEntity<String> addAllToCart() {
@@ -169,9 +180,18 @@ public class WishlistController {
   }
 
   /**
-   * Clears all items from the wishlist.
+   * Removes all items from the user's wishlist in a single operation.
    *
-   * @return ResponseEntity with success or error message
+   * <p>This endpoint allows users to clear their entire wishlist at once, rather
+   * than removing items individually. This is useful for users who want to start
+   * a fresh wishlist or who have moved all their wishlist items to their cart.</p>
+   *
+   * @return ResponseEntity with a success message if the wishlist is cleared successfully,
+   *         or an error message with appropriate HTTP status code if the operation fails
+   *
+   * @apiNote The user must be logged in to perform this operation. If the user
+   *          is not authenticated, an {@code UNAUTHORIZED} status is returned.
+   * @see is.hi.verzla_backend.services.WishlistService#clearWishlist(UUID)
    */
   @DeleteMapping("/clear")
   public ResponseEntity<String> clearWishlist() {

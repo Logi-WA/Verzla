@@ -22,32 +22,81 @@ import is.hi.verzla_backend.security.JwtUtils;
 import is.hi.verzla_backend.security.UserDetailsImpl;
 
 /**
- * Controller for handling authentication-related actions such as login and logout.
+ * Controller for handling authentication-related actions in the Verzla API.
+ * 
+ * <p>This controller manages user authentication through JWT (JSON Web Tokens),
+ * providing endpoints for login and logout operations. The authentication system 
+ * is stateless, with the server issuing tokens that clients present with subsequent 
+ * requests to establish their identity.</p>
+ * 
+ * <p>The controller implements a dual authentication strategy:
+ * <ul>
+ *   <li>For newer users: Standard Spring Security authentication with encoded passwords</li>
+ *   <li>For legacy users: Direct database comparison with plaintext passwords for backward compatibility</li>
+ * </ul>
+ * </p>
+ * 
+ * <p>Security considerations:
+ * <ul>
+ *   <li>Passwords for new users are stored encrypted using BCrypt</li>
+ *   <li>JWT tokens are signed to prevent tampering</li>
+ *   <li>Tokens expire after a configured time period</li>
+ * </ul>
+ * </p>
+ * 
+ * @see is.hi.verzla_backend.security.JwtUtils For token generation and validation
+ * @see is.hi.verzla_backend.security.WebSecurityConfig For security configuration
+ * @see is.hi.verzla_backend.security.UserDetailsImpl For user details implementation
  */
 @RestController
 @RequestMapping("/auth")
 public class AuthController {
 
+  /**
+   * Repository for user data access
+   */
   @Autowired
   private UserRepository userRepository;
   
+  /**
+   * Spring Security authentication manager
+   */
   @Autowired
   private AuthenticationManager authenticationManager;
   
+  /**
+   * Utility for JWT token operations
+   */
   @Autowired
   private JwtUtils jwtUtils;
   
+  /**
+   * Password encoder for secure password handling
+   */
   @Autowired
   private PasswordEncoder passwordEncoder;
 
   /**
    * Handles user login by verifying credentials and issuing a JWT token if successful.
-   * For backward compatibility with existing users, this method tries two authentication methods:
-   * 1. Standard Spring Security authentication with encoded passwords
-   * 2. Direct comparison with plain text passwords for existing users
+   * 
+   * <p>This endpoint attempts authentication in two ways:
+   * <ol>
+   *   <li>First, using Spring Security's authentication manager (for users with encrypted passwords)</li>
+   *   <li>If that fails, falling back to direct database comparison (for legacy users with plaintext passwords)</li>
+   * </ol>
+   * </p>
+   * 
+   * <p>Upon successful authentication, the method:
+   * <ul>
+   *   <li>Generates a JWT token containing the user's identity</li>
+   *   <li>Returns the token along with basic user details</li>
+   *   <li>The client should store this token and include it in the Authorization header of subsequent requests</li>
+   * </ul>
+   * </p>
    *
-   * @param loginRequest The login request containing username (email) and password.
-   * @return ResponseEntity with success message and JWT token if login is successful, or an error message if login fails.
+   * @param loginRequest The login request containing username (email) and password
+   * @return ResponseEntity with success message and JWT token if login is successful, 
+   *         or an error message with UNAUTHORIZED status if credentials are invalid
    */
   @PostMapping("/login")
   public ResponseEntity<ApiResponse<LoginResponse>> login(
@@ -98,10 +147,22 @@ public class AuthController {
   }
 
   /**
-   * No server-side logout is needed with JWT authentication.
-   * Client should simply discard the token.
+   * Handles user logout from the application.
+   * 
+   * <p>With JWT-based authentication, server-side logout is not strictly necessary
+   * since authentication is stateless. The client simply discards the token to 
+   * effectively log out. However, this endpoint is provided for API completeness 
+   * and potential future enhancements such as token blacklisting.</p>
+   * 
+   * <p>Security best practices for clients:
+   * <ul>
+   *   <li>Discard the JWT token from client-side storage</li>
+   *   <li>Clear any user data from memory</li>
+   *   <li>Redirect to login or public area</li>
+   * </ul>
+   * </p>
    *
-   * @return ResponseEntity with success message indicating the logout was successful.
+   * @return ResponseEntity with success message indicating the logout operation completed
    */
   @PostMapping("/logout")
   public ResponseEntity<ApiResponse<Void>> logout() {

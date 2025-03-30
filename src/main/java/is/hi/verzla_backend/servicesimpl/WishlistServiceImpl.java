@@ -125,11 +125,12 @@ public class WishlistServiceImpl implements WishlistService {
    * Removes a product from the user's wishlist.
    *
    * @param userId    The ID of the user.
-   * @param productId The ID of the product to be removed from the wishlist.
+   * @param wishlistItemId The ID of the wishlist item to be removed.
    *
-   * @throws RuntimeException         if the user or product cannot be found.
-   * @throws IllegalArgumentException if {@code userId} or {@code productId} is
+   * @throws RuntimeException         if the wishlist item cannot be found.
+   * @throws IllegalArgumentException if {@code userId} or {@code wishlistItemId} is
    *                                  {@code null}.
+   * @throws RuntimeException         if the wishlist item does not belong to the specified user.
    */
   @Override
   public void removeWishlistItem(UUID userId, UUID wishlistItemId) {
@@ -146,6 +147,14 @@ public class WishlistServiceImpl implements WishlistService {
     wishlistItemRepository.delete(item);
   }
 
+  /**
+   * Adds all products from a user's wishlist to their shopping cart.
+   * 
+   * @param userId The ID of the user whose wishlist items should be added to cart.
+   * 
+   * @throws RuntimeException if the user's wishlist cannot be found.
+   * @throws IllegalArgumentException if {@code userId} is {@code null}.
+   */
   @Override
   public void addAllToCart(UUID userId) {
     Wishlist wishlist = wishlistRepository.findByUser_Id(userId);
@@ -161,6 +170,13 @@ public class WishlistServiceImpl implements WishlistService {
 
   }
 
+  /**
+   * Removes all items from a user's wishlist.
+   * 
+   * @param userId The ID of the user whose wishlist should be cleared.
+   * 
+   * @throws IllegalArgumentException if {@code userId} is {@code null}.
+   */
   @Override
   public void clearWishlist(UUID userId) {
     Wishlist wishlist = wishlistRepository.findByUser_Id(userId);
