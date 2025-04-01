@@ -1,10 +1,14 @@
 # Verzla Backend
 
-This repository houses the codebase for a persistent RESTful API server for the Verzla Android application. The backend is built with Spring Boot and provides authentication, product management, user management, cart and wishlist functionality, and more.
+This repository houses the codebase for a persistent RESTful API server for the Verzla Android
+application. The backend is built with Spring Boot and provides authentication, product management,
+user management, cart and wishlist functionality, and more.
 
 ## Project Overview
 
-Verzla is an e-commerce platform designed for mobile devices, with this backend providing all necessary services for the Android application. The API follows RESTful principles and uses JWT-based authentication for secure access.
+Verzla is an e-commerce platform designed for mobile devices, with this backend providing all
+necessary services for the Android application. The API follows RESTful principles and uses
+JWT-based authentication for secure access.
 
 ## Technology Stack
 
@@ -17,12 +21,14 @@ Verzla is an e-commerce platform designed for mobile devices, with this backend 
 ## API Documentation
 
 API documentation is available through Swagger UI when the application is running:
+
 - Local: `http://localhost:8080/swagger-ui.html`
 - Production: `https://verzla-71cda7a37a2e.herokuapp.com/swagger-ui.html`
 
 ## Architecture
 
 The application follows a layered architecture:
+
 - **Controllers**: Handle HTTP requests and responses
 - **Services**: Contain business logic
 - **Repositories**: Provide data access
