@@ -1,17 +1,12 @@
 package is.hi.verzla_backend.dataloader;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
-
-import is.hi.verzla_backend.entities.Category;
-import is.hi.verzla_backend.entities.Product;
-import is.hi.verzla_backend.entities.Review;
-import is.hi.verzla_backend.exceptions.ResourceNotFoundException;
-import is.hi.verzla_backend.repositories.ReviewRepository;
-import is.hi.verzla_backend.services.CategoryService;
-import is.hi.verzla_backend.services.ProductService;
-// import is.hi.verzla_backend.services.ReviewService; // Don't use ReviewService for create
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+import java.util.UUID;
+import java.util.stream.Collectors;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,159 +18,171 @@ import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.io.InputStream;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Optional;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
+
+import is.hi.verzla_backend.entities.Category;
+import is.hi.verzla_backend.entities.Product;
+import is.hi.verzla_backend.entities.Review;
+import is.hi.verzla_backend.repositories.ReviewRepository;
+import is.hi.verzla_backend.services.CategoryService;
+import is.hi.verzla_backend.services.ProductService;
 
 @Component
 @Profile("dataseeding") // Only run when 'dataseeding' profile is active
 public class DatabaseSeeder implements CommandLineRunner {
 
-  private static final Logger logger = LoggerFactory.getLogger(DatabaseSeeder.class);
+    private static final Logger logger = LoggerFactory.getLogger(DatabaseSeeder.class);
 
-  @Autowired
-  private ResourceLoader resourceLoader; // load files from classpath
+    @Autowired
+    private ResourceLoader resourceLoader; // load files from classpath
 
-  @Autowired
-  private ProductService productService;
+    @Autowired
+    private ProductService productService;
 
-  @Autowired
-  private CategoryService categoryService;
+    @Autowired
+    private CategoryService categoryService;
 
-  // Inject Repository directly to bypass service logic during bulk load
-  @Autowired
-  private ReviewRepository reviewRepository;
+    // Inject Repository directly to bypass service logic during bulk load
+    @Autowired
+    private ReviewRepository reviewRepository;
 
-  private ObjectMapper objectMapper; // For parsing JSON
+    private ObjectMapper objectMapper; // For parsing JSON
 
-  public DatabaseSeeder() {
-    // Configure ObjectMapper to handle Java 8 dates
-    objectMapper = new ObjectMapper();
-    objectMapper.registerModule(new JavaTimeModule());
-  }
-
-  @Override
-  @Transactional // Wrap the whole process in a transaction
-  public void run(String... args) throws Exception {
-    logger.info("Starting database seeding...");
-
-    // Define file paths relative to classpath
-    String productsJsonPath = "classpath:data/products.json";
-    String reviewsJsonPath = "classpath:data/reviews.json";
-
-    try {
-      // --- Load Products ---
-      logger.info("Loading products from {}", productsJsonPath);
-      Resource productResource = resourceLoader.getResource(productsJsonPath);
-      InputStream productInputStream = productResource.getInputStream();
-      List<JsonProduct> jsonProducts = objectMapper.readValue(productInputStream,
-          new TypeReference<List<JsonProduct>>() {
-          });
-      logger.info("Found {} products in JSON file.", jsonProducts.size());
-
-      int productCount = 0;
-      for (JsonProduct jsonProd : jsonProducts) {
-        processProduct(jsonProd);
-        productCount++;
-      }
-      logger.info("Successfully processed {} products.", productCount);
-
-      // --- Load Reviews ---
-      logger.info("Loading reviews from {}", reviewsJsonPath);
-      Resource reviewResource = resourceLoader.getResource(reviewsJsonPath);
-      InputStream reviewInputStream = reviewResource.getInputStream();
-      List<JsonReview> jsonReviews = objectMapper.readValue(reviewInputStream, new TypeReference<List<JsonReview>>() {
-      });
-      logger.info("Found {} reviews in JSON file.", jsonReviews.size());
-
-      int reviewCount = 0;
-      for (JsonReview jsonRev : jsonReviews) {
-        processReview(jsonRev);
-        reviewCount++;
-      }
-      logger.info("Successfully processed {} reviews.", reviewCount);
-
-      logger.info("Database seeding completed successfully.");
-
-    } catch (Exception e) {
-      logger.error("Database seeding failed!", e);
-      // The @Transactional annotation should cause a rollback on exception
-      throw e; // Re-throw to ensure rollback
+    public DatabaseSeeder() {
+        // Configure ObjectMapper to handle Java 8 dates
+        objectMapper = new ObjectMapper();
+        objectMapper.registerModule(new JavaTimeModule());
     }
-  }
 
-  private void processProduct(JsonProduct jsonProd) {
-    try {
-      // 1. Find or Create Category
-      String categoryName = (jsonProd.getCategories() != null && !jsonProd.getCategories().isEmpty())
-          ? jsonProd.getCategories().get(0) // Assume first category is primary
-          : "Uncategorized"; // Default if missing
+    @Override
+    @Transactional // Wrap the whole process in a transaction
+    public void run(String... args) throws Exception {
+        logger.info("Starting database seeding...");
 
-      Category category = findOrCreateCategory(categoryName);
+        // Define file paths relative to classpath
+        String productsJsonPath = "classpath:data/products.json";
+        String reviewsJsonPath = "classpath:data/reviews.json";
 
-      // 2. Create Product Entity
-      Product product = new Product();
-      product.setId(jsonProd.getId()); // Use the pre-generated UUID
-      product.setName(jsonProd.getName());
-      product.setPrice(jsonProd.getPrice() != null ? jsonProd.getPrice() : 0.0);
-      product.setDescription(jsonProd.getDescription());
-      product.setBrand(jsonProd.getBrand());
-      // Set the initial rating directly from JSON data
-      product.setRating(jsonProd.getRating() != null ? jsonProd.getRating() : 0.0);
-      // Set tags (handle null)
-      product.setTags(jsonProd.getTags() != null ? new ArrayList<>(jsonProd.getTags()) : new ArrayList<>());
-      product.setCategory(category); // Set the relationship
+        try {
+            // --- Load All Data ---
+            logger.info("Loading products from {}", productsJsonPath);
+            Resource productResource = resourceLoader.getResource(productsJsonPath);
+            List<JsonProduct> jsonProducts = objectMapper.readValue(productResource.getInputStream(),
+                    new TypeReference<List<JsonProduct>>() {
+                    });
+            logger.info("Found {} products in JSON file.", jsonProducts.size());
 
-      // 3. Save using ProductService
-      productService.createProduct(product);
-      // logger.debug("Processed product: {}", product.getName()); // Use debug level
+            logger.info("Loading reviews from {}", reviewsJsonPath);
+            Resource reviewResource = resourceLoader.getResource(reviewsJsonPath);
+            List<JsonReview> jsonReviews = objectMapper.readValue(reviewResource.getInputStream(),
+                    new TypeReference<List<JsonReview>>() {
+                    });
+            logger.info("Found {} reviews in JSON file.", jsonReviews.size());
 
-    } catch (Exception e) {
-      logger.error("Failed to process product ID {}: {}", jsonProd.getId(), e.getMessage());
-      // Continue processing other products, transaction will eventually rollback if error persists
+            // --- Group Reviews by Product ID ---
+            logger.info("Grouping reviews by product ID...");
+            Map<UUID, List<JsonReview>> reviewsByProductId = jsonReviews.stream()
+                    .collect(Collectors.groupingBy(JsonReview::getProductId));
+            logger.info("Grouped reviews for {} distinct products.", reviewsByProductId.size());
+
+            // --- Process Products and Their Reviews Together ---
+            int productCount = 0;
+            int reviewCount = 0;
+            int skippedReviewCount = 0;
+
+            for (JsonProduct jsonProd : jsonProducts) {
+                Product savedProduct = processProduct(jsonProd); // Modify processProduct to return the saved Product
+
+                if (savedProduct != null) {
+                    productCount++;
+
+                    // Process reviews for this specific product
+                    List<JsonReview> relatedReviews = reviewsByProductId.getOrDefault(savedProduct.getId(),
+                            Collections.emptyList());
+                    for (JsonReview jsonRev : relatedReviews) {
+                        if (processReview(jsonRev, savedProduct)) { // Pass the already fetched product
+                            reviewCount++;
+                        } else {
+                            skippedReviewCount++;
+                        }
+                    }
+                } else {
+                    logger.warn("Skipped product processing for product JSON with name: {}", jsonProd.getName());
+                    // Potentially count skipped products
+                }
+            }
+
+            logger.info("Successfully processed {} products.", productCount);
+            logger.info("Successfully processed {} reviews.", reviewCount);
+            if (skippedReviewCount > 0) {
+                logger.warn("Skipped processing {} reviews due to errors.", skippedReviewCount);
+            }
+
+            logger.info("Database seeding completed successfully.");
+            // Let the transaction commit here
+
+        } catch (Exception e) {
+            logger.error("Database seeding failed!", e);
+            throw e; // Ensure rollback
+        }
     }
-  }
 
-  private Category findOrCreateCategory(String name) {
-    Optional<Category> existingCategory = categoryService.getCategoryByName(name);
+    private Product processProduct(JsonProduct jsonProd) {
+        try {
+            String categoryName = (jsonProd.getCategories() != null && !jsonProd.getCategories().isEmpty())
+                    ? jsonProd.getCategories().get(0)
+                    : "Uncategorized";
+            Category category = findOrCreateCategory(categoryName);
 
-    if (existingCategory.isPresent()) {
-      return existingCategory.get();
-    } else {
-      logger.info("Creating new category: {}", name);
-      Category newCategory = new Category();
-      newCategory.setName(name);
-      return categoryService.createCategory(newCategory); // Service handles saving
+            Product product = new Product();
+            product.setId(jsonProd.getId());
+            product.setName(jsonProd.getName());
+            product.setPrice(jsonProd.getPrice() != null ? jsonProd.getPrice() : 0.0);
+            product.setDescription(jsonProd.getDescription());
+            product.setBrand(jsonProd.getBrand());
+            product.setCategory(category);
+            product.setRating(jsonProd.getRating() != null ? jsonProd.getRating() : 0.0); // Set initial rating
+            product.setTags(jsonProd.getTags() != null ? new ArrayList<>(jsonProd.getTags()) : new ArrayList<>());
+
+            return productService.createProduct(product); // Return the saved product
+        } catch (Exception e) {
+            logger.error("Failed to process product JSON with name {}: {}", jsonProd.getName(), e.getMessage());
+            return null; // Return null on failure
+        }
     }
-  }
 
-  private void processReview(JsonReview jsonRev) {
-    try {
-      // 1. Find the associated Product (must exist from previous step)
-      // Use findById directly for efficiency, handle potential not found
-      Product product = productService.getProductById(jsonRev.getProductId());
-      // Alternative: Inject ProductRepository and use productRepository.findById(...)
+    private Category findOrCreateCategory(String name) {
+        Optional<Category> existingCategory = categoryService.getCategoryByName(name);
 
-      // 2. Create Review Entity
-      Review review = new Review();
-      review.setReviewId(jsonRev.getReviewId()); // Use pre-generated UUID
-      review.setProduct(product); // Set the relationship
-      review.setRating(jsonRev.getRating());
-      review.setComment(jsonRev.getComment());
-      review.setDate(jsonRev.getDate());
-      review.setReviewerName(jsonRev.getReviewerName());
-      review.setReviewerEmail(jsonRev.getReviewerEmail());
-
-      // 3. Save directly using the Repository to bypass rating update logic
-      reviewRepository.save(review);
-      // logger.debug("Processed review for product ID: {}", jsonRev.getProductId());
-
-    } catch (ResourceNotFoundException e) {
-      logger.warn("Skipping review ID {} because associated product ID {} was not found.", jsonRev.getReviewId(),
-          jsonRev.getProductId());
-    } catch (Exception e) {
-      logger.error("Failed to process review ID {}: {}", jsonRev.getReviewId(), e.getMessage());
+        if (existingCategory.isPresent()) {
+            return existingCategory.get();
+        } else {
+            logger.info("Creating new category: {}", name);
+            Category newCategory = new Category();
+            newCategory.setName(name);
+            return categoryService.createCategory(newCategory); // Service handles saving
+        }
     }
-  }
+
+    private boolean processReview(JsonReview jsonRev, Product product) { // Accept Product object
+
+        try {
+            Review review = new Review();
+            review.setReviewId(jsonRev.getReviewId());
+            review.setProduct(product); // Set the relationship
+            review.setRating(jsonRev.getRating());
+            review.setComment(jsonRev.getComment());
+            review.setDate(jsonRev.getDate());
+            review.setReviewerName(jsonRev.getReviewerName());
+            review.setReviewerEmail(jsonRev.getReviewerEmail());
+
+            reviewRepository.save(review); // Save directly
+            return true; // Indicate success
+        } catch (Exception e) {
+            logger.error("Failed to process review ID {}: {}", jsonRev.getReviewId(), e.getMessage());
+            return false; // Indicate failure
+        }
+    }
 }

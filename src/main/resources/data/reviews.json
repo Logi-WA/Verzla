@@ -1,0 +1,5240 @@
+[
+  {
+    "review_id": "25fbb0e6-1c82-4cf7-9b41-d14b78dc7c45",
+    "product_id": "000c9b60-61ee-41d8-842e-f21c219265ae",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "16cb8c56-ce18-4ea5-8d7a-b7e2cb0b97fd",
+    "product_id": "000c9b60-61ee-41d8-842e-f21c219265ae",
+    "rating": 3,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Madison Collins",
+    "reviewerEmail": "madison.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "cd5047cb-f4f7-44ab-b9cf-ddb94345767a",
+    "product_id": "000c9b60-61ee-41d8-842e-f21c219265ae",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Maya Reed",
+    "reviewerEmail": "maya.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "f55bf0d7-31af-4a4b-9460-ab2164f3f01b",
+    "product_id": "a684e566-3b3d-4408-8afc-4f53b734659a",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Xavier Wright",
+    "reviewerEmail": "xavier.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "04605ed9-f7bc-4ab9-a2c3-23ecddf2c03c",
+    "product_id": "a684e566-3b3d-4408-8afc-4f53b734659a",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Mila Hernandez",
+    "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "f0e03f8e-c715-4aee-9957-728f30b3f08a",
+    "product_id": "a684e566-3b3d-4408-8afc-4f53b734659a",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "5d4c9b96-1531-4fd4-ac7f-409dbafc3073",
+    "product_id": "4a8817c0-99c9-40b2-b81d-c36f3bbf5649",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Lincoln Kelly",
+    "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "5ebc7f8e-9459-44b5-a117-5a8b0173e7ca",
+    "product_id": "4a8817c0-99c9-40b2-b81d-c36f3bbf5649",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Lincoln Kelly",
+    "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "5fbf6300-8962-46e0-a258-b4794a973894",
+    "product_id": "4a8817c0-99c9-40b2-b81d-c36f3bbf5649",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Lucas Allen",
+    "reviewerEmail": "lucas.allen@x.dummyjson.com"
+  },
+  {
+    "review_id": "7239a03a-574d-4f00-b262-a1b0635d77ca",
+    "product_id": "3f114e47-97f6-4c31-8b5b-044a24487361",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Aria Parker",
+    "reviewerEmail": "aria.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "1ec3d629-9785-4a73-bdfd-5d8fd14b1f55",
+    "product_id": "3f114e47-97f6-4c31-8b5b-044a24487361",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Natalie Harris",
+    "reviewerEmail": "natalie.harris@x.dummyjson.com"
+  },
+  {
+    "review_id": "1c50d908-540f-4b13-911a-8025f9187dc0",
+    "product_id": "3f114e47-97f6-4c31-8b5b-044a24487361",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ava Harris",
+    "reviewerEmail": "ava.harris@x.dummyjson.com"
+  },
+  {
+    "review_id": "63cdeb96-79a6-4114-9291-553943ff47ce",
+    "product_id": "db63208b-60cd-44b4-8c2e-7a534fa4774f",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Zoe Nicholson",
+    "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+  },
+  {
+    "review_id": "686cbac6-6811-4cec-802b-ded0f9dcd988",
+    "product_id": "db63208b-60cd-44b4-8c2e-7a534fa4774f",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Addison Wright",
+    "reviewerEmail": "addison.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "f6f93585-3563-4a50-afb0-2b67cb9dc572",
+    "product_id": "db63208b-60cd-44b4-8c2e-7a534fa4774f",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Clara Berry",
+    "reviewerEmail": "clara.berry@x.dummyjson.com"
+  },
+  {
+    "review_id": "b96bebd7-ac09-4e75-af72-e140a7139bf0",
+    "product_id": "7598d8c0-ef49-4ee5-bdd9-1632065d8775",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "930a0a44-e36d-4960-97a6-e6add56d8892",
+    "product_id": "7598d8c0-ef49-4ee5-bdd9-1632065d8775",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Oscar Powers",
+    "reviewerEmail": "oscar.powers@x.dummyjson.com"
+  },
+  {
+    "review_id": "af7b1eb3-24b4-44e0-9ad7-4c193218ba3a",
+    "product_id": "7598d8c0-ef49-4ee5-bdd9-1632065d8775",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Carter Rivera",
+    "reviewerEmail": "carter.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "2580ff12-17de-4958-9c6a-7610fa42e30a",
+    "product_id": "6da0cec5-d44d-49b0-b097-570602f66273",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Ethan Thompson",
+    "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+  },
+  {
+    "review_id": "c4c2a9a3-48c2-4133-b0ac-e8503066de30",
+    "product_id": "6da0cec5-d44d-49b0-b097-570602f66273",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Levi Hicks",
+    "reviewerEmail": "levi.hicks@x.dummyjson.com"
+  },
+  {
+    "review_id": "6c7e187a-5747-47cd-9f2e-c9ba09518e6a",
+    "product_id": "6da0cec5-d44d-49b0-b097-570602f66273",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Hazel Gardner",
+    "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+  },
+  {
+    "review_id": "9f5fd951-631a-47b7-869c-7ddb1ddbbe44",
+    "product_id": "4590e985-4f0f-420a-a755-8feb96a44903",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "01e3c7ae-9f65-4bbf-8b49-95063bffc85a",
+    "product_id": "4590e985-4f0f-420a-a755-8feb96a44903",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Evan Reed",
+    "reviewerEmail": "evan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "832d9118-5887-4a80-8581-b3b64c39fd27",
+    "product_id": "4590e985-4f0f-420a-a755-8feb96a44903",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.619Z",
+    "reviewerName": "Evelyn Sanchez",
+    "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+  },
+  {
+    "review_id": "78739066-32f2-482d-94e2-078a320d6dea",
+    "product_id": "91867739-a280-4543-8c49-ff2407251d66",
+    "rating": 2,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "John Doe",
+    "reviewerEmail": "john.doe@x.dummyjson.com"
+  },
+  {
+    "review_id": "47876cb8-c7bc-429b-a73d-8d6e7f4754e8",
+    "product_id": "91867739-a280-4543-8c49-ff2407251d66",
+    "rating": 2,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Nolan Gonzalez",
+    "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "79657528-d99b-4c23-bcc2-325f8030c79b",
+    "product_id": "91867739-a280-4543-8c49-ff2407251d66",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Scarlett Wright",
+    "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "a8b736b7-1a27-490b-814c-d1d03f1dd2a1",
+    "product_id": "14b403c8-bc8e-45ca-8d82-af3f1a5c5e6f",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "e6540f85-b6f7-4c79-9f42-9c50786180a1",
+    "product_id": "14b403c8-bc8e-45ca-8d82-af3f1a5c5e6f",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Nora Russell",
+    "reviewerEmail": "nora.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "49573382-d7d1-40fb-94a3-38f3a74d18b6",
+    "product_id": "14b403c8-bc8e-45ca-8d82-af3f1a5c5e6f",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.618Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "8d8b60c3-effd-4744-8abc-2777512993be",
+    "product_id": "e2ba0bfc-d14b-4b9e-a582-5c503d061b37",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Julian Newton",
+    "reviewerEmail": "julian.newton@x.dummyjson.com"
+  },
+  {
+    "review_id": "36c95a5d-4eeb-4967-88ee-41a11f4687ef",
+    "product_id": "e2ba0bfc-d14b-4b9e-a582-5c503d061b37",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Madison Collins",
+    "reviewerEmail": "madison.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "dc443022-2027-4271-bc5b-ac571b0571a0",
+    "product_id": "e2ba0bfc-d14b-4b9e-a582-5c503d061b37",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Clara Berry",
+    "reviewerEmail": "clara.berry@x.dummyjson.com"
+  },
+  {
+    "review_id": "e3eec7c9-6877-4260-9141-dd5ff187f4d0",
+    "product_id": "3b3da915-4555-45f2-a044-61b400f14893",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Tyler Davis",
+    "reviewerEmail": "tyler.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "a705cd12-e241-4a5c-8121-d9f214c5f975",
+    "product_id": "3b3da915-4555-45f2-a044-61b400f14893",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Hannah Robinson",
+    "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+  },
+  {
+    "review_id": "0c2dc077-2b68-4ff8-98ba-a0470c0cbb22",
+    "product_id": "3b3da915-4555-45f2-a044-61b400f14893",
+    "rating": 3,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Madison Collins",
+    "reviewerEmail": "madison.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "a6538912-daec-492a-a514-35513e76539a",
+    "product_id": "2dd565cc-48ef-4988-82e1-7705d9f7767b",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "John Doe",
+    "reviewerEmail": "john.doe@x.dummyjson.com"
+  },
+  {
+    "review_id": "408b885b-b173-446d-8942-5fdd53fcf73f",
+    "product_id": "2dd565cc-48ef-4988-82e1-7705d9f7767b",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Avery Carter",
+    "reviewerEmail": "avery.carter@x.dummyjson.com"
+  },
+  {
+    "review_id": "42fec579-b395-417a-9b87-801840e06a31",
+    "product_id": "2dd565cc-48ef-4988-82e1-7705d9f7767b",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Evelyn Sanchez",
+    "reviewerEmail": "evelyn.sanchez@x.dummyjson.com"
+  },
+  {
+    "review_id": "2742a5a4-ed54-4b63-8f76-a6508751bfc5",
+    "product_id": "ad4d2fca-0833-4f29-881a-ac7ec3472686",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Charlotte Lopez",
+    "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+  },
+  {
+    "review_id": "fc11385f-a1fe-468b-a310-469302df5d48",
+    "product_id": "ad4d2fca-0833-4f29-881a-ac7ec3472686",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "William Gonzalez",
+    "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "9d117133-6c5f-48d9-968b-075dc27c4c6d",
+    "product_id": "ad4d2fca-0833-4f29-881a-ac7ec3472686",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ava Harrison",
+    "reviewerEmail": "ava.harrison@x.dummyjson.com"
+  },
+  {
+    "review_id": "a75f572e-3d7f-47a5-be1f-1650089e35d2",
+    "product_id": "6fd7c813-6545-4589-a6c0-acd941a9ad06",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Leah Gutierrez",
+    "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+  },
+  {
+    "review_id": "af81d252-873b-4fa1-97f5-17264c66a6a1",
+    "product_id": "6fd7c813-6545-4589-a6c0-acd941a9ad06",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Nolan Gonzalez",
+    "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "5cd2f4cf-3e32-468c-9abe-869c5f90ae1a",
+    "product_id": "6fd7c813-6545-4589-a6c0-acd941a9ad06",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Stella Morris",
+    "reviewerEmail": "stella.morris@x.dummyjson.com"
+  },
+  {
+    "review_id": "fb105988-2f71-4da7-8821-544a9a9c140d",
+    "product_id": "61f6016a-7c8f-4d07-9e53-d83369565396",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Sophia Jones",
+    "reviewerEmail": "sophia.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "3738413d-5a8c-4a60-8874-d0d063252796",
+    "product_id": "61f6016a-7c8f-4d07-9e53-d83369565396",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Maya Reed",
+    "reviewerEmail": "maya.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "156c6073-f963-40ad-b5cb-697d5dd40dc9",
+    "product_id": "61f6016a-7c8f-4d07-9e53-d83369565396",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Harper Turner",
+    "reviewerEmail": "harper.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "85a49109-a7bf-44ed-a01f-feda3735ce16",
+    "product_id": "495a38d2-27d0-447c-b0fe-a3cca661ed87",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Logan Lee",
+    "reviewerEmail": "logan.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "3ac3a6b2-c1aa-41fb-9884-cc7fd552667d",
+    "product_id": "495a38d2-27d0-447c-b0fe-a3cca661ed87",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Elena Long",
+    "reviewerEmail": "elena.long@x.dummyjson.com"
+  },
+  {
+    "review_id": "79370df6-f3f8-4ac3-b281-f658e39b7194",
+    "product_id": "495a38d2-27d0-447c-b0fe-a3cca661ed87",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "b9a02ca1-b8ba-4db2-98f9-9b0b8e0ced66",
+    "product_id": "3743f0d7-8f05-4f02-bda1-84b9faead52f",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ethan Martinez",
+    "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "0b7d0433-b187-43f5-b395-d45dce378b9a",
+    "product_id": "3743f0d7-8f05-4f02-bda1-84b9faead52f",
+    "rating": 3,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Owen Fisher",
+    "reviewerEmail": "owen.fisher@x.dummyjson.com"
+  },
+  {
+    "review_id": "c595e9ec-0d95-448c-a08b-d2c0eb4a68ed",
+    "product_id": "3743f0d7-8f05-4f02-bda1-84b9faead52f",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Scarlett Wright",
+    "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "7a79e999-6cfa-4b3d-9be0-dc5c92de33d4",
+    "product_id": "3cbf7e75-0b34-4ce2-98c2-a643eec95f50",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Mateo Bennett",
+    "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "86f1fe52-2ed9-4a1a-87ec-74eabf9e6acf",
+    "product_id": "3cbf7e75-0b34-4ce2-98c2-a643eec95f50",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Aurora Barnes",
+    "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "55b7c535-a895-4906-8ba6-855d2635ea89",
+    "product_id": "3cbf7e75-0b34-4ce2-98c2-a643eec95f50",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ellie Stewart",
+    "reviewerEmail": "ellie.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "65702672-2a7e-4937-80f5-055760f59f47",
+    "product_id": "20dcd74a-f87e-476d-b7a9-c8b1d2ab283b",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "2e642155-3b93-4c6f-af10-e7a44db668b7",
+    "product_id": "20dcd74a-f87e-476d-b7a9-c8b1d2ab283b",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Jonathan Pierce",
+    "reviewerEmail": "jonathan.pierce@x.dummyjson.com"
+  },
+  {
+    "review_id": "edca4649-920f-4519-87ee-34b62eebf242",
+    "product_id": "20dcd74a-f87e-476d-b7a9-c8b1d2ab283b",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Alexander Hernandez",
+    "reviewerEmail": "alexander.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "c3dbbce0-4772-4478-a3b9-b86021965a0a",
+    "product_id": "5ce9e0f1-8eee-438e-814a-6be6ebe1dff9",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Elijah Hill",
+    "reviewerEmail": "elijah.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "70b87ef4-27e3-4b1c-a734-bbd6db6fc5df",
+    "product_id": "5ce9e0f1-8eee-438e-814a-6be6ebe1dff9",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "66646956-8d88-4744-9470-1ee6ffc4ffb6",
+    "product_id": "5ce9e0f1-8eee-438e-814a-6be6ebe1dff9",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ella Cook",
+    "reviewerEmail": "ella.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "773d2ed2-11a8-4ff3-b611-4eac30a5279f",
+    "product_id": "51dcafc8-9401-4e33-8d96-aab70c71adb0",
+    "rating": 2,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Mateo Bennett",
+    "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "e5e2ebd6-4690-495b-9ed4-65f9c6c984a3",
+    "product_id": "51dcafc8-9401-4e33-8d96-aab70c71adb0",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Natalie Price",
+    "reviewerEmail": "natalie.price@x.dummyjson.com"
+  },
+  {
+    "review_id": "bc2a8290-f1d7-413c-8ab9-0fdf67a4e6b7",
+    "product_id": "51dcafc8-9401-4e33-8d96-aab70c71adb0",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Avery Barnes",
+    "reviewerEmail": "avery.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "f3d15b36-6bf6-42dd-bd69-49da80c41aa4",
+    "product_id": "dfca1e66-5a46-4f1e-86f1-124f7f524296",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Michael Johnson",
+    "reviewerEmail": "michael.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "3aa6e97d-c11a-4843-b2c2-ba87313d88a8",
+    "product_id": "dfca1e66-5a46-4f1e-86f1-124f7f524296",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Julian Newton",
+    "reviewerEmail": "julian.newton@x.dummyjson.com"
+  },
+  {
+    "review_id": "c92e9031-9129-4af7-b45e-1b583acb54ba",
+    "product_id": "dfca1e66-5a46-4f1e-86f1-124f7f524296",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Lila Hudson",
+    "reviewerEmail": "lila.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "bd76a308-995b-4541-a40c-b3c9e269e4cf",
+    "product_id": "ec3f8b45-d9d1-436c-9acb-d22fa16b275f",
+    "rating": 2,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Mateo Perez",
+    "reviewerEmail": "mateo.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "5d5f1327-ad9f-4d85-86a5-69d1c106dde1",
+    "product_id": "ec3f8b45-d9d1-436c-9acb-d22fa16b275f",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "406965b8-7cc7-4be7-bc6c-89eeba5f794d",
+    "product_id": "ec3f8b45-d9d1-436c-9acb-d22fa16b275f",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Aurora Barnes",
+    "reviewerEmail": "aurora.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "99c028bb-cfad-4062-9e4f-ad8a26e20097",
+    "product_id": "a346c826-e50d-4331-bc2d-a0eec20cd9c4",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "8e75a4a2-fd42-484c-a383-c12bf92d48ab",
+    "product_id": "a346c826-e50d-4331-bc2d-a0eec20cd9c4",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Alexander Jones",
+    "reviewerEmail": "alexander.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "729f8837-ea7f-410c-ad43-7f15f7b41a3b",
+    "product_id": "a346c826-e50d-4331-bc2d-a0eec20cd9c4",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Addison Wright",
+    "reviewerEmail": "addison.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "bd2111dc-b4e6-44f8-b25b-8a80124c4111",
+    "product_id": "42d4c3ba-e732-4d86-b864-5b4625ac4219",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Maya Reed",
+    "reviewerEmail": "maya.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "0b0f58d8-7ff7-40bc-b990-7a48aee2475e",
+    "product_id": "42d4c3ba-e732-4d86-b864-5b4625ac4219",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Madison Collins",
+    "reviewerEmail": "madison.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "7a0e657d-31b6-480d-a020-35f733e86738",
+    "product_id": "42d4c3ba-e732-4d86-b864-5b4625ac4219",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ethan Thompson",
+    "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+  },
+  {
+    "review_id": "ec9d4e9c-3a33-402e-b4ae-60dff18ad79e",
+    "product_id": "94ed0548-9cbb-402c-8cc9-1a484a4b8150",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Nicholas Bailey",
+    "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+  },
+  {
+    "review_id": "fc012961-d7b5-4031-8816-9eeaf8d8d07f",
+    "product_id": "94ed0548-9cbb-402c-8cc9-1a484a4b8150",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Gabriel Hayes",
+    "reviewerEmail": "gabriel.hayes@x.dummyjson.com"
+  },
+  {
+    "review_id": "5dcab581-3b74-4a63-89d6-ec1f44cc4584",
+    "product_id": "94ed0548-9cbb-402c-8cc9-1a484a4b8150",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "James Garcia",
+    "reviewerEmail": "james.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "b9264d0a-1519-422d-b6fe-1a2ddd48207c",
+    "product_id": "e05638cd-2bbd-4ca7-8b21-d1d80f6493a3",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "9dea4ea9-99e9-406e-b5ca-b156d15d1f56",
+    "product_id": "e05638cd-2bbd-4ca7-8b21-d1d80f6493a3",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Ethan Martinez",
+    "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "dc46195c-7c1a-4bae-80d8-fe9acd445a01",
+    "product_id": "e05638cd-2bbd-4ca7-8b21-d1d80f6493a3",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Max Parker",
+    "reviewerEmail": "max.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "f9ac6f6d-d230-4779-8a5d-2eaa4c4798cb",
+    "product_id": "73e69f68-1be9-4676-b705-d764aeedbadc",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Nora Russell",
+    "reviewerEmail": "nora.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "9e018d21-96cb-4ae1-92b1-cb24d9d3ef64",
+    "product_id": "73e69f68-1be9-4676-b705-d764aeedbadc",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Dylan Wells",
+    "reviewerEmail": "dylan.wells@x.dummyjson.com"
+  },
+  {
+    "review_id": "8aa4486d-5bb6-4741-b96a-c43592912fe4",
+    "product_id": "73e69f68-1be9-4676-b705-d764aeedbadc",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Noah Hernandez",
+    "reviewerEmail": "noah.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "42ff230f-4d31-4cae-a4d0-b9e5cd6a0917",
+    "product_id": "97cbda94-9415-44e1-b51c-d820d41fd93c",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "690bf000-4ec3-46aa-a1df-0fd7438bb5fa",
+    "product_id": "97cbda94-9415-44e1-b51c-d820d41fd93c",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Madeline Simpson",
+    "reviewerEmail": "madeline.simpson@x.dummyjson.com"
+  },
+  {
+    "review_id": "866e2329-fb82-405f-8273-085f849c8674",
+    "product_id": "97cbda94-9415-44e1-b51c-d820d41fd93c",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Caleb Nelson",
+    "reviewerEmail": "caleb.nelson@x.dummyjson.com"
+  },
+  {
+    "review_id": "a74be2c4-1df8-41d6-8271-e433fab59d88",
+    "product_id": "e5d3f108-b3eb-4696-9d6f-dfc208713684",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Lucas Gray",
+    "reviewerEmail": "lucas.gray@x.dummyjson.com"
+  },
+  {
+    "review_id": "e2a972bd-fae6-490e-8082-7ee841a6e301",
+    "product_id": "e5d3f108-b3eb-4696-9d6f-dfc208713684",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Henry Hill",
+    "reviewerEmail": "henry.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "a3525863-faff-4d10-9799-5d78b26a8f36",
+    "product_id": "e5d3f108-b3eb-4696-9d6f-dfc208713684",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Elena Long",
+    "reviewerEmail": "elena.long@x.dummyjson.com"
+  },
+  {
+    "review_id": "57dc4022-ff21-43cd-8f31-2a6e30c431ba",
+    "product_id": "7b844bed-c338-4dc6-8151-dc1b641abb54",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Daniel Cook",
+    "reviewerEmail": "daniel.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "e85fdb20-c190-43a6-8767-25038fac5ed6",
+    "product_id": "7b844bed-c338-4dc6-8151-dc1b641abb54",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "beef5935-1a66-4907-b621-b759322846d4",
+    "product_id": "7b844bed-c338-4dc6-8151-dc1b641abb54",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.620Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "2dcc6028-fe16-4ccc-8c9a-1b321f1327f2",
+    "product_id": "f5829f6e-b9b7-4cc0-a9bc-6415c42280ac",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Leah Henderson",
+    "reviewerEmail": "leah.henderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "cdfd3380-0829-4ab2-a8cd-18d8740430fb",
+    "product_id": "f5829f6e-b9b7-4cc0-a9bc-6415c42280ac",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Leah Hughes",
+    "reviewerEmail": "leah.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "8cdc5c25-3c96-4689-be01-2c01cf43d7ad",
+    "product_id": "f5829f6e-b9b7-4cc0-a9bc-6415c42280ac",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Carter Baker",
+    "reviewerEmail": "carter.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "9026967c-1543-433d-985e-05dd6e7acc1d",
+    "product_id": "ef08f7f4-5a7a-419d-ab70-701de08df874",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "4df1ca70-a614-423b-8837-d2305bd94ac2",
+    "product_id": "ef08f7f4-5a7a-419d-ab70-701de08df874",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Gabriel Mitchell",
+    "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+  },
+  {
+    "review_id": "3e49427b-a784-4b39-8f5b-05f2ff716bcf",
+    "product_id": "ef08f7f4-5a7a-419d-ab70-701de08df874",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Elijah Stewart",
+    "reviewerEmail": "elijah.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "923f86af-aaf2-4ed6-8102-e9ff0a682cba",
+    "product_id": "e9459d3b-18fc-4f2e-b957-8f9843bca9a8",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Nolan Gonzalez",
+    "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "fcc12e98-8a19-4c14-b254-ea2a39f6c4a3",
+    "product_id": "e9459d3b-18fc-4f2e-b957-8f9843bca9a8",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Carter Baker",
+    "reviewerEmail": "carter.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "8de6ed71-a827-431e-ab41-cb0a66719315",
+    "product_id": "e9459d3b-18fc-4f2e-b957-8f9843bca9a8",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Emily Johnson",
+    "reviewerEmail": "emily.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "2d45162c-2baf-45bc-a941-50456c08ab65",
+    "product_id": "f39dab39-1a40-427f-94cc-0ddbccc75478",
+    "rating": 1,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Logan Lawson",
+    "reviewerEmail": "logan.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "cc82d821-733a-4c36-be63-6916f72b0fef",
+    "product_id": "f39dab39-1a40-427f-94cc-0ddbccc75478",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Julian James",
+    "reviewerEmail": "julian.james@x.dummyjson.com"
+  },
+  {
+    "review_id": "d5a93ca1-fb6d-4da7-b15c-47d691d28d3a",
+    "product_id": "f39dab39-1a40-427f-94cc-0ddbccc75478",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Hazel Evans",
+    "reviewerEmail": "hazel.evans@x.dummyjson.com"
+  },
+  {
+    "review_id": "f89c662b-65d7-42a3-9d70-524428c128a9",
+    "product_id": "2af716cf-fcf0-4f6a-bc60-6caca2799d65",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "James Davis",
+    "reviewerEmail": "james.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "1ee834d1-8549-4887-aacb-c1e78e4d515b",
+    "product_id": "2af716cf-fcf0-4f6a-bc60-6caca2799d65",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "d3c047c1-c2a6-42ff-870e-84e36d0a4416",
+    "product_id": "2af716cf-fcf0-4f6a-bc60-6caca2799d65",
+    "rating": 3,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Aaron Cook",
+    "reviewerEmail": "aaron.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "05e83eef-1bb1-41f2-acc4-ea68b077843a",
+    "product_id": "1f3ce1ec-6414-4e3c-9695-d792647941b5",
+    "rating": 3,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Ella Cook",
+    "reviewerEmail": "ella.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "374101fe-ed57-4209-90e0-fedd3a73c74f",
+    "product_id": "1f3ce1ec-6414-4e3c-9695-d792647941b5",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "83ee9992-3d41-4024-87e9-e527682ae6ff",
+    "product_id": "1f3ce1ec-6414-4e3c-9695-d792647941b5",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Autumn Gomez",
+    "reviewerEmail": "autumn.gomez@x.dummyjson.com"
+  },
+  {
+    "review_id": "358fe44d-a3d4-49ae-98ba-2dc3451bab1e",
+    "product_id": "f130a791-2439-46e2-8757-2a42f0859ad0",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Charlotte Lopez",
+    "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+  },
+  {
+    "review_id": "02f4b587-f2b6-458d-820d-661b17569a8d",
+    "product_id": "f130a791-2439-46e2-8757-2a42f0859ad0",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Grace Green",
+    "reviewerEmail": "grace.green@x.dummyjson.com"
+  },
+  {
+    "review_id": "11eb73aa-7498-4e89-ad44-4dfce7214265",
+    "product_id": "f130a791-2439-46e2-8757-2a42f0859ad0",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Logan Torres",
+    "reviewerEmail": "logan.torres@x.dummyjson.com"
+  },
+  {
+    "review_id": "474a73a8-394d-4861-880c-72a00889413b",
+    "product_id": "6ec888bf-2213-4920-88b8-ab3710b59ec0",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Hazel Gardner",
+    "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+  },
+  {
+    "review_id": "3655acff-76b2-459b-8e28-2341e4871cb2",
+    "product_id": "6ec888bf-2213-4920-88b8-ab3710b59ec0",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Gabriel Adams",
+    "reviewerEmail": "gabriel.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "ecfb9f2b-f984-4a9d-afe0-cbc201a47650",
+    "product_id": "6ec888bf-2213-4920-88b8-ab3710b59ec0",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Jack Ward",
+    "reviewerEmail": "jack.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "e1fa07c8-9313-4d3e-a7ab-3744cb70941a",
+    "product_id": "f07c3498-8682-4783-9c13-a9110cdeb036",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Stella Morris",
+    "reviewerEmail": "stella.morris@x.dummyjson.com"
+  },
+  {
+    "review_id": "5c350bc8-4a37-4b1b-ae4d-3fd792067cf7",
+    "product_id": "f07c3498-8682-4783-9c13-a9110cdeb036",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Harper Turner",
+    "reviewerEmail": "harper.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "f2abed3f-249f-4627-af17-0a0caed576f8",
+    "product_id": "f07c3498-8682-4783-9c13-a9110cdeb036",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Luna Russell",
+    "reviewerEmail": "luna.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "71a956ba-1771-46db-9c81-688849be3cb2",
+    "product_id": "e0c30f80-7072-4dfe-b92b-7eb387ef486f",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Lillian Simmons",
+    "reviewerEmail": "lillian.simmons@x.dummyjson.com"
+  },
+  {
+    "review_id": "8766dd57-0908-412d-a283-0824809dd814",
+    "product_id": "e0c30f80-7072-4dfe-b92b-7eb387ef486f",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Emily Brown",
+    "reviewerEmail": "emily.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "4f2b3d15-b74b-48cd-ba96-a363c962b175",
+    "product_id": "e0c30f80-7072-4dfe-b92b-7eb387ef486f",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "f8b47ff1-258d-4efb-acec-95d6954e4771",
+    "product_id": "43d6835c-2dbd-4b25-a10d-eb6348941a60",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "f1dcdb3d-70fb-4f6a-bd7e-8bce5f7aefce",
+    "product_id": "43d6835c-2dbd-4b25-a10d-eb6348941a60",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Caleb Perkins",
+    "reviewerEmail": "caleb.perkins@x.dummyjson.com"
+  },
+  {
+    "review_id": "14e8f79d-a980-4059-b96e-b1030ca1e5e5",
+    "product_id": "43d6835c-2dbd-4b25-a10d-eb6348941a60",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "5ea21707-d3ca-4060-9e6e-691810068c0d",
+    "product_id": "623956f4-4af2-4857-8bcd-83f54ef6f4ca",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Logan Torres",
+    "reviewerEmail": "logan.torres@x.dummyjson.com"
+  },
+  {
+    "review_id": "f06cef22-0eff-4cba-8b38-1f90792e2f89",
+    "product_id": "623956f4-4af2-4857-8bcd-83f54ef6f4ca",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "William Gonzalez",
+    "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "2b31d187-8a5e-45f3-8c78-d6c86420fca2",
+    "product_id": "623956f4-4af2-4857-8bcd-83f54ef6f4ca",
+    "rating": 3,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Amelia Perez",
+    "reviewerEmail": "amelia.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "62767053-203d-40c8-b487-312994f7e531",
+    "product_id": "2d9905ae-b492-47a0-a33e-d4d976298511",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Olivia Anderson",
+    "reviewerEmail": "olivia.anderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "f06b581d-e47e-4c62-ba58-e69c2e696c84",
+    "product_id": "2d9905ae-b492-47a0-a33e-d4d976298511",
+    "rating": 2,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "61e52a51-3e07-4bfc-9339-5b3461642a5f",
+    "product_id": "2d9905ae-b492-47a0-a33e-d4d976298511",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Emma Wilson",
+    "reviewerEmail": "emma.wilson@x.dummyjson.com"
+  },
+  {
+    "review_id": "0987ff2b-7cd9-41e3-a23e-f2ea779419ed",
+    "product_id": "491f9ecf-a5df-4c18-bc65-43f09b589822",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Mateo Nguyen",
+    "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+  },
+  {
+    "review_id": "13fabd1e-5999-4aa9-bd08-8573aad2b8e9",
+    "product_id": "491f9ecf-a5df-4c18-bc65-43f09b589822",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "James Garcia",
+    "reviewerEmail": "james.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "34fed8f8-ee44-4119-8ade-a4c40162312f",
+    "product_id": "491f9ecf-a5df-4c18-bc65-43f09b589822",
+    "rating": 1,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Henry Turner",
+    "reviewerEmail": "henry.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "9024cbff-8cd2-43c0-b76f-b7bdc48ee5b3",
+    "product_id": "eeb4facf-7a77-412a-bab1-4f6126b3aeed",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Harper Turner",
+    "reviewerEmail": "harper.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "d42fc646-7698-42c6-8b05-f192122aefbe",
+    "product_id": "eeb4facf-7a77-412a-bab1-4f6126b3aeed",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Leah Gutierrez",
+    "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+  },
+  {
+    "review_id": "509ca061-57ee-4258-af2b-c1e17178eb9a",
+    "product_id": "eeb4facf-7a77-412a-bab1-4f6126b3aeed",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Sadie Morales",
+    "reviewerEmail": "sadie.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "abf15ede-96d8-4aa1-bdc2-d118dc17d54f",
+    "product_id": "2b4de268-ce2f-483f-99e7-069a1eab7653",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Olivia Anderson",
+    "reviewerEmail": "olivia.anderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "09ee277f-70a6-4cde-b721-b90e236cbae8",
+    "product_id": "2b4de268-ce2f-483f-99e7-069a1eab7653",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "68119a2f-c73e-4efd-bede-5cef82d15ac9",
+    "product_id": "2b4de268-ce2f-483f-99e7-069a1eab7653",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "c813e52b-a0a8-4ff7-a244-a746a2eeaf7e",
+    "product_id": "062e266f-74b4-4ed7-82ec-cc4e460e5569",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Claire Foster",
+    "reviewerEmail": "claire.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "0b0c16c2-815b-4e33-9f93-de0e16f45624",
+    "product_id": "062e266f-74b4-4ed7-82ec-cc4e460e5569",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Sophia Jones",
+    "reviewerEmail": "sophia.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "70bc082f-0443-43d8-b28a-362c4fe41854",
+    "product_id": "062e266f-74b4-4ed7-82ec-cc4e460e5569",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Avery Scott",
+    "reviewerEmail": "avery.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "f112670a-56dd-4239-b618-e5368b99981d",
+    "product_id": "d32d9836-f754-4750-b40a-454aac28e523",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Bella Grant",
+    "reviewerEmail": "bella.grant@x.dummyjson.com"
+  },
+  {
+    "review_id": "5a5de08b-defa-4a04-b0e4-210d07ba4ee4",
+    "product_id": "d32d9836-f754-4750-b40a-454aac28e523",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Layla Young",
+    "reviewerEmail": "layla.young@x.dummyjson.com"
+  },
+  {
+    "review_id": "41914b47-13b9-4572-aa05-e3995298766f",
+    "product_id": "d32d9836-f754-4750-b40a-454aac28e523",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Wyatt Perry",
+    "reviewerEmail": "wyatt.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "0dc3d722-ff4e-4725-a2dc-9b7a571943cf",
+    "product_id": "ef6911d5-1553-4946-92ad-73eda3a357a2",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Sadie Morales",
+    "reviewerEmail": "sadie.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "72323019-be6e-4cc3-8fc7-07d04fc2ae71",
+    "product_id": "ef6911d5-1553-4946-92ad-73eda3a357a2",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Elijah Hill",
+    "reviewerEmail": "elijah.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "60f2d14f-254a-48f5-9329-5ca72d5e462d",
+    "product_id": "ef6911d5-1553-4946-92ad-73eda3a357a2",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Owen Sullivan",
+    "reviewerEmail": "owen.sullivan@x.dummyjson.com"
+  },
+  {
+    "review_id": "2e87f7c6-0052-4f90-a5f2-8640398b656a",
+    "product_id": "196cc13e-6800-4a53-887b-2ce2ec33626f",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Grace Green",
+    "reviewerEmail": "grace.green@x.dummyjson.com"
+  },
+  {
+    "review_id": "4db59ce7-6edd-4c28-9497-068fabd90ca2",
+    "product_id": "196cc13e-6800-4a53-887b-2ce2ec33626f",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Avery Barnes",
+    "reviewerEmail": "avery.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "44f3b649-34da-479e-8193-2ded31e308f3",
+    "product_id": "196cc13e-6800-4a53-887b-2ce2ec33626f",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Aubrey Wagner",
+    "reviewerEmail": "aubrey.wagner@x.dummyjson.com"
+  },
+  {
+    "review_id": "d3e1c89f-9f4a-4077-b8a6-135f46a02d24",
+    "product_id": "7500de1c-9113-42b6-87d8-8a1db0583105",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Bella Gonzalez",
+    "reviewerEmail": "bella.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "e87dbd5d-3999-41c1-8eaa-5fa8cd7fa2bc",
+    "product_id": "7500de1c-9113-42b6-87d8-8a1db0583105",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Alexander Hernandez",
+    "reviewerEmail": "alexander.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "0c5d53ce-60ba-484a-a4aa-d0f7b730ad08",
+    "product_id": "7500de1c-9113-42b6-87d8-8a1db0583105",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Ella Cook",
+    "reviewerEmail": "ella.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "4fb29d55-ae7b-45cb-92f4-7a286b936c95",
+    "product_id": "4c6f40bf-ae99-4e8d-ba30-5979da355ced",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Emma Miller",
+    "reviewerEmail": "emma.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "77533424-3349-4559-93b9-23c72251b6c6",
+    "product_id": "4c6f40bf-ae99-4e8d-ba30-5979da355ced",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "619e97e7-9df2-4537-bbac-928ba5a449b6",
+    "product_id": "4c6f40bf-ae99-4e8d-ba30-5979da355ced",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Evelyn Gonzalez",
+    "reviewerEmail": "evelyn.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "b181c914-6970-49e4-855e-0f09294ae2d7",
+    "product_id": "e741f61e-d699-4a9e-a1a9-11cafd5dfb6c",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Samantha Howard",
+    "reviewerEmail": "samantha.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "0fbfb70b-77f2-4c95-b8d4-7bac396bbf6b",
+    "product_id": "e741f61e-d699-4a9e-a1a9-11cafd5dfb6c",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Brayden Hill",
+    "reviewerEmail": "brayden.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "8f66bbed-b5c2-412a-af53-76e10aa9e553",
+    "product_id": "e741f61e-d699-4a9e-a1a9-11cafd5dfb6c",
+    "rating": 2,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Addison Wright",
+    "reviewerEmail": "addison.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "65d537f2-7a97-457f-bfca-2564df93ded6",
+    "product_id": "d81f8878-c1ae-474e-b703-b17ce6ec55ad",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Ava Taylor",
+    "reviewerEmail": "ava.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "2321f1fd-f308-4477-8a09-429e873f95f6",
+    "product_id": "d81f8878-c1ae-474e-b703-b17ce6ec55ad",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Nicholas Edwards",
+    "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+  },
+  {
+    "review_id": "5dab9e5c-395e-4e64-9db0-08de56c0e6a0",
+    "product_id": "d81f8878-c1ae-474e-b703-b17ce6ec55ad",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "David Martinez",
+    "reviewerEmail": "david.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "ea6ca895-b5f2-4541-9636-c762fa1d3cb1",
+    "product_id": "50c61a77-f2b7-4730-969a-748e05a733b9",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "ac56b525-9e07-4b8c-9bb9-3c6e0e7009f8",
+    "product_id": "50c61a77-f2b7-4730-969a-748e05a733b9",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Aurora Rodriguez",
+    "reviewerEmail": "aurora.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "fb11cbd2-2166-4912-8bfb-55ebab118aa5",
+    "product_id": "50c61a77-f2b7-4730-969a-748e05a733b9",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "d355b7f7-42e4-4dd5-b20d-18afb1a692cd",
+    "product_id": "8fc6a936-d19e-4b2e-9763-e26d3ea9f92e",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Jack Ward",
+    "reviewerEmail": "jack.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "5d007dc7-d8d5-4d97-b81e-5deae43f5253",
+    "product_id": "8fc6a936-d19e-4b2e-9763-e26d3ea9f92e",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "John Doe",
+    "reviewerEmail": "john.doe@x.dummyjson.com"
+  },
+  {
+    "review_id": "21c426a1-293b-4ffe-9a86-d58863f95ae5",
+    "product_id": "8fc6a936-d19e-4b2e-9763-e26d3ea9f92e",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.621Z",
+    "reviewerName": "Liam Smith",
+    "reviewerEmail": "liam.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "b592ef29-e90a-4c05-9ccf-13daefca3322",
+    "product_id": "c667a84d-a3b3-4e7c-83e6-f16688c2dbec",
+    "rating": 1,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Henry Adams",
+    "reviewerEmail": "henry.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "e4db2d70-ce07-4311-b8e5-4d6277341633",
+    "product_id": "c667a84d-a3b3-4e7c-83e6-f16688c2dbec",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Hazel Gardner",
+    "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+  },
+  {
+    "review_id": "582cff4c-bd6f-4a49-962a-5009e0750f3b",
+    "product_id": "c667a84d-a3b3-4e7c-83e6-f16688c2dbec",
+    "rating": 2,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Xavier Wright",
+    "reviewerEmail": "xavier.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "198a5d6b-9207-4c21-b87b-a0657d7e6a7f",
+    "product_id": "69382135-d947-4fd1-a7be-9d2991da7aa1",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Jackson Morales",
+    "reviewerEmail": "jackson.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "e054cd3c-d4cf-4711-9c39-668ce4085259",
+    "product_id": "69382135-d947-4fd1-a7be-9d2991da7aa1",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "b385aed3-a7f8-4545-9193-c5044bc707b2",
+    "product_id": "69382135-d947-4fd1-a7be-9d2991da7aa1",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Oscar Powers",
+    "reviewerEmail": "oscar.powers@x.dummyjson.com"
+  },
+  {
+    "review_id": "e0ef284c-f07c-41f9-ba05-dd8abbac1205",
+    "product_id": "fc48bc33-e764-4e82-b2c6-b69bc03e124a",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "e3547a99-6ff5-4a30-ace3-dc002c1dac10",
+    "product_id": "fc48bc33-e764-4e82-b2c6-b69bc03e124a",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Eleanor Tyler",
+    "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
+  },
+  {
+    "review_id": "0db89d1f-5f8e-4520-a8de-54723ce07a3d",
+    "product_id": "fc48bc33-e764-4e82-b2c6-b69bc03e124a",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Stella Morris",
+    "reviewerEmail": "stella.morris@x.dummyjson.com"
+  },
+  {
+    "review_id": "f8ce5eb2-84fc-4ccc-b11f-1f1967de4113",
+    "product_id": "c4f656be-9268-48df-94f7-b792092c42bd",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "f973ff72-92a6-4a01-9f61-64df90884df4",
+    "product_id": "c4f656be-9268-48df-94f7-b792092c42bd",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Emma Miller",
+    "reviewerEmail": "emma.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "794a0044-eaef-47b2-be26-9386cf9d3ac1",
+    "product_id": "c4f656be-9268-48df-94f7-b792092c42bd",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Isabella Anderson",
+    "reviewerEmail": "isabella.anderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "3644a9eb-e653-4f11-9b75-ce6d9997a9cd",
+    "product_id": "6da39413-7b21-40d8-a6ec-cc2bd04b7dfb",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Benjamin Foster",
+    "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "9dcc0735-5454-4b61-8f1a-be517dcc6e60",
+    "product_id": "6da39413-7b21-40d8-a6ec-cc2bd04b7dfb",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Daniel Taylor",
+    "reviewerEmail": "daniel.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "5240f65a-5d95-45b9-b4a4-1aa68b374e2c",
+    "product_id": "6da39413-7b21-40d8-a6ec-cc2bd04b7dfb",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Hannah Robinson",
+    "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+  },
+  {
+    "review_id": "c2e309a3-c1ef-49ca-b74f-b77110d2d0c6",
+    "product_id": "c34b3ae2-65c8-4078-b86c-64bbeca8f0c6",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Charlotte Davis",
+    "reviewerEmail": "charlotte.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "dc432b40-cace-45da-97bd-fd360dfc4dfd",
+    "product_id": "c34b3ae2-65c8-4078-b86c-64bbeca8f0c6",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Leah Hughes",
+    "reviewerEmail": "leah.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "538396c8-ddc3-4f52-922d-3418ad100a95",
+    "product_id": "c34b3ae2-65c8-4078-b86c-64bbeca8f0c6",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Daniel Taylor",
+    "reviewerEmail": "daniel.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "ab9790e3-7c00-484d-9017-c85a3ff69dd3",
+    "product_id": "ad39a886-dd95-48cf-b593-08a3337dbdee",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "b328bb36-697e-4caf-9486-db6ee5c92bb5",
+    "product_id": "ad39a886-dd95-48cf-b593-08a3337dbdee",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "65a3a734-9e52-45d0-9ee9-f91aa1350073",
+    "product_id": "ad39a886-dd95-48cf-b593-08a3337dbdee",
+    "rating": 1,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Lily Torres",
+    "reviewerEmail": "lily.torres@x.dummyjson.com"
+  },
+  {
+    "review_id": "60618eb0-580a-42e0-8d2a-72ff21d96beb",
+    "product_id": "0f1ae5f2-c938-466a-804d-7f28acc85b2d",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Abigail Rivera",
+    "reviewerEmail": "abigail.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "a95d67a3-9c3c-4f17-be34-19b995414347",
+    "product_id": "0f1ae5f2-c938-466a-804d-7f28acc85b2d",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Mason Wright",
+    "reviewerEmail": "mason.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "beaa2346-02af-4ccc-a278-8e11ec748953",
+    "product_id": "0f1ae5f2-c938-466a-804d-7f28acc85b2d",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "43009499-1d37-44f4-a007-55a9b7002034",
+    "product_id": "73a301f8-4262-408c-9fb4-e622a5d20b4d",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Ava Harrison",
+    "reviewerEmail": "ava.harrison@x.dummyjson.com"
+  },
+  {
+    "review_id": "02daa9b1-eb28-40ff-8357-0523fec9fc8a",
+    "product_id": "73a301f8-4262-408c-9fb4-e622a5d20b4d",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Liam Gonzalez",
+    "reviewerEmail": "liam.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "879ede7c-2f5d-4b7e-a4b8-9090da6de082",
+    "product_id": "73a301f8-4262-408c-9fb4-e622a5d20b4d",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Avery Carter",
+    "reviewerEmail": "avery.carter@x.dummyjson.com"
+  },
+  {
+    "review_id": "f8ae099e-10e5-4a71-87f3-00a47a38c017",
+    "product_id": "859b9a13-275f-4999-9b12-d02c59d423c2",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "db4a5382-ce49-4ae0-b816-4f2711772c42",
+    "product_id": "859b9a13-275f-4999-9b12-d02c59d423c2",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "c343cbef-c47f-46c2-a23b-8cf80d049c30",
+    "product_id": "859b9a13-275f-4999-9b12-d02c59d423c2",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Max Russell",
+    "reviewerEmail": "max.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "2aef3ae9-4312-4f44-b837-b8b4c9dd6610",
+    "product_id": "baf79a4d-cf77-4667-b272-0aa2477ede9c",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Gavin Stanley",
+    "reviewerEmail": "gavin.stanley@x.dummyjson.com"
+  },
+  {
+    "review_id": "1dc7c877-0848-4186-b202-03f96fa91dff",
+    "product_id": "baf79a4d-cf77-4667-b272-0aa2477ede9c",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Mateo Bennett",
+    "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "cb9868a1-60ae-437e-81af-ae9e91e4baab",
+    "product_id": "baf79a4d-cf77-4667-b272-0aa2477ede9c",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Elena Long",
+    "reviewerEmail": "elena.long@x.dummyjson.com"
+  },
+  {
+    "review_id": "43a192db-98ae-49a5-9773-61857623f03e",
+    "product_id": "d324f8f5-7a76-4155-bd64-e0bdb21331ae",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Nolan Bryant",
+    "reviewerEmail": "nolan.bryant@x.dummyjson.com"
+  },
+  {
+    "review_id": "d38afab8-4e95-402f-ae32-66169894898f",
+    "product_id": "d324f8f5-7a76-4155-bd64-e0bdb21331ae",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Elijah Cruz",
+    "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+  },
+  {
+    "review_id": "77ea6240-72c1-4979-86cd-af473087b8de",
+    "product_id": "d324f8f5-7a76-4155-bd64-e0bdb21331ae",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Nova Cooper",
+    "reviewerEmail": "nova.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "f7404770-7a81-41b0-a4d9-e0071a204813",
+    "product_id": "3167d637-6e04-4d9e-b0a2-0900d945067e",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Addison Wright",
+    "reviewerEmail": "addison.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "fdb0838f-cf10-482d-9793-d8b0a81c9421",
+    "product_id": "3167d637-6e04-4d9e-b0a2-0900d945067e",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Ava Taylor",
+    "reviewerEmail": "ava.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "1d9502c8-de25-4bfe-916f-c640b96f21d6",
+    "product_id": "3167d637-6e04-4d9e-b0a2-0900d945067e",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Avery Scott",
+    "reviewerEmail": "avery.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "973d3899-4958-4e6d-bdbe-5f7ec032c672",
+    "product_id": "1cb694a2-ae47-4aff-a21c-53149af37d8a",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Julian Newton",
+    "reviewerEmail": "julian.newton@x.dummyjson.com"
+  },
+  {
+    "review_id": "e3ec4ec1-371b-41a1-800e-20bccbd00b0f",
+    "product_id": "1cb694a2-ae47-4aff-a21c-53149af37d8a",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Scarlett Wright",
+    "reviewerEmail": "scarlett.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "98cfc17b-20cc-427a-ad1a-e7a89c9a4ac0",
+    "product_id": "1cb694a2-ae47-4aff-a21c-53149af37d8a",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Leah Hughes",
+    "reviewerEmail": "leah.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "1204e6d5-1251-43a8-9387-bdf36c58be18",
+    "product_id": "84c56e1e-d441-4b57-b8fb-b3b344c22ead",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Sophia Jones",
+    "reviewerEmail": "sophia.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "7cdf7cf2-b2b3-4374-9d75-09d5f0c3f18b",
+    "product_id": "84c56e1e-d441-4b57-b8fb-b3b344c22ead",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Wyatt Perry",
+    "reviewerEmail": "wyatt.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "e8763536-7135-4b92-827b-d710c2ac795c",
+    "product_id": "84c56e1e-d441-4b57-b8fb-b3b344c22ead",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Chloe Roberts",
+    "reviewerEmail": "chloe.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "85c20159-ee49-4393-9f75-84ef0474e21c",
+    "product_id": "493964c7-e2e4-4067-8845-ccbce80abb88",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "c0c26f5e-7c61-4a20-83ce-e543ee257555",
+    "product_id": "493964c7-e2e4-4067-8845-ccbce80abb88",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Elijah Cruz",
+    "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+  },
+  {
+    "review_id": "93dbb4fc-b164-401a-b8f2-ce82eed4d56a",
+    "product_id": "493964c7-e2e4-4067-8845-ccbce80abb88",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Penelope King",
+    "reviewerEmail": "penelope.king@x.dummyjson.com"
+  },
+  {
+    "review_id": "5a7a1176-3ff5-450b-9ad6-13a3f30c9ccb",
+    "product_id": "db88f2a0-c9a8-4777-ba73-ffbee32e854e",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Brayden Hill",
+    "reviewerEmail": "brayden.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "6660c571-031c-4fef-91e2-50985dde764a",
+    "product_id": "db88f2a0-c9a8-4777-ba73-ffbee32e854e",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Samantha Howard",
+    "reviewerEmail": "samantha.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "56bffbce-eb8f-4f75-b608-4d8b026ae23c",
+    "product_id": "db88f2a0-c9a8-4777-ba73-ffbee32e854e",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Ruby Andrews",
+    "reviewerEmail": "ruby.andrews@x.dummyjson.com"
+  },
+  {
+    "review_id": "bc467089-b256-4740-ab82-f82d1416f323",
+    "product_id": "96143bac-966d-4b60-9b54-670405a1c6c6",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Lily Lee",
+    "reviewerEmail": "lily.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "9b1689c6-f7d8-4470-88a7-566dae74226f",
+    "product_id": "96143bac-966d-4b60-9b54-670405a1c6c6",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Emma Wilson",
+    "reviewerEmail": "emma.wilson@x.dummyjson.com"
+  },
+  {
+    "review_id": "9d4f4f5c-3fac-4e6b-9b83-69f85582c7e0",
+    "product_id": "96143bac-966d-4b60-9b54-670405a1c6c6",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Ava Taylor",
+    "reviewerEmail": "ava.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "8ccf96e1-dc96-4f46-a7bb-3bfc2b2cb4ac",
+    "product_id": "43141412-9d93-46f0-abf2-77c43cda72e8",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Harper Garcia",
+    "reviewerEmail": "harper.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "a99462d0-9f7b-4aeb-b25a-67a417cfad9b",
+    "product_id": "43141412-9d93-46f0-abf2-77c43cda72e8",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "b84768c1-c406-4627-86ce-152d0b97a1be",
+    "product_id": "43141412-9d93-46f0-abf2-77c43cda72e8",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "aa154e09-b312-441b-b7b7-e549e5a24863",
+    "product_id": "ffa952a7-f9e7-49ec-a157-5444b567af26",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "6cfd9b4d-87ac-4a9a-89b4-514c12683e20",
+    "product_id": "ffa952a7-f9e7-49ec-a157-5444b567af26",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Emma Wilson",
+    "reviewerEmail": "emma.wilson@x.dummyjson.com"
+  },
+  {
+    "review_id": "99dfb2d4-3854-4efa-8c5b-72a9740d2f2d",
+    "product_id": "ffa952a7-f9e7-49ec-a157-5444b567af26",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "David Martinez",
+    "reviewerEmail": "david.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "5cabe76f-82f7-4100-8db4-5f72f8bf71d6",
+    "product_id": "d5205649-297a-48ab-a763-a43ce5f7eff6",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Jack Ward",
+    "reviewerEmail": "jack.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "0f6b1892-496f-43c2-9c68-365540fa8939",
+    "product_id": "d5205649-297a-48ab-a763-a43ce5f7eff6",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Ava Harris",
+    "reviewerEmail": "ava.harris@x.dummyjson.com"
+  },
+  {
+    "review_id": "1a3f9a09-8bc2-4762-9e20-badcbe63862b",
+    "product_id": "d5205649-297a-48ab-a763-a43ce5f7eff6",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Brayden Fleming",
+    "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+  },
+  {
+    "review_id": "64cf7e73-9f7a-4acd-af06-b7f245695d1a",
+    "product_id": "b1a870ae-e903-46bf-b422-ed9935d3f375",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Samantha Howard",
+    "reviewerEmail": "samantha.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "f1091fd1-4e07-42f2-80f5-096591798fcf",
+    "product_id": "b1a870ae-e903-46bf-b422-ed9935d3f375",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Daniel Cook",
+    "reviewerEmail": "daniel.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "277a3ec2-1444-480d-b62b-aad391787bbb",
+    "product_id": "b1a870ae-e903-46bf-b422-ed9935d3f375",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.622Z",
+    "reviewerName": "Brayden Fleming",
+    "reviewerEmail": "brayden.fleming@x.dummyjson.com"
+  },
+  {
+    "review_id": "75427fd6-4cd2-4961-976b-45c565adedc6",
+    "product_id": "6b161f05-8d62-418f-8ba3-5c09bab3f610",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Paisley Bell",
+    "reviewerEmail": "paisley.bell@x.dummyjson.com"
+  },
+  {
+    "review_id": "e5f0e7e0-d9e1-4b68-abbd-8280a9511384",
+    "product_id": "6b161f05-8d62-418f-8ba3-5c09bab3f610",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Lincoln Kelly",
+    "reviewerEmail": "lincoln.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "ad451290-0028-467b-913a-702bd9427b03",
+    "product_id": "6b161f05-8d62-418f-8ba3-5c09bab3f610",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Luna Russell",
+    "reviewerEmail": "luna.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "bca8f2dd-177e-46e0-aa94-2976d8978699",
+    "product_id": "85507b30-c0b9-49eb-832b-794fedc675db",
+    "rating": 3,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Julian Newton",
+    "reviewerEmail": "julian.newton@x.dummyjson.com"
+  },
+  {
+    "review_id": "204dea86-5eb9-4855-aa72-8e68367fa852",
+    "product_id": "85507b30-c0b9-49eb-832b-794fedc675db",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "f5b73564-e089-49f0-afb1-e5217d9f90d0",
+    "product_id": "85507b30-c0b9-49eb-832b-794fedc675db",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Daniel Taylor",
+    "reviewerEmail": "daniel.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "f260c4e2-1a74-44b7-9417-dd84329a2840",
+    "product_id": "c8630d28-2778-475f-88a7-6a49e181da1f",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Logan Lawson",
+    "reviewerEmail": "logan.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "5c55096d-364e-4986-bfa6-6be72cc735e5",
+    "product_id": "c8630d28-2778-475f-88a7-6a49e181da1f",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Logan Lawson",
+    "reviewerEmail": "logan.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "3295c03b-9106-4a3a-a90a-8dfef88fcb71",
+    "product_id": "c8630d28-2778-475f-88a7-6a49e181da1f",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Oscar Powers",
+    "reviewerEmail": "oscar.powers@x.dummyjson.com"
+  },
+  {
+    "review_id": "3f61beca-aea2-4804-bb23-9812cf23d8cb",
+    "product_id": "0feedb5c-7b38-499f-854d-217b02a0294f",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "07e34edf-194c-4771-8e3c-819d93c44cb8",
+    "product_id": "0feedb5c-7b38-499f-854d-217b02a0294f",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Avery Perez",
+    "reviewerEmail": "avery.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "99027e24-db02-4894-b63b-58df7fda80ac",
+    "product_id": "0feedb5c-7b38-499f-854d-217b02a0294f",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Nathan Reed",
+    "reviewerEmail": "nathan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "6cb882fd-3e86-4e9f-93da-95961a6125d4",
+    "product_id": "69bf0f72-dd7b-4b29-9da5-b0da0210cc57",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "341e70f9-0902-455f-affd-0e44b9b1ebdd",
+    "product_id": "69bf0f72-dd7b-4b29-9da5-b0da0210cc57",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Addison Ward",
+    "reviewerEmail": "addison.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "9ec9ab26-9b0d-43a0-b83c-15aaa170918c",
+    "product_id": "69bf0f72-dd7b-4b29-9da5-b0da0210cc57",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Emily Brown",
+    "reviewerEmail": "emily.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "826fc9e2-3b41-4537-867e-5860baed3bee",
+    "product_id": "d5feccd2-2b47-4707-9696-d35b9a435583",
+    "rating": 2,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Victoria McDonald",
+    "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+  },
+  {
+    "review_id": "5ea37516-8717-42fa-b77d-302de7dff334",
+    "product_id": "d5feccd2-2b47-4707-9696-d35b9a435583",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "e66298a4-ec39-4b88-9d75-75caa6b3dec0",
+    "product_id": "d5feccd2-2b47-4707-9696-d35b9a435583",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Avery Perez",
+    "reviewerEmail": "avery.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "bded4b69-11f4-44ab-8596-ade0d5fc2898",
+    "product_id": "11e7ccb7-adb6-4021-b9eb-11bd8c4b34b7",
+    "rating": 1,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Elena Long",
+    "reviewerEmail": "elena.long@x.dummyjson.com"
+  },
+  {
+    "review_id": "2eaf7dfd-8ee4-45a0-bfee-84ca94825b52",
+    "product_id": "11e7ccb7-adb6-4021-b9eb-11bd8c4b34b7",
+    "rating": 1,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "2bcec633-9369-4ed0-a294-ad46ba8cd814",
+    "product_id": "11e7ccb7-adb6-4021-b9eb-11bd8c4b34b7",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Sofia Mitchell",
+    "reviewerEmail": "sofia.mitchell@x.dummyjson.com"
+  },
+  {
+    "review_id": "aafb9f1f-25ab-483a-81be-1b072e1b1e97",
+    "product_id": "704129d6-bd76-4e60-bf28-d7407ce0dbec",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "William Gonzalez",
+    "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "2337815d-f3a1-4a64-ae80-922cff8120e4",
+    "product_id": "704129d6-bd76-4e60-bf28-d7407ce0dbec",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "93e393a7-05aa-4533-be60-7f7eb7679e75",
+    "product_id": "704129d6-bd76-4e60-bf28-d7407ce0dbec",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Gabriel Mitchell",
+    "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+  },
+  {
+    "review_id": "44e883a3-fcaf-4f5b-8cea-06fe5048d40c",
+    "product_id": "2556a82c-cb95-4952-8cf2-b2345e7444f9",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Caleb Nelson",
+    "reviewerEmail": "caleb.nelson@x.dummyjson.com"
+  },
+  {
+    "review_id": "09f4e411-fcf5-44ba-bfe5-8b5870d33004",
+    "product_id": "2556a82c-cb95-4952-8cf2-b2345e7444f9",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Emily Johnson",
+    "reviewerEmail": "emily.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "00929f94-ff9c-4242-a39e-0229ac17c6a4",
+    "product_id": "2556a82c-cb95-4952-8cf2-b2345e7444f9",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mila Hernandez",
+    "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "96c56539-5244-4eaf-91d6-112697711e1a",
+    "product_id": "8d427834-c947-49a0-8525-01ea5b8ad034",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Lucas Allen",
+    "reviewerEmail": "lucas.allen@x.dummyjson.com"
+  },
+  {
+    "review_id": "3639f94d-6b82-487c-bd6c-83600ee2f8e2",
+    "product_id": "8d427834-c947-49a0-8525-01ea5b8ad034",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mason Pearson",
+    "reviewerEmail": "mason.pearson@x.dummyjson.com"
+  },
+  {
+    "review_id": "723ae552-680c-416d-b65d-e8b2d837a3a4",
+    "product_id": "8d427834-c947-49a0-8525-01ea5b8ad034",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "0400c1ab-faad-49d4-a0ce-77c45bac7ebb",
+    "product_id": "13f8572d-9877-48d4-9dad-0c2437b7ad65",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "James Garcia",
+    "reviewerEmail": "james.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "7e7ed183-05c8-4e35-9115-2809a25c078a",
+    "product_id": "13f8572d-9877-48d4-9dad-0c2437b7ad65",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Nora Russell",
+    "reviewerEmail": "nora.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "ecd73096-0e41-4f5f-b98f-91cb8c8e48a2",
+    "product_id": "13f8572d-9877-48d4-9dad-0c2437b7ad65",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Aurora Rodriguez",
+    "reviewerEmail": "aurora.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "442a24a4-d679-4d37-96db-4ae0167f79e2",
+    "product_id": "67ada2ff-a78b-40d1-b39e-f66056108c43",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Madeline Simpson",
+    "reviewerEmail": "madeline.simpson@x.dummyjson.com"
+  },
+  {
+    "review_id": "75f8192d-7e5d-4883-a86a-1b14b2464ee2",
+    "product_id": "67ada2ff-a78b-40d1-b39e-f66056108c43",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Mateo Nguyen",
+    "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+  },
+  {
+    "review_id": "63b49c08-531b-4d73-93f4-8a9504c8c516",
+    "product_id": "67ada2ff-a78b-40d1-b39e-f66056108c43",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.623Z",
+    "reviewerName": "Ethan Fletcher",
+    "reviewerEmail": "ethan.fletcher@x.dummyjson.com"
+  },
+  {
+    "review_id": "c0506702-b539-4ab7-824a-65c2ea40eebe",
+    "product_id": "5eb69a53-e92b-47b4-ae5a-67ff704455b5",
+    "rating": 3,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Oscar Powers",
+    "reviewerEmail": "oscar.powers@x.dummyjson.com"
+  },
+  {
+    "review_id": "3215608e-bf9c-4c80-8b04-41bb3240fd6d",
+    "product_id": "5eb69a53-e92b-47b4-ae5a-67ff704455b5",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Eli Ward",
+    "reviewerEmail": "eli.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "bb295f68-5954-456b-9236-2235e0b35ca6",
+    "product_id": "5eb69a53-e92b-47b4-ae5a-67ff704455b5",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Stella Hughes",
+    "reviewerEmail": "stella.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "9f3c1b4e-5d60-4fb8-b64f-e7b1d12b26ed",
+    "product_id": "b0a94e9c-84bb-46c2-bbce-7c8f778d2d23",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Jack Ward",
+    "reviewerEmail": "jack.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "7f9f4768-5e67-47d1-93a0-6c1ed9c78354",
+    "product_id": "b0a94e9c-84bb-46c2-bbce-7c8f778d2d23",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Victoria McDonald",
+    "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+  },
+  {
+    "review_id": "7da09546-94a8-4d59-88da-2cb34d165dde",
+    "product_id": "b0a94e9c-84bb-46c2-bbce-7c8f778d2d23",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mia Rodriguez",
+    "reviewerEmail": "mia.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "a35547c4-41fc-4a73-81fd-229c48f11b20",
+    "product_id": "72966440-06e7-48ba-a20c-74b99405d440",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Gavin Stanley",
+    "reviewerEmail": "gavin.stanley@x.dummyjson.com"
+  },
+  {
+    "review_id": "2b65f67d-c0f1-4d8b-95e6-cc3dbcb30e68",
+    "product_id": "72966440-06e7-48ba-a20c-74b99405d440",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Stella Hughes",
+    "reviewerEmail": "stella.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "d500ca14-4c75-4231-8dfa-ea9c87aeafba",
+    "product_id": "72966440-06e7-48ba-a20c-74b99405d440",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Paisley Bell",
+    "reviewerEmail": "paisley.bell@x.dummyjson.com"
+  },
+  {
+    "review_id": "33f33b31-feac-4ba5-a6e5-8c6e44d0cc30",
+    "product_id": "35dd2271-9e22-4d9b-9c83-6b968b62ebc8",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Sophia Jones",
+    "reviewerEmail": "sophia.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "f6f786ba-7972-45ab-8eee-c947db3abc68",
+    "product_id": "35dd2271-9e22-4d9b-9c83-6b968b62ebc8",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "3d241f93-dd55-43a0-8ca9-fbc0f0dc3147",
+    "product_id": "35dd2271-9e22-4d9b-9c83-6b968b62ebc8",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Elijah Cruz",
+    "reviewerEmail": "elijah.cruz@x.dummyjson.com"
+  },
+  {
+    "review_id": "3227f33f-e818-41d5-944a-d3dcc6bbdbd5",
+    "product_id": "dc578f71-a94b-4e07-832e-b6d481fa4525",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Max Russell",
+    "reviewerEmail": "max.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "c8287f50-32ce-475a-af7c-bfb6ab98999c",
+    "product_id": "dc578f71-a94b-4e07-832e-b6d481fa4525",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Jonathan Pierce",
+    "reviewerEmail": "jonathan.pierce@x.dummyjson.com"
+  },
+  {
+    "review_id": "52d7070b-852a-494b-92f2-51b804deade5",
+    "product_id": "dc578f71-a94b-4e07-832e-b6d481fa4525",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Asher Scott",
+    "reviewerEmail": "asher.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "d93818e7-eb39-4fb8-9dfb-586324993d3c",
+    "product_id": "fefcb06b-b107-46df-b243-cb63b93c7a79",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Bella Gonzalez",
+    "reviewerEmail": "bella.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "0d63aec0-c025-4920-93ca-a74d29edfbd8",
+    "product_id": "fefcb06b-b107-46df-b243-cb63b93c7a79",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Eli Bennett",
+    "reviewerEmail": "eli.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "b6124b59-452c-4b84-8d89-4fe6a5b68474",
+    "product_id": "fefcb06b-b107-46df-b243-cb63b93c7a79",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "2eb7ed21-9440-4d32-b6ae-c6d03b6b86c4",
+    "product_id": "a632312f-7b43-4039-8fc1-6fce7e17ca5e",
+    "rating": 2,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Emily Brown",
+    "reviewerEmail": "emily.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "9e9e0a67-b35e-40f0-8b8a-9b35eb102a77",
+    "product_id": "a632312f-7b43-4039-8fc1-6fce7e17ca5e",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Nova Cooper",
+    "reviewerEmail": "nova.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "245a78fd-1dda-42d7-b668-85f4a0895274",
+    "product_id": "a632312f-7b43-4039-8fc1-6fce7e17ca5e",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Julian James",
+    "reviewerEmail": "julian.james@x.dummyjson.com"
+  },
+  {
+    "review_id": "5bda4080-cdd0-4dde-b765-829c6f08e439",
+    "product_id": "eb9f316b-999f-409b-8b06-de1835ea403d",
+    "rating": 3,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Aaliyah Hanson",
+    "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+  },
+  {
+    "review_id": "bd537dc4-1165-4411-8047-ce3b2a961fd6",
+    "product_id": "eb9f316b-999f-409b-8b06-de1835ea403d",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Leah Gutierrez",
+    "reviewerEmail": "leah.gutierrez@x.dummyjson.com"
+  },
+  {
+    "review_id": "7b925ee9-832b-4680-936b-3411f9129141",
+    "product_id": "eb9f316b-999f-409b-8b06-de1835ea403d",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Jace Smith",
+    "reviewerEmail": "jace.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "7528bb4f-5710-4206-a145-15397ef01322",
+    "product_id": "8dd8a1cf-3246-41c3-8005-761b9f7c9bd5",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "0eb91129-47e9-439e-8935-56d41356a65a",
+    "product_id": "8dd8a1cf-3246-41c3-8005-761b9f7c9bd5",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Ava Taylor",
+    "reviewerEmail": "ava.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "8ab845fe-35cc-42bc-ae7e-d3ad759c1d21",
+    "product_id": "8dd8a1cf-3246-41c3-8005-761b9f7c9bd5",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Aria Flores",
+    "reviewerEmail": "aria.flores@x.dummyjson.com"
+  },
+  {
+    "review_id": "9851fc82-d33c-4693-85b3-625f0ac94b50",
+    "product_id": "d2123075-b4e4-4b68-b56c-2b602aeced7f",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Emily Johnson",
+    "reviewerEmail": "emily.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "64ce2eb7-b6d6-410b-b889-3e28c56d87cd",
+    "product_id": "d2123075-b4e4-4b68-b56c-2b602aeced7f",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Charlotte Lopez",
+    "reviewerEmail": "charlotte.lopez@x.dummyjson.com"
+  },
+  {
+    "review_id": "0db4aa63-3303-4534-b1f4-533471a9a40a",
+    "product_id": "d2123075-b4e4-4b68-b56c-2b602aeced7f",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "21570236-6766-4c81-894b-b589eb04582b",
+    "product_id": "13302050-f718-4815-b662-ebbfc936196d",
+    "rating": 1,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Harper Kelly",
+    "reviewerEmail": "harper.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "606ccdb6-e823-41f1-bb7a-e3c98a57d24b",
+    "product_id": "13302050-f718-4815-b662-ebbfc936196d",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Abigail Rivera",
+    "reviewerEmail": "abigail.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "15a14e64-cb13-422e-8951-404566c0816f",
+    "product_id": "13302050-f718-4815-b662-ebbfc936196d",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Nora Russell",
+    "reviewerEmail": "nora.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "930a9ebb-f702-4fef-8acb-a59de7c2690d",
+    "product_id": "f78c942d-e6bb-463e-9d41-d95bfdee1809",
+    "rating": 3,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Evelyn Gonzalez",
+    "reviewerEmail": "evelyn.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "96ff9eb4-b45d-4d00-bd86-553ec0e02751",
+    "product_id": "f78c942d-e6bb-463e-9d41-d95bfdee1809",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mateo Perez",
+    "reviewerEmail": "mateo.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "fe93897a-15d9-405c-b765-722736efa7a8",
+    "product_id": "f78c942d-e6bb-463e-9d41-d95bfdee1809",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "78d6dec4-c21b-44c6-b848-28f32080e936",
+    "product_id": "14a173d3-04a9-4b6d-a822-c12b33faa8b6",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Hannah Robinson",
+    "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+  },
+  {
+    "review_id": "5b18945b-d064-4c1c-9ed2-9ff32538f639",
+    "product_id": "14a173d3-04a9-4b6d-a822-c12b33faa8b6",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "f47566be-a1ab-4926-ab5a-75cbe668575d",
+    "product_id": "14a173d3-04a9-4b6d-a822-c12b33faa8b6",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "2cd028fd-1b6c-4ca2-ac46-430e478f4b9f",
+    "product_id": "50b9cac6-c130-45c2-9c39-2432bc9b326d",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Austin Hudson",
+    "reviewerEmail": "austin.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "2a7c52bd-ca2b-490f-9dd3-d51c53e5b681",
+    "product_id": "50b9cac6-c130-45c2-9c39-2432bc9b326d",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Austin Hudson",
+    "reviewerEmail": "austin.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "ab6634d6-3d3c-40f8-9d01-7e5800b3be54",
+    "product_id": "50b9cac6-c130-45c2-9c39-2432bc9b326d",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Gabriel Mitchell",
+    "reviewerEmail": "gabriel.mitchell@x.dummyjson.com"
+  },
+  {
+    "review_id": "ac7a198d-c601-43fd-bbdd-1f1ed3352bb3",
+    "product_id": "af965cc2-edaa-48d9-8ddc-9637d08713c4",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Isaac Lawrence",
+    "reviewerEmail": "isaac.lawrence@x.dummyjson.com"
+  },
+  {
+    "review_id": "29fb3d61-d78f-4c2e-99ba-9a22bd7e2161",
+    "product_id": "af965cc2-edaa-48d9-8ddc-9637d08713c4",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Emily Johnson",
+    "reviewerEmail": "emily.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "ab08480e-e131-4fc9-8afb-7003cefbb99f",
+    "product_id": "af965cc2-edaa-48d9-8ddc-9637d08713c4",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mateo Bennett",
+    "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "e87ca1d1-56b9-4c73-8d4e-999ad7576506",
+    "product_id": "ae173b5f-7614-4b1c-8f08-befbe991911a",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Hazel Gardner",
+    "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+  },
+  {
+    "review_id": "6c0b6ecf-aecb-4689-a070-c9b3d49c623b",
+    "product_id": "ae173b5f-7614-4b1c-8f08-befbe991911a",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Aurora Rodriguez",
+    "reviewerEmail": "aurora.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "8b9d8c4e-b397-4b3f-a036-bdbc63eef61c",
+    "product_id": "ae173b5f-7614-4b1c-8f08-befbe991911a",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Victoria McDonald",
+    "reviewerEmail": "victoria.mcdonald@x.dummyjson.com"
+  },
+  {
+    "review_id": "d810f219-cd44-4633-83ad-ffc4e9869e42",
+    "product_id": "a35430b4-adc1-48e8-93ab-c8af5bfc9f80",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Ellie Stewart",
+    "reviewerEmail": "ellie.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "dbc9491f-7682-4af0-b615-82fd6e43a2bc",
+    "product_id": "a35430b4-adc1-48e8-93ab-c8af5bfc9f80",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "198c9c95-fa40-4bf7-807d-5f06a1ff0f7b",
+    "product_id": "a35430b4-adc1-48e8-93ab-c8af5bfc9f80",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Alice Smith",
+    "reviewerEmail": "alice.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "d1f430b3-78b2-4f3f-a15c-fa7434906969",
+    "product_id": "1770d727-3f22-439f-82c4-022b1bffb652",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Aaron Cook",
+    "reviewerEmail": "aaron.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "cf7e335f-adf8-4c20-b16d-98e1a6622868",
+    "product_id": "1770d727-3f22-439f-82c4-022b1bffb652",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Emma Wilson",
+    "reviewerEmail": "emma.wilson@x.dummyjson.com"
+  },
+  {
+    "review_id": "1eecf797-44d7-421f-8192-cc3c85fde005",
+    "product_id": "1770d727-3f22-439f-82c4-022b1bffb652",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "c1462d8f-241f-4431-9a04-13bb0ddb12e9",
+    "product_id": "4410f720-d42e-4df9-af2b-534677f9ec3f",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Hannah Howard",
+    "reviewerEmail": "hannah.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "6bf8cf04-815a-4987-b37a-fca1b53a9b20",
+    "product_id": "4410f720-d42e-4df9-af2b-534677f9ec3f",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "William Gonzalez",
+    "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "546b65f3-5ca7-466c-b20c-3ab5619aa47f",
+    "product_id": "4410f720-d42e-4df9-af2b-534677f9ec3f",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Amelia Perez",
+    "reviewerEmail": "amelia.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "bf69e3e9-ce65-4f17-99f2-b414ff13ed29",
+    "product_id": "8df71832-922d-4dc4-a112-9b48b5c088d0",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mia Miller",
+    "reviewerEmail": "mia.miller@x.dummyjson.com"
+  },
+  {
+    "review_id": "883da938-73aa-4c48-8eb9-b0237298065d",
+    "product_id": "8df71832-922d-4dc4-a112-9b48b5c088d0",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Harper Kelly",
+    "reviewerEmail": "harper.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "fcfe0ef4-540a-4ed0-947e-eac33976e5f3",
+    "product_id": "8df71832-922d-4dc4-a112-9b48b5c088d0",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Lucas Allen",
+    "reviewerEmail": "lucas.allen@x.dummyjson.com"
+  },
+  {
+    "review_id": "6ee84cb1-86bc-4eec-b4c7-ed455203f4dc",
+    "product_id": "64669344-a748-47a6-ac6b-0c6983e2d7b2",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Mia Rodriguez",
+    "reviewerEmail": "mia.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "d6a4355d-a8ec-4408-834a-3f9f8fb52417",
+    "product_id": "64669344-a748-47a6-ac6b-0c6983e2d7b2",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Owen Sullivan",
+    "reviewerEmail": "owen.sullivan@x.dummyjson.com"
+  },
+  {
+    "review_id": "a6b7c604-99db-4bf7-aee6-ab69beb9ca1d",
+    "product_id": "64669344-a748-47a6-ac6b-0c6983e2d7b2",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Nicholas Edwards",
+    "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+  },
+  {
+    "review_id": "40564a58-7496-4fd6-ace1-e1e5c996acca",
+    "product_id": "6733d0ca-7a66-470c-81a7-ed6d9aabbfc7",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Penelope Harper",
+    "reviewerEmail": "penelope.harper@x.dummyjson.com"
+  },
+  {
+    "review_id": "45ede67f-fadc-4354-85e7-a7a28690ce2a",
+    "product_id": "6733d0ca-7a66-470c-81a7-ed6d9aabbfc7",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Natalie Harris",
+    "reviewerEmail": "natalie.harris@x.dummyjson.com"
+  },
+  {
+    "review_id": "fc9c27b8-25c7-4e05-86c2-f5edee50042a",
+    "product_id": "6733d0ca-7a66-470c-81a7-ed6d9aabbfc7",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Dylan Wells",
+    "reviewerEmail": "dylan.wells@x.dummyjson.com"
+  },
+  {
+    "review_id": "a50a9773-1f60-4ad0-b5ec-5c20141d5df0",
+    "product_id": "4d308398-d917-4d62-8b4c-822648a2e6ce",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Wyatt Perry",
+    "reviewerEmail": "wyatt.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "4f48a883-11a8-466f-8366-0261f3f79304",
+    "product_id": "4d308398-d917-4d62-8b4c-822648a2e6ce",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Olivia Anderson",
+    "reviewerEmail": "olivia.anderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "8ae27453-b256-4c73-8371-4e7071d2d08f",
+    "product_id": "4d308398-d917-4d62-8b4c-822648a2e6ce",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Mateo Nguyen",
+    "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+  },
+  {
+    "review_id": "6085e552-0465-4888-b0a2-ff9625d8aa3c",
+    "product_id": "3ee12a15-6e29-4a40-aff5-dd65a7f94aa5",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Aaliyah Hanson",
+    "reviewerEmail": "aaliyah.hanson@x.dummyjson.com"
+  },
+  {
+    "review_id": "0a0baf55-5bda-46df-95e2-6dff9a64286c",
+    "product_id": "3ee12a15-6e29-4a40-aff5-dd65a7f94aa5",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "6f57b1c5-0a24-4f77-a91f-8784b13e4b17",
+    "product_id": "3ee12a15-6e29-4a40-aff5-dd65a7f94aa5",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Samantha Martinez",
+    "reviewerEmail": "samantha.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "03e7a7b6-bf68-4cfe-a303-c12b4a8532ef",
+    "product_id": "73f59bfc-50b2-4d18-be13-b713158f7cd5",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Nicholas Bailey",
+    "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+  },
+  {
+    "review_id": "338dc5a6-6e1c-47d7-9c27-79a58c365ffc",
+    "product_id": "73f59bfc-50b2-4d18-be13-b713158f7cd5",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Clara Berry",
+    "reviewerEmail": "clara.berry@x.dummyjson.com"
+  },
+  {
+    "review_id": "a8149618-2844-4caa-b2e2-0bdcebe262d9",
+    "product_id": "73f59bfc-50b2-4d18-be13-b713158f7cd5",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Gavin Stanley",
+    "reviewerEmail": "gavin.stanley@x.dummyjson.com"
+  },
+  {
+    "review_id": "05ede722-c19a-4ecb-979e-3db19ad1cee5",
+    "product_id": "09c2da48-badd-41c2-a308-085005b799f1",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "02d578df-2676-4393-98c1-fb1daefb7b57",
+    "product_id": "09c2da48-badd-41c2-a308-085005b799f1",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Ryan Graham",
+    "reviewerEmail": "ryan.graham@x.dummyjson.com"
+  },
+  {
+    "review_id": "97050b7a-7c9e-4480-a8e4-633a72582e8d",
+    "product_id": "09c2da48-badd-41c2-a308-085005b799f1",
+    "rating": 2,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Mason Wright",
+    "reviewerEmail": "mason.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "210b10df-f123-46ea-a43f-a137b33ea5e2",
+    "product_id": "733ff7d4-4181-48ef-b8c9-f206a64ff293",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Ariana Ross",
+    "reviewerEmail": "ariana.ross@x.dummyjson.com"
+  },
+  {
+    "review_id": "ce879df6-c0d6-49e2-a1e0-893e473c8be8",
+    "product_id": "733ff7d4-4181-48ef-b8c9-f206a64ff293",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Eleanor Collins",
+    "reviewerEmail": "eleanor.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "d2f80b07-2a26-4aa5-9228-f6eec93ea09d",
+    "product_id": "733ff7d4-4181-48ef-b8c9-f206a64ff293",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.624Z",
+    "reviewerName": "Lily Lee",
+    "reviewerEmail": "lily.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "1a7e18b9-36a7-4e91-9c7a-933ce50c6ddd",
+    "product_id": "37b9c073-474a-437e-affb-ab6d2138c892",
+    "rating": 2,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aurora Lawson",
+    "reviewerEmail": "aurora.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "4c0c0b4e-6a81-47f4-8afa-53ad9cfc4178",
+    "product_id": "37b9c073-474a-437e-affb-ab6d2138c892",
+    "rating": 3,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Penelope Harper",
+    "reviewerEmail": "penelope.harper@x.dummyjson.com"
+  },
+  {
+    "review_id": "a33793c0-0d0d-452e-9fc4-24c28b9ed7e3",
+    "product_id": "37b9c073-474a-437e-affb-ab6d2138c892",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Lily Lee",
+    "reviewerEmail": "lily.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "8077b64d-30c9-4422-81fb-10e9bb5e63c5",
+    "product_id": "aa49d874-5431-4fd9-a934-d55fde6f7f30",
+    "rating": 3,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Miles Stevenson",
+    "reviewerEmail": "miles.stevenson@x.dummyjson.com"
+  },
+  {
+    "review_id": "9d537812-3fc1-4639-a93c-54633222506b",
+    "product_id": "aa49d874-5431-4fd9-a934-d55fde6f7f30",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Ethan Thompson",
+    "reviewerEmail": "ethan.thompson@x.dummyjson.com"
+  },
+  {
+    "review_id": "d3403a2c-c446-48e5-9878-6bb33fa90a57",
+    "product_id": "aa49d874-5431-4fd9-a934-d55fde6f7f30",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Henry Hill",
+    "reviewerEmail": "henry.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "6e4b0509-b50e-4598-88ec-590a9ad83472",
+    "product_id": "8b2acf32-764b-4cf7-8f0b-e7e7c46e53af",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Eleanor Tyler",
+    "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
+  },
+  {
+    "review_id": "8ab11ac4-9d32-40d4-b473-1234b21da997",
+    "product_id": "8b2acf32-764b-4cf7-8f0b-e7e7c46e53af",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Maya Reed",
+    "reviewerEmail": "maya.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "06a1ae8b-3286-4877-b059-066bb315abdc",
+    "product_id": "8b2acf32-764b-4cf7-8f0b-e7e7c46e53af",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "928479b2-045d-42fb-ac02-5309f9c5af78",
+    "product_id": "a80ebccc-352d-4115-81a5-2892e96477a8",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Carter Rivera",
+    "reviewerEmail": "carter.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "7aaf9304-f52b-45b5-87a9-ddf21ef495ae",
+    "product_id": "a80ebccc-352d-4115-81a5-2892e96477a8",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Jackson Morales",
+    "reviewerEmail": "jackson.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "e7f09111-2b75-48e3-bcbb-0612181cdce9",
+    "product_id": "a80ebccc-352d-4115-81a5-2892e96477a8",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Grace Green",
+    "reviewerEmail": "grace.green@x.dummyjson.com"
+  },
+  {
+    "review_id": "40bad0be-e713-4619-8844-c5b2fc9795c3",
+    "product_id": "4ce35847-e081-465b-8f14-cb814abfa27b",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Luke Cooper",
+    "reviewerEmail": "luke.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "4f8090cc-e982-469c-8e61-8bd7937a7124",
+    "product_id": "4ce35847-e081-465b-8f14-cb814abfa27b",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "4690a3db-5c62-4a02-ad12-8cff239dd00b",
+    "product_id": "4ce35847-e081-465b-8f14-cb814abfa27b",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Ella Adams",
+    "reviewerEmail": "ella.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "c8dbc4fc-1f96-4b26-80ea-111ff3653586",
+    "product_id": "3ea6248f-9561-4269-bb27-c684a71b547b",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Benjamin Foster",
+    "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "f1be03f2-99b8-4d50-83e1-671a026f9554",
+    "product_id": "3ea6248f-9561-4269-bb27-c684a71b547b",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Lillian Bishop",
+    "reviewerEmail": "lillian.bishop@x.dummyjson.com"
+  },
+  {
+    "review_id": "761f7307-4a59-4405-a662-6794fd40bdd3",
+    "product_id": "3ea6248f-9561-4269-bb27-c684a71b547b",
+    "rating": 3,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Harper Garcia",
+    "reviewerEmail": "harper.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "f5018e2c-583c-40bd-b55f-70392f6e8445",
+    "product_id": "2dd3ee0e-42a5-4388-ab0a-14245853da55",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Ava Harrison",
+    "reviewerEmail": "ava.harrison@x.dummyjson.com"
+  },
+  {
+    "review_id": "e2b24381-5df4-4573-b92a-f36b2996e744",
+    "product_id": "2dd3ee0e-42a5-4388-ab0a-14245853da55",
+    "rating": 3,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Sophia Brown",
+    "reviewerEmail": "sophia.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "dce1ebed-5597-423c-bdf2-dd1a0ae3de9b",
+    "product_id": "2dd3ee0e-42a5-4388-ab0a-14245853da55",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "abbdb414-1ac8-4b6e-b0f1-8c01949fa847",
+    "product_id": "b1a5c218-2557-4f09-91ff-b6f6ac9ed51c",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Owen Fisher",
+    "reviewerEmail": "owen.fisher@x.dummyjson.com"
+  },
+  {
+    "review_id": "77a00640-91f5-45b4-97c1-ba948f84a5e3",
+    "product_id": "b1a5c218-2557-4f09-91ff-b6f6ac9ed51c",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Jack Ward",
+    "reviewerEmail": "jack.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "3d543147-468a-4dd6-8d66-92a3dbd2569a",
+    "product_id": "b1a5c218-2557-4f09-91ff-b6f6ac9ed51c",
+    "rating": 2,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "e2fafc8d-2bca-4a33-b0f0-7aee89667366",
+    "product_id": "76b29377-1072-4e53-92b0-57ad867853a2",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Penelope Harper",
+    "reviewerEmail": "penelope.harper@x.dummyjson.com"
+  },
+  {
+    "review_id": "59c5760f-db08-40f4-87f5-6ebcc3f4e735",
+    "product_id": "76b29377-1072-4e53-92b0-57ad867853a2",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Nathan Reed",
+    "reviewerEmail": "nathan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "511268c8-d679-463b-9f25-d3b1051c608c",
+    "product_id": "76b29377-1072-4e53-92b0-57ad867853a2",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Madison Stewart",
+    "reviewerEmail": "madison.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "36bd49c1-2e22-4dea-8d92-4d64d956d7a7",
+    "product_id": "01af592c-5bf6-44a1-8438-540c23abe66a",
+    "rating": 2,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Christopher West",
+    "reviewerEmail": "christopher.west@x.dummyjson.com"
+  },
+  {
+    "review_id": "36feed37-4ed4-4662-a5d5-20e8b448543b",
+    "product_id": "01af592c-5bf6-44a1-8438-540c23abe66a",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Hazel Evans",
+    "reviewerEmail": "hazel.evans@x.dummyjson.com"
+  },
+  {
+    "review_id": "d0cdedc6-7479-4d8c-a646-d3f099763cc7",
+    "product_id": "01af592c-5bf6-44a1-8438-540c23abe66a",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Luna Russell",
+    "reviewerEmail": "luna.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "75a3d436-1427-4962-8b66-af825daea8e7",
+    "product_id": "09f4a083-de25-4726-b1c9-455d5177624a",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Jace Smith",
+    "reviewerEmail": "jace.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "c2db595b-5922-463d-877d-d4078d102d09",
+    "product_id": "09f4a083-de25-4726-b1c9-455d5177624a",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Ruby Andrews",
+    "reviewerEmail": "ruby.andrews@x.dummyjson.com"
+  },
+  {
+    "review_id": "0a63a3f9-7a8f-454c-ab37-d6acf5837599",
+    "product_id": "09f4a083-de25-4726-b1c9-455d5177624a",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "acf7d7aa-f68c-4278-bf25-4e5a5c0392a0",
+    "product_id": "f9cb0243-9031-414e-b4f5-eb11986b39cf",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Hannah Howard",
+    "reviewerEmail": "hannah.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "95028f05-0795-470c-b298-174735006cab",
+    "product_id": "f9cb0243-9031-414e-b4f5-eb11986b39cf",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Claire Foster",
+    "reviewerEmail": "claire.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "e70fe243-0d49-4482-92f8-24923e22bf6e",
+    "product_id": "f9cb0243-9031-414e-b4f5-eb11986b39cf",
+    "rating": 1,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Nora Russell",
+    "reviewerEmail": "nora.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "09087bbb-44c2-468e-a66b-7b823740abc1",
+    "product_id": "d9a7b768-5622-4367-88b0-2bfdf300834b",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Benjamin Foster",
+    "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "7754429f-6c38-4054-a4e7-82ff88a4cc68",
+    "product_id": "d9a7b768-5622-4367-88b0-2bfdf300834b",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Madison Collins",
+    "reviewerEmail": "madison.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "7879a559-5b3e-4787-a5a1-6a144afe7c1b",
+    "product_id": "d9a7b768-5622-4367-88b0-2bfdf300834b",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Emily Johnson",
+    "reviewerEmail": "emily.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "f127e69e-0cfd-407d-94a2-1c8f4e6c73a2",
+    "product_id": "dfb41f23-5372-4299-a8a8-028bbc4561ac",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Alice Smith",
+    "reviewerEmail": "alice.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "8bbfbec5-d759-45a5-bed7-b10d19107aad",
+    "product_id": "dfb41f23-5372-4299-a8a8-028bbc4561ac",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Harper Kelly",
+    "reviewerEmail": "harper.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "cf4a1eef-092e-4766-98a0-da77346a6524",
+    "product_id": "dfb41f23-5372-4299-a8a8-028bbc4561ac",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Lillian Simmons",
+    "reviewerEmail": "lillian.simmons@x.dummyjson.com"
+  },
+  {
+    "review_id": "d58b04cc-0064-4076-a329-db06ccb934cb",
+    "product_id": "f650e9e5-e4ef-466a-b4be-2cb0e89b149e",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "025177ca-faf0-4f5e-a610-10e83088e02c",
+    "product_id": "f650e9e5-e4ef-466a-b4be-2cb0e89b149e",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Elijah Hill",
+    "reviewerEmail": "elijah.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "b3b2ae58-d30a-47c5-9028-01ed2312e340",
+    "product_id": "f650e9e5-e4ef-466a-b4be-2cb0e89b149e",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Eleanor Tyler",
+    "reviewerEmail": "eleanor.tyler@x.dummyjson.com"
+  },
+  {
+    "review_id": "a1765316-f706-468f-b10f-b12b4a1f0e66",
+    "product_id": "71eec6aa-093c-4297-a448-a48b66b4f6ad",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Logan Lee",
+    "reviewerEmail": "logan.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "a5f80eeb-b3e6-449f-a0f9-bff29eaa8e7e",
+    "product_id": "71eec6aa-093c-4297-a448-a48b66b4f6ad",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Nolan Gonzalez",
+    "reviewerEmail": "nolan.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "a3405e51-cad0-4f8e-8800-d440fd704af8",
+    "product_id": "71eec6aa-093c-4297-a448-a48b66b4f6ad",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Bella Grant",
+    "reviewerEmail": "bella.grant@x.dummyjson.com"
+  },
+  {
+    "review_id": "b0ccce6b-4b3d-48e4-9a5e-ff0aa241b186",
+    "product_id": "b2fa1b08-fa1f-4972-a534-c631746919cf",
+    "rating": 3,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Elijah Stewart",
+    "reviewerEmail": "elijah.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "1d6cdc53-b70c-4b56-9754-f5886db96f3e",
+    "product_id": "b2fa1b08-fa1f-4972-a534-c631746919cf",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "fff6c85e-cac0-479b-aa23-dfd8963cd237",
+    "product_id": "b2fa1b08-fa1f-4972-a534-c631746919cf",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Hannah Howard",
+    "reviewerEmail": "hannah.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "4be5801b-4518-4bcd-bd56-c35c77b05e59",
+    "product_id": "228015f2-441d-4dc8-a9f3-c8e9ee39de53",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Henry Adams",
+    "reviewerEmail": "henry.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "7282bb05-f34b-42d2-a731-900eed69c5c8",
+    "product_id": "228015f2-441d-4dc8-a9f3-c8e9ee39de53",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Zoe Bennett",
+    "reviewerEmail": "zoe.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "8d95da28-7f67-4ce3-833b-32472e5fa553",
+    "product_id": "228015f2-441d-4dc8-a9f3-c8e9ee39de53",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Henry Turner",
+    "reviewerEmail": "henry.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "575adc7b-dd6c-4596-a680-f30ac450dce8",
+    "product_id": "18259c40-be27-49d2-b1d8-ede442a602b7",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Jaxon Barnes",
+    "reviewerEmail": "jaxon.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "c89697f8-60c9-4bdc-994d-32f9bb38bf61",
+    "product_id": "18259c40-be27-49d2-b1d8-ede442a602b7",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aurora Lawson",
+    "reviewerEmail": "aurora.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "36b1f9f7-eadc-4053-84c9-d01b85443bc1",
+    "product_id": "18259c40-be27-49d2-b1d8-ede442a602b7",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Evan Reed",
+    "reviewerEmail": "evan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "09ff35f2-6867-4186-8d8d-e0145bccf106",
+    "product_id": "dfb9846a-cb74-4112-8173-4a57eb52eadf",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Julian James",
+    "reviewerEmail": "julian.james@x.dummyjson.com"
+  },
+  {
+    "review_id": "d549538c-5090-47b0-bcef-6ba9f514c9a4",
+    "product_id": "dfb9846a-cb74-4112-8173-4a57eb52eadf",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Samantha Martinez",
+    "reviewerEmail": "samantha.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "707ad826-8d30-4408-aa9f-956be6d71e65",
+    "product_id": "dfb9846a-cb74-4112-8173-4a57eb52eadf",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Layla Sullivan",
+    "reviewerEmail": "layla.sullivan@x.dummyjson.com"
+  },
+  {
+    "review_id": "fd1247de-105f-49e7-a136-89d3b337259e",
+    "product_id": "5afb18f5-b421-4871-8bf4-585ca5c86707",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Aria Flores",
+    "reviewerEmail": "aria.flores@x.dummyjson.com"
+  },
+  {
+    "review_id": "c24a5f7c-819e-4ed2-a6ab-64c9e2ab1280",
+    "product_id": "5afb18f5-b421-4871-8bf4-585ca5c86707",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Luna Perez",
+    "reviewerEmail": "luna.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "09e65943-48b9-452f-b9bd-db2d792f9608",
+    "product_id": "5afb18f5-b421-4871-8bf4-585ca5c86707",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Tristan Scott",
+    "reviewerEmail": "tristan.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "f54b2e8a-da24-474b-b7c3-64239432af22",
+    "product_id": "59be7035-f732-4286-9a15-7f87c5f426dc",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Noah Lewis",
+    "reviewerEmail": "noah.lewis@x.dummyjson.com"
+  },
+  {
+    "review_id": "ee4deb6a-032c-492f-bb73-e211e3a6c99a",
+    "product_id": "59be7035-f732-4286-9a15-7f87c5f426dc",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Paisley Bell",
+    "reviewerEmail": "paisley.bell@x.dummyjson.com"
+  },
+  {
+    "review_id": "3435f060-7f45-4459-a531-d27d22e253a6",
+    "product_id": "59be7035-f732-4286-9a15-7f87c5f426dc",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Michael Williams",
+    "reviewerEmail": "michael.williams@x.dummyjson.com"
+  },
+  {
+    "review_id": "c5c8259f-105c-4d34-9981-f3cb05c3118b",
+    "product_id": "0c4b2e49-c824-44cf-bf7e-046fbf588510",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Lily Lee",
+    "reviewerEmail": "lily.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "4bb76935-46bb-47a2-9c94-774e21a94b96",
+    "product_id": "0c4b2e49-c824-44cf-bf7e-046fbf588510",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Avery Carter",
+    "reviewerEmail": "avery.carter@x.dummyjson.com"
+  },
+  {
+    "review_id": "578fddf2-88c7-40fa-8169-629ccdf0be75",
+    "product_id": "0c4b2e49-c824-44cf-bf7e-046fbf588510",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Miles Stevenson",
+    "reviewerEmail": "miles.stevenson@x.dummyjson.com"
+  },
+  {
+    "review_id": "1797f95c-0a87-492f-adfd-c7284cef6ffb",
+    "product_id": "26e73fa8-d9e0-4d08-bd80-c0b64edb3580",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Daniel Taylor",
+    "reviewerEmail": "daniel.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "4b70762a-d9f2-41a5-9d21-7bf072ce8705",
+    "product_id": "26e73fa8-d9e0-4d08-bd80-c0b64edb3580",
+    "rating": 3,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Austin Hudson",
+    "reviewerEmail": "austin.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "e98a904e-a205-489c-93de-61dd9c7eaa52",
+    "product_id": "26e73fa8-d9e0-4d08-bd80-c0b64edb3580",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "320b4971-fe41-405c-9037-140daec58e0f",
+    "product_id": "6cfceed0-1229-4c8e-8730-dd6299eb0570",
+    "rating": 1,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Autumn Gomez",
+    "reviewerEmail": "autumn.gomez@x.dummyjson.com"
+  },
+  {
+    "review_id": "5ae9ce3a-ee68-4098-86e4-957b89a5cfb5",
+    "product_id": "6cfceed0-1229-4c8e-8730-dd6299eb0570",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Charlotte Davis",
+    "reviewerEmail": "charlotte.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "3d3c3c64-f81d-41d9-bb4c-14b400e967d4",
+    "product_id": "6cfceed0-1229-4c8e-8730-dd6299eb0570",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Charlotte Davis",
+    "reviewerEmail": "charlotte.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "e5aa76c1-d8bf-4a3e-b962-b2ca29e19635",
+    "product_id": "1290ac72-4d27-44e3-9b5b-2f5576f60dc4",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Luna Russell",
+    "reviewerEmail": "luna.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "0254d122-63c8-46c4-af0f-9fbaaa10cf56",
+    "product_id": "1290ac72-4d27-44e3-9b5b-2f5576f60dc4",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Asher Scott",
+    "reviewerEmail": "asher.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "215e76d1-9a09-4714-9f4f-f3a04a134483",
+    "product_id": "1290ac72-4d27-44e3-9b5b-2f5576f60dc4",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.625Z",
+    "reviewerName": "Max Russell",
+    "reviewerEmail": "max.russell@x.dummyjson.com"
+  },
+  {
+    "review_id": "22577495-d746-4c8a-9da5-fbdbbc6f3f78",
+    "product_id": "bcb9b067-c24a-46f8-a3eb-c1ae2507a936",
+    "rating": 1,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "174c872d-ec0b-4d79-8003-198a10692bcd",
+    "product_id": "bcb9b067-c24a-46f8-a3eb-c1ae2507a936",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Claire Foster",
+    "reviewerEmail": "claire.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "896f5f9b-cd0c-4e04-bc34-7c1ce301491f",
+    "product_id": "bcb9b067-c24a-46f8-a3eb-c1ae2507a936",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Owen Sullivan",
+    "reviewerEmail": "owen.sullivan@x.dummyjson.com"
+  },
+  {
+    "review_id": "41e41d89-2b35-4e80-9a4a-8732d44856c7",
+    "product_id": "0333c849-e5aa-4a58-862a-cd5d4bb05948",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Mateo Bennett",
+    "reviewerEmail": "mateo.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "06aabc61-5f28-49a0-9ddb-576b09242129",
+    "product_id": "0333c849-e5aa-4a58-862a-cd5d4bb05948",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hannah Robinson",
+    "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+  },
+  {
+    "review_id": "550a7dc8-ac68-4aa6-bd3c-c453b8228109",
+    "product_id": "0333c849-e5aa-4a58-862a-cd5d4bb05948",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "51cb8611-ea79-41b2-8563-69b7ab2ffb7c",
+    "product_id": "c35a9205-5c77-4c16-b279-04ebcfe766eb",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Mason Pearson",
+    "reviewerEmail": "mason.pearson@x.dummyjson.com"
+  },
+  {
+    "review_id": "b48db541-1860-498d-b40a-198b6e6d2bd8",
+    "product_id": "c35a9205-5c77-4c16-b279-04ebcfe766eb",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Logan Torres",
+    "reviewerEmail": "logan.torres@x.dummyjson.com"
+  },
+  {
+    "review_id": "4cabc470-0bf5-430f-a9bb-c877558194a8",
+    "product_id": "c35a9205-5c77-4c16-b279-04ebcfe766eb",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Lillian Simmons",
+    "reviewerEmail": "lillian.simmons@x.dummyjson.com"
+  },
+  {
+    "review_id": "02ba1b2a-d922-4085-bc32-07b1b28f900d",
+    "product_id": "50e5e9d3-03ce-4508-894a-00c04c015dbe",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "c193bf2f-58f8-4f7c-9569-4b1485914803",
+    "product_id": "50e5e9d3-03ce-4508-894a-00c04c015dbe",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "88a93745-8282-4e27-81a8-c8bcf0290e59",
+    "product_id": "50e5e9d3-03ce-4508-894a-00c04c015dbe",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Michael Williams",
+    "reviewerEmail": "michael.williams@x.dummyjson.com"
+  },
+  {
+    "review_id": "3ca83633-6fbe-4b39-901a-a232c3b3da9e",
+    "product_id": "9b18b77f-91d4-4648-bba6-bafb3323f794",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Levi Hicks",
+    "reviewerEmail": "levi.hicks@x.dummyjson.com"
+  },
+  {
+    "review_id": "32f6c114-18d3-420e-9f23-6bc395459553",
+    "product_id": "9b18b77f-91d4-4648-bba6-bafb3323f794",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "James Garcia",
+    "reviewerEmail": "james.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "e950b759-ef6d-4751-b8ae-798a4a354514",
+    "product_id": "9b18b77f-91d4-4648-bba6-bafb3323f794",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Ellie Stewart",
+    "reviewerEmail": "ellie.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "b4ced10e-2019-4286-86a4-e6138b2b13da",
+    "product_id": "3075476e-0a68-41ae-a9e1-6df4a4035e33",
+    "rating": 3,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Nova Cooper",
+    "reviewerEmail": "nova.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "1445148f-3754-4f52-b050-5c8ee8fc8121",
+    "product_id": "3075476e-0a68-41ae-a9e1-6df4a4035e33",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Aurora Lawson",
+    "reviewerEmail": "aurora.lawson@x.dummyjson.com"
+  },
+  {
+    "review_id": "ccc586ab-954d-4377-8f2a-04c5719ae629",
+    "product_id": "3075476e-0a68-41ae-a9e1-6df4a4035e33",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Eli Ward",
+    "reviewerEmail": "eli.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "83987d67-f516-4e35-b21e-a900d9eb8fd6",
+    "product_id": "f9ed7c88-0d0b-4bec-bd4f-98f13fffed2c",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Daniel Cook",
+    "reviewerEmail": "daniel.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "aca59a94-c3ae-4d90-95cb-b2264b1ad69c",
+    "product_id": "f9ed7c88-0d0b-4bec-bd4f-98f13fffed2c",
+    "rating": 2,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Aaron Cook",
+    "reviewerEmail": "aaron.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "90f6b70b-2b97-4a8c-b3f7-14b78bcab8b7",
+    "product_id": "f9ed7c88-0d0b-4bec-bd4f-98f13fffed2c",
+    "rating": 2,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Aurora Rodriguez",
+    "reviewerEmail": "aurora.rodriguez@x.dummyjson.com"
+  },
+  {
+    "review_id": "d4288356-bc44-4ecb-ae12-30a8d362aa1d",
+    "product_id": "2b4a25a8-32ca-4066-9b5e-f7c893fa42f2",
+    "rating": 2,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "d4af04c9-ac0c-451d-8595-bd95cd79ee93",
+    "product_id": "2b4a25a8-32ca-4066-9b5e-f7c893fa42f2",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Christopher West",
+    "reviewerEmail": "christopher.west@x.dummyjson.com"
+  },
+  {
+    "review_id": "f10841e7-562c-4de9-bd1f-ff69bd8c04cb",
+    "product_id": "2b4a25a8-32ca-4066-9b5e-f7c893fa42f2",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Addison Ward",
+    "reviewerEmail": "addison.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "1358085d-793d-4fbe-ba3f-9f4804e4cf11",
+    "product_id": "eaad559a-08bb-4a87-a787-41bccda963d8",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Abigail Rivera",
+    "reviewerEmail": "abigail.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "833573e8-3771-47cf-a0cc-55a5e62abad8",
+    "product_id": "eaad559a-08bb-4a87-a787-41bccda963d8",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "0b2a1e8d-75f3-4654-aac4-9f3dd84f7278",
+    "product_id": "eaad559a-08bb-4a87-a787-41bccda963d8",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "561fc403-2260-42ee-a2c6-8a997a9ceb7e",
+    "product_id": "92d0e4dd-09aa-4e1f-8c64-f86ade34fd04",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hazel Evans",
+    "reviewerEmail": "hazel.evans@x.dummyjson.com"
+  },
+  {
+    "review_id": "6fd2e457-e224-4bec-a8b7-67616b399046",
+    "product_id": "92d0e4dd-09aa-4e1f-8c64-f86ade34fd04",
+    "rating": 1,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Christian Perez",
+    "reviewerEmail": "christian.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "ed027a13-fe7e-4f65-87e6-28a07427c3de",
+    "product_id": "92d0e4dd-09aa-4e1f-8c64-f86ade34fd04",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Aubrey Garcia",
+    "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "44d5a222-642e-4616-a616-0ce65a98f4a9",
+    "product_id": "ccc3dbe0-bcc8-4a82-9d42-b99bc01ca488",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Miles Stevenson",
+    "reviewerEmail": "miles.stevenson@x.dummyjson.com"
+  },
+  {
+    "review_id": "02545659-79a0-4a5a-acc7-963895c52780",
+    "product_id": "ccc3dbe0-bcc8-4a82-9d42-b99bc01ca488",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Henry Adams",
+    "reviewerEmail": "henry.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "2681e9b8-6d4c-490b-86f5-c196721a7862",
+    "product_id": "ccc3dbe0-bcc8-4a82-9d42-b99bc01ca488",
+    "rating": 2,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Ava Taylor",
+    "reviewerEmail": "ava.taylor@x.dummyjson.com"
+  },
+  {
+    "review_id": "1a425a7b-35e5-4776-a194-1c8abfcc18c8",
+    "product_id": "31ce4fa5-832a-4851-8884-addb2f1f4815",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Connor Baker",
+    "reviewerEmail": "connor.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "4227d686-0d3f-48bc-b372-804bf2c1d41a",
+    "product_id": "31ce4fa5-832a-4851-8884-addb2f1f4815",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "5bb93fd1-f228-4f2a-aae2-8a8ed1b4660d",
+    "product_id": "31ce4fa5-832a-4851-8884-addb2f1f4815",
+    "rating": 5,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "1c28e5cf-6614-44ac-a163-e87472427626",
+    "product_id": "f5acb826-0a8c-4302-bd4e-c8f3fd1d2ac4",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Jackson Morales",
+    "reviewerEmail": "jackson.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "84df4033-ca56-4774-9e05-0dcfec47f34b",
+    "product_id": "f5acb826-0a8c-4302-bd4e-c8f3fd1d2ac4",
+    "rating": 5,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Cameron Perez",
+    "reviewerEmail": "cameron.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "71fcc159-0380-4a42-885b-778f0b08f4d1",
+    "product_id": "f5acb826-0a8c-4302-bd4e-c8f3fd1d2ac4",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Nova Cooper",
+    "reviewerEmail": "nova.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "dd06247a-6f30-4ded-8f00-4e7b5746a6ef",
+    "product_id": "1cc8fdc7-368b-4c45-a00a-7523488130c2",
+    "rating": 2,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hazel Evans",
+    "reviewerEmail": "hazel.evans@x.dummyjson.com"
+  },
+  {
+    "review_id": "aa7ee0c2-1afe-4422-85d5-17169ae2826c",
+    "product_id": "1cc8fdc7-368b-4c45-a00a-7523488130c2",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Sophia Jones",
+    "reviewerEmail": "sophia.jones@x.dummyjson.com"
+  },
+  {
+    "review_id": "6fef3970-a452-4ad2-aba6-808e17525e6d",
+    "product_id": "1cc8fdc7-368b-4c45-a00a-7523488130c2",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Abigail Rivera",
+    "reviewerEmail": "abigail.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "2409cf1d-2128-43c2-ad11-688da9f80add",
+    "product_id": "53e73168-c6cd-47f5-adf6-74be9558c85e",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Isabella Anderson",
+    "reviewerEmail": "isabella.anderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "755f86ad-5be2-4a97-82e0-9402768d5c0a",
+    "product_id": "53e73168-c6cd-47f5-adf6-74be9558c85e",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Nathan Dixon",
+    "reviewerEmail": "nathan.dixon@x.dummyjson.com"
+  },
+  {
+    "review_id": "1ae85656-0f2e-4138-8d84-45b28953e3c2",
+    "product_id": "53e73168-c6cd-47f5-adf6-74be9558c85e",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Zoe Nicholson",
+    "reviewerEmail": "zoe.nicholson@x.dummyjson.com"
+  },
+  {
+    "review_id": "91c3920b-e8a7-4fd4-bf97-cab0d49900fc",
+    "product_id": "0acac8c4-578f-43b7-9ea1-39b6d0258dd4",
+    "rating": 2,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Carter Rivera",
+    "reviewerEmail": "carter.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "57bc2a6d-9c59-4c30-92f1-6cec6d741319",
+    "product_id": "0acac8c4-578f-43b7-9ea1-39b6d0258dd4",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Harper Garcia",
+    "reviewerEmail": "harper.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "3ad8b920-0bf4-4fa8-976a-13c20a6737ad",
+    "product_id": "0acac8c4-578f-43b7-9ea1-39b6d0258dd4",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Violet Roberts",
+    "reviewerEmail": "violet.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "f808928d-d85b-4601-8b53-2cc7e66f51da",
+    "product_id": "e3180cd2-ba31-437b-b57f-cc16018ad4d9",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Lucas Ramirez",
+    "reviewerEmail": "lucas.ramirez@x.dummyjson.com"
+  },
+  {
+    "review_id": "ed60b673-85e2-410c-86cd-a52b3a714d1e",
+    "product_id": "e3180cd2-ba31-437b-b57f-cc16018ad4d9",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Chloe Roberts",
+    "reviewerEmail": "chloe.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "c6e77fdd-b2c9-4288-86cd-c2efdc32e8f8",
+    "product_id": "e3180cd2-ba31-437b-b57f-cc16018ad4d9",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Benjamin Foster",
+    "reviewerEmail": "benjamin.foster@x.dummyjson.com"
+  },
+  {
+    "review_id": "63d5c71d-3cc2-4493-bcdf-197d6c227adb",
+    "product_id": "26469f16-b111-4616-a03f-a90820ccdb23",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Gabriel Adams",
+    "reviewerEmail": "gabriel.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "e09a8776-09d5-4217-a90a-1c50ac7cdae9",
+    "product_id": "26469f16-b111-4616-a03f-a90820ccdb23",
+    "rating": 2,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Addison Ward",
+    "reviewerEmail": "addison.ward@x.dummyjson.com"
+  },
+  {
+    "review_id": "06ac00a8-eecd-494b-8118-dbc7b7eab7a7",
+    "product_id": "26469f16-b111-4616-a03f-a90820ccdb23",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Nora Mills",
+    "reviewerEmail": "nora.mills@x.dummyjson.com"
+  },
+  {
+    "review_id": "fdf5aac2-4940-4cd9-842e-3176edc3161a",
+    "product_id": "7bf25dd9-722b-40d1-a6a6-8be49cc45cf9",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Jaxon Barnes",
+    "reviewerEmail": "jaxon.barnes@x.dummyjson.com"
+  },
+  {
+    "review_id": "fc872720-1f0c-47b6-a7ac-df1d2fc5a044",
+    "product_id": "7bf25dd9-722b-40d1-a6a6-8be49cc45cf9",
+    "rating": 3,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Mateo Perez",
+    "reviewerEmail": "mateo.perez@x.dummyjson.com"
+  },
+  {
+    "review_id": "f352072a-e712-4e25-bee8-fd1eccbdf099",
+    "product_id": "7bf25dd9-722b-40d1-a6a6-8be49cc45cf9",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "David Martinez",
+    "reviewerEmail": "david.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "49ecc9f3-9e13-48b7-8ae6-6d9c01a4655a",
+    "product_id": "8b385b9d-ad75-4d6a-9836-4252c1bb4e74",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Jacob Cooper",
+    "reviewerEmail": "jacob.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "8ac779ca-6d1a-4ff1-a6ab-d8d10e5be7a3",
+    "product_id": "8b385b9d-ad75-4d6a-9836-4252c1bb4e74",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Mila Hernandez",
+    "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "14d715a7-b072-44b0-a75c-70c6da461862",
+    "product_id": "8b385b9d-ad75-4d6a-9836-4252c1bb4e74",
+    "rating": 3,
+    "comment": "Very dissatisfied!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Ella Adams",
+    "reviewerEmail": "ella.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "9d47e503-4e25-4753-bf5b-7482f6e69eb3",
+    "product_id": "303b44cc-14c3-4d1f-bc58-162e0c7b9fc6",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Asher Scott",
+    "reviewerEmail": "asher.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "d764c15d-92b7-4dbe-91f0-7f1a4e9b84a1",
+    "product_id": "303b44cc-14c3-4d1f-bc58-162e0c7b9fc6",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Penelope Harper",
+    "reviewerEmail": "penelope.harper@x.dummyjson.com"
+  },
+  {
+    "review_id": "1b5fea89-0619-4d75-b52b-bc70bdafd7b8",
+    "product_id": "303b44cc-14c3-4d1f-bc58-162e0c7b9fc6",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Nathan Reed",
+    "reviewerEmail": "nathan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "27729359-723b-4919-80a5-2d8a89ca8ebf",
+    "product_id": "c50100fc-1858-471f-9f11-94984af3fa3a",
+    "rating": 2,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Miles Stevenson",
+    "reviewerEmail": "miles.stevenson@x.dummyjson.com"
+  },
+  {
+    "review_id": "1810d973-e349-4409-8b13-556b6472f24a",
+    "product_id": "c50100fc-1858-471f-9f11-94984af3fa3a",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Hannah Robinson",
+    "reviewerEmail": "hannah.robinson@x.dummyjson.com"
+  },
+  {
+    "review_id": "b236ca15-6efe-485d-9c46-adf29624cef8",
+    "product_id": "c50100fc-1858-471f-9f11-94984af3fa3a",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Harper Turner",
+    "reviewerEmail": "harper.turner@x.dummyjson.com"
+  },
+  {
+    "review_id": "fa76b0bb-7bb9-4ef6-8649-c10a0574b89a",
+    "product_id": "1f1f4035-1b5e-4fc5-8ea5-03bbdc1a1b13",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Tristan Scott",
+    "reviewerEmail": "tristan.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "2454deda-dbbd-421f-8349-3484473b8060",
+    "product_id": "1f1f4035-1b5e-4fc5-8ea5-03bbdc1a1b13",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Grace Perry",
+    "reviewerEmail": "grace.perry@x.dummyjson.com"
+  },
+  {
+    "review_id": "4627d635-39f7-4eae-b3d3-ca79f64e7a82",
+    "product_id": "1f1f4035-1b5e-4fc5-8ea5-03bbdc1a1b13",
+    "rating": 3,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "89c73d4c-6154-4065-8280-2f02c72d6801",
+    "product_id": "f3dcce46-023b-4555-ae80-37f9ce3edc44",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Lila Hudson",
+    "reviewerEmail": "lila.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "478d1cb5-ad5e-4ce3-8339-ad616345c231",
+    "product_id": "f3dcce46-023b-4555-ae80-37f9ce3edc44",
+    "rating": 4,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Leo Rivera",
+    "reviewerEmail": "leo.rivera@x.dummyjson.com"
+  },
+  {
+    "review_id": "7847aa8f-e9e1-4a08-918a-6187592da0c8",
+    "product_id": "f3dcce46-023b-4555-ae80-37f9ce3edc44",
+    "rating": 4,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Austin Hudson",
+    "reviewerEmail": "austin.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "4e7634ab-21f1-4945-a316-e5b25dba5e0e",
+    "product_id": "c5ac3edf-3a1c-47a9-8645-989f94d6fc26",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "John Doe",
+    "reviewerEmail": "john.doe@x.dummyjson.com"
+  },
+  {
+    "review_id": "3a73accc-f92a-4568-9d92-8c641022c554",
+    "product_id": "c5ac3edf-3a1c-47a9-8645-989f94d6fc26",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Aria Parker",
+    "reviewerEmail": "aria.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "73d755cf-a5d0-40e8-8395-87bd17a9bb8e",
+    "product_id": "c5ac3edf-3a1c-47a9-8645-989f94d6fc26",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Hazel Gardner",
+    "reviewerEmail": "hazel.gardner@x.dummyjson.com"
+  },
+  {
+    "review_id": "cab2b89c-e2b2-4b45-b27b-01f682749fd9",
+    "product_id": "504d86b7-fc8e-4e5d-91f5-cc6c16d30746",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Hunter Gordon",
+    "reviewerEmail": "hunter.gordon@x.dummyjson.com"
+  },
+  {
+    "review_id": "f004cf32-37aa-410f-b9cc-1668b90a35b4",
+    "product_id": "504d86b7-fc8e-4e5d-91f5-cc6c16d30746",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Ethan Fletcher",
+    "reviewerEmail": "ethan.fletcher@x.dummyjson.com"
+  },
+  {
+    "review_id": "26c03c52-2406-408d-90dc-f6ca034b5bca",
+    "product_id": "504d86b7-fc8e-4e5d-91f5-cc6c16d30746",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Aaron Cook",
+    "reviewerEmail": "aaron.cook@x.dummyjson.com"
+  },
+  {
+    "review_id": "1b2fd2c8-0515-44ea-a81d-fe31212f3d48",
+    "product_id": "f88eb5f7-9b2b-4f4c-869f-37060612e17b",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Harper Kelly",
+    "reviewerEmail": "harper.kelly@x.dummyjson.com"
+  },
+  {
+    "review_id": "b7a2d46c-14a4-4140-8b6a-9204225efd62",
+    "product_id": "f88eb5f7-9b2b-4f4c-869f-37060612e17b",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Sofia Mitchell",
+    "reviewerEmail": "sofia.mitchell@x.dummyjson.com"
+  },
+  {
+    "review_id": "1b954149-63b0-464a-a2f1-501badaffd98",
+    "product_id": "f88eb5f7-9b2b-4f4c-869f-37060612e17b",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Eli Bennett",
+    "reviewerEmail": "eli.bennett@x.dummyjson.com"
+  },
+  {
+    "review_id": "f6a65af5-6fa4-492c-b8f0-db1a2fe276cb",
+    "product_id": "a77f2d61-d3ed-410a-8993-2f97df443ab8",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Samantha Howard",
+    "reviewerEmail": "samantha.howard@x.dummyjson.com"
+  },
+  {
+    "review_id": "75024b23-e004-4450-b917-6b843c20b921",
+    "product_id": "a77f2d61-d3ed-410a-8993-2f97df443ab8",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Henry Hill",
+    "reviewerEmail": "henry.hill@x.dummyjson.com"
+  },
+  {
+    "review_id": "4d1c28ed-dece-4e21-a682-6f0f7a3dee5c",
+    "product_id": "a77f2d61-d3ed-410a-8993-2f97df443ab8",
+    "rating": 3,
+    "comment": "Not worth the price!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Lucas Ramirez",
+    "reviewerEmail": "lucas.ramirez@x.dummyjson.com"
+  },
+  {
+    "review_id": "9a723d13-6d47-4f4e-90bd-2b558510f171",
+    "product_id": "b62c3978-6718-453d-b868-ded1220ee709",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Alice Smith",
+    "reviewerEmail": "alice.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "759fd248-1968-4194-a14a-3935e4046043",
+    "product_id": "b62c3978-6718-453d-b868-ded1220ee709",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Stella Morris",
+    "reviewerEmail": "stella.morris@x.dummyjson.com"
+  },
+  {
+    "review_id": "4a5c221a-1c48-431a-92ba-fb82acd0aa91",
+    "product_id": "b62c3978-6718-453d-b868-ded1220ee709",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Lillian Bishop",
+    "reviewerEmail": "lillian.bishop@x.dummyjson.com"
+  },
+  {
+    "review_id": "690a13e7-2cfb-4843-a428-dcd19dac0a45",
+    "product_id": "0ce373db-df0d-4227-99f4-958cdc0d9527",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Leah Hughes",
+    "reviewerEmail": "leah.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "15d686da-b697-4797-949a-d37e491ce412",
+    "product_id": "0ce373db-df0d-4227-99f4-958cdc0d9527",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Lila Hudson",
+    "reviewerEmail": "lila.hudson@x.dummyjson.com"
+  },
+  {
+    "review_id": "6fe837e1-e7ed-4506-ab41-aead667da7c2",
+    "product_id": "0ce373db-df0d-4227-99f4-958cdc0d9527",
+    "rating": 5,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Ethan Martinez",
+    "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "5ac1a9cd-048b-4e7a-9946-d1d03b1c3191",
+    "product_id": "80a7f735-3026-41df-8c65-831ba628286d",
+    "rating": 5,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Aria Flores",
+    "reviewerEmail": "aria.flores@x.dummyjson.com"
+  },
+  {
+    "review_id": "894eb3d1-46db-4aaa-8c90-0b1c772839ad",
+    "product_id": "80a7f735-3026-41df-8c65-831ba628286d",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Stella Hughes",
+    "reviewerEmail": "stella.hughes@x.dummyjson.com"
+  },
+  {
+    "review_id": "151dbc9a-c008-4144-b881-742f8fadba74",
+    "product_id": "80a7f735-3026-41df-8c65-831ba628286d",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Mason Pearson",
+    "reviewerEmail": "mason.pearson@x.dummyjson.com"
+  },
+  {
+    "review_id": "43405869-e2d4-4a2b-bc78-3023e536fcb5",
+    "product_id": "dbb04188-3c02-48ad-8c51-683e4fe47cd4",
+    "rating": 3,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "James Garcia",
+    "reviewerEmail": "james.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "15c5b6fd-4703-4d33-a577-f9f441414c83",
+    "product_id": "dbb04188-3c02-48ad-8c51-683e4fe47cd4",
+    "rating": 1,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Grayson Coleman",
+    "reviewerEmail": "grayson.coleman@x.dummyjson.com"
+  },
+  {
+    "review_id": "f21188ac-c86d-4e93-a5ba-6ca53be55249",
+    "product_id": "dbb04188-3c02-48ad-8c51-683e4fe47cd4",
+    "rating": 2,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nolan Bryant",
+    "reviewerEmail": "nolan.bryant@x.dummyjson.com"
+  },
+  {
+    "review_id": "55f2b5e9-6481-436e-9c83-b4069e75ac38",
+    "product_id": "f85818bc-6755-46ff-add7-2cd5d776497d",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nolan Bryant",
+    "reviewerEmail": "nolan.bryant@x.dummyjson.com"
+  },
+  {
+    "review_id": "e89c0b78-1279-4a1c-a8ac-6b8cdd578a52",
+    "product_id": "f85818bc-6755-46ff-add7-2cd5d776497d",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Julian Newton",
+    "reviewerEmail": "julian.newton@x.dummyjson.com"
+  },
+  {
+    "review_id": "cf0635c7-37d4-4600-b87c-28c25c4d5de6",
+    "product_id": "f85818bc-6755-46ff-add7-2cd5d776497d",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Elena Baker",
+    "reviewerEmail": "elena.baker@x.dummyjson.com"
+  },
+  {
+    "review_id": "27a1560d-ce8e-4a86-b9c8-a38d2b3692b7",
+    "product_id": "20d15851-c726-4d8c-831d-9272b8f1da50",
+    "rating": 3,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Mason Parker",
+    "reviewerEmail": "mason.parker@x.dummyjson.com"
+  },
+  {
+    "review_id": "48b2db14-2274-41bb-8950-436ad9479000",
+    "product_id": "20d15851-c726-4d8c-831d-9272b8f1da50",
+    "rating": 3,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Grace Green",
+    "reviewerEmail": "grace.green@x.dummyjson.com"
+  },
+  {
+    "review_id": "76cb62c1-1017-4fb5-8c98-f6b13455e08c",
+    "product_id": "20d15851-c726-4d8c-831d-9272b8f1da50",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Madison Stewart",
+    "reviewerEmail": "madison.stewart@x.dummyjson.com"
+  },
+  {
+    "review_id": "6ff62d5f-2960-4190-a9bd-ea1317f44e57",
+    "product_id": "e136cc7a-f563-44b1-b615-2fc20f6c9f5b",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "e354e29e-101e-4216-8c6b-905cbc366c8b",
+    "product_id": "e136cc7a-f563-44b1-b615-2fc20f6c9f5b",
+    "rating": 2,
+    "comment": "Would not buy again!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Levi Hicks",
+    "reviewerEmail": "levi.hicks@x.dummyjson.com"
+  },
+  {
+    "review_id": "52ea48cf-3d42-4a30-a8a1-cddd20263c8b",
+    "product_id": "e136cc7a-f563-44b1-b615-2fc20f6c9f5b",
+    "rating": 3,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nicholas Edwards",
+    "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+  },
+  {
+    "review_id": "192f850f-675b-49d2-84dc-16418b7c1d96",
+    "product_id": "acb91d08-c3d6-438d-ad4f-73e9a982ad28",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nathan Dixon",
+    "reviewerEmail": "nathan.dixon@x.dummyjson.com"
+  },
+  {
+    "review_id": "77fe7ac2-57c4-475f-b48c-5d6021250106",
+    "product_id": "acb91d08-c3d6-438d-ad4f-73e9a982ad28",
+    "rating": 1,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "c95ab5e0-294f-4dab-b7c1-9d9ed9ec46a8",
+    "product_id": "acb91d08-c3d6-438d-ad4f-73e9a982ad28",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nicholas Edwards",
+    "reviewerEmail": "nicholas.edwards@x.dummyjson.com"
+  },
+  {
+    "review_id": "0256159d-f5e1-42bb-bbf9-e9a9fe8615a3",
+    "product_id": "af1abcf7-af31-42fd-b2cb-851a21339392",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Lily Lee",
+    "reviewerEmail": "lily.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "942f7afb-6593-4bb5-aaca-8b4d7513fa42",
+    "product_id": "af1abcf7-af31-42fd-b2cb-851a21339392",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Brandon Collins",
+    "reviewerEmail": "brandon.collins@x.dummyjson.com"
+  },
+  {
+    "review_id": "81460edd-1dd7-4523-b3b3-f0aa6fe501c3",
+    "product_id": "af1abcf7-af31-42fd-b2cb-851a21339392",
+    "rating": 4,
+    "comment": "Very satisfied!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Avery Scott",
+    "reviewerEmail": "avery.scott@x.dummyjson.com"
+  },
+  {
+    "review_id": "b4455281-dc0e-4ae0-a918-f8a61668ebac",
+    "product_id": "fcfb5958-b973-4f29-a655-1604163dd030",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Chloe Morales",
+    "reviewerEmail": "chloe.morales@x.dummyjson.com"
+  },
+  {
+    "review_id": "caf472bb-a3c7-4010-9e02-0c1e275eaec1",
+    "product_id": "fcfb5958-b973-4f29-a655-1604163dd030",
+    "rating": 3,
+    "comment": "Poor quality!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Scarlett Bowman",
+    "reviewerEmail": "scarlett.bowman@x.dummyjson.com"
+  },
+  {
+    "review_id": "305a3a44-5dbd-442a-9306-62019432c903",
+    "product_id": "fcfb5958-b973-4f29-a655-1604163dd030",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Tyler Davis",
+    "reviewerEmail": "tyler.davis@x.dummyjson.com"
+  },
+  {
+    "review_id": "956b24ea-ef6c-4087-8ab2-b771525f6bf7",
+    "product_id": "0757381a-e8a1-4d2b-9c43-ceeb2e9894eb",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Ethan Fletcher",
+    "reviewerEmail": "ethan.fletcher@x.dummyjson.com"
+  },
+  {
+    "review_id": "91b2c3cf-3433-45ab-8a99-09d04c7fdb5d",
+    "product_id": "0757381a-e8a1-4d2b-9c43-ceeb2e9894eb",
+    "rating": 2,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Nathan Dixon",
+    "reviewerEmail": "nathan.dixon@x.dummyjson.com"
+  },
+  {
+    "review_id": "2577eac4-43d1-4555-b7fe-37d96d7a9829",
+    "product_id": "0757381a-e8a1-4d2b-9c43-ceeb2e9894eb",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.627Z",
+    "reviewerName": "Savannah Gomez",
+    "reviewerEmail": "savannah.gomez@x.dummyjson.com"
+  },
+  {
+    "review_id": "a0f56dc8-29a9-4096-97a9-e4bb8d0dbf90",
+    "product_id": "1d619899-61b4-4ec0-a18d-0252aad5b69d",
+    "rating": 2,
+    "comment": "Disappointing product!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Clara Berry",
+    "reviewerEmail": "clara.berry@x.dummyjson.com"
+  },
+  {
+    "review_id": "e7a70dc7-03f4-4e1c-8eb4-11aa25e812d5",
+    "product_id": "1d619899-61b4-4ec0-a18d-0252aad5b69d",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Ella Adams",
+    "reviewerEmail": "ella.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "b2fbbe46-17a4-4df5-9dc0-17363a291aa8",
+    "product_id": "1d619899-61b4-4ec0-a18d-0252aad5b69d",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.626Z",
+    "reviewerName": "Gabriel Hayes",
+    "reviewerEmail": "gabriel.hayes@x.dummyjson.com"
+  },
+  {
+    "review_id": "6fb93a32-5096-4478-b67f-9480362817d4",
+    "product_id": "48a616d1-dea7-4e41-8b2a-108bd7d02b14",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Ella Adams",
+    "reviewerEmail": "ella.adams@x.dummyjson.com"
+  },
+  {
+    "review_id": "0ced4b39-1d69-47f0-a38a-5eaabe112379",
+    "product_id": "48a616d1-dea7-4e41-8b2a-108bd7d02b14",
+    "rating": 1,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Lillian Bishop",
+    "reviewerEmail": "lillian.bishop@x.dummyjson.com"
+  },
+  {
+    "review_id": "ab2ee7f8-059f-48a6-81b6-70fe1d559dbd",
+    "product_id": "48a616d1-dea7-4e41-8b2a-108bd7d02b14",
+    "rating": 4,
+    "comment": "Awesome product!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Aria Roberts",
+    "reviewerEmail": "aria.roberts@x.dummyjson.com"
+  },
+  {
+    "review_id": "b0c0efcd-8c8f-4fd6-9041-8c550b7aa2c8",
+    "product_id": "bb092d66-8ac3-467d-8221-f1f29230baed",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Owen Fisher",
+    "reviewerEmail": "owen.fisher@x.dummyjson.com"
+  },
+  {
+    "review_id": "df649752-3656-429d-b847-a397bf618fbd",
+    "product_id": "bb092d66-8ac3-467d-8221-f1f29230baed",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Xavier Wright",
+    "reviewerEmail": "xavier.wright@x.dummyjson.com"
+  },
+  {
+    "review_id": "37947ac2-4829-4a6a-b95c-69e01e1b098a",
+    "product_id": "bb092d66-8ac3-467d-8221-f1f29230baed",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "William Gonzalez",
+    "reviewerEmail": "william.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "f40298f2-fa7b-42a8-965c-0bfcb2317b82",
+    "product_id": "e1fe0e88-94d9-4b95-84f2-7e66d346bde9",
+    "rating": 4,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Ethan Martinez",
+    "reviewerEmail": "ethan.martinez@x.dummyjson.com"
+  },
+  {
+    "review_id": "143cec8a-9dc5-492f-952f-a0b8a54ec2f7",
+    "product_id": "e1fe0e88-94d9-4b95-84f2-7e66d346bde9",
+    "rating": 5,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Christopher West",
+    "reviewerEmail": "christopher.west@x.dummyjson.com"
+  },
+  {
+    "review_id": "32703da5-3a7a-4190-ad93-9cfd0412e671",
+    "product_id": "e1fe0e88-94d9-4b95-84f2-7e66d346bde9",
+    "rating": 4,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Mila Hernandez",
+    "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+  },
+  {
+    "review_id": "ad0e2566-45c0-42ab-a83f-817dd4e697bb",
+    "product_id": "4ac0433e-42fa-4986-bef8-3aabb4d9181c",
+    "rating": 3,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Grace Green",
+    "reviewerEmail": "grace.green@x.dummyjson.com"
+  },
+  {
+    "review_id": "996171fb-c659-474f-a0f4-102644f196ac",
+    "product_id": "4ac0433e-42fa-4986-bef8-3aabb4d9181c",
+    "rating": 4,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Aubrey Garcia",
+    "reviewerEmail": "aubrey.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "0dd5bf9f-9be6-4786-8362-3b8485a8b783",
+    "product_id": "4ac0433e-42fa-4986-bef8-3aabb4d9181c",
+    "rating": 5,
+    "comment": "Very happy with my purchase!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Logan Lee",
+    "reviewerEmail": "logan.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "73a1de08-efb1-4c4a-9d22-7af4823fdef5",
+    "product_id": "945985d0-b91d-44ac-b26b-cd4b567cf9b6",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Nova Cooper",
+    "reviewerEmail": "nova.cooper@x.dummyjson.com"
+  },
+  {
+    "review_id": "35ffae48-9657-421d-b5e0-edc13007aa4c",
+    "product_id": "945985d0-b91d-44ac-b26b-cd4b567cf9b6",
+    "rating": 3,
+    "comment": "Very unhappy with my purchase!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Nicholas Bailey",
+    "reviewerEmail": "nicholas.bailey@x.dummyjson.com"
+  },
+  {
+    "review_id": "a369f40d-04f9-41a7-be9c-d6dcaa7bc60c",
+    "product_id": "945985d0-b91d-44ac-b26b-cd4b567cf9b6",
+    "rating": 4,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Paisley Bell",
+    "reviewerEmail": "paisley.bell@x.dummyjson.com"
+  },
+  {
+    "review_id": "d175ce4c-3281-4489-8565-91b8d4f615c8",
+    "product_id": "7ab2d132-2e77-4628-8b82-333e3b582e6e",
+    "rating": 5,
+    "comment": "Great value for money!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Logan Lee",
+    "reviewerEmail": "logan.lee@x.dummyjson.com"
+  },
+  {
+    "review_id": "8912ef76-cd27-4669-b26c-52584d422fed",
+    "product_id": "7ab2d132-2e77-4628-8b82-333e3b582e6e",
+    "rating": 1,
+    "comment": "Would not recommend!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Leah Henderson",
+    "reviewerEmail": "leah.henderson@x.dummyjson.com"
+  },
+  {
+    "review_id": "b898df95-0785-4560-9b71-d83e68da0fbd",
+    "product_id": "7ab2d132-2e77-4628-8b82-333e3b582e6e",
+    "rating": 5,
+    "comment": "Very pleased!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Mateo Nguyen",
+    "reviewerEmail": "mateo.nguyen@x.dummyjson.com"
+  },
+  {
+    "review_id": "6b77261d-534a-4f7b-9ba8-750df625f5e6",
+    "product_id": "419a2289-a4ce-4069-b06b-674636e9d6eb",
+    "rating": 2,
+    "comment": "Very disappointed!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Evan Reed",
+    "reviewerEmail": "evan.reed@x.dummyjson.com"
+  },
+  {
+    "review_id": "b4df25af-b36c-4ad9-a39e-35145862b061",
+    "product_id": "419a2289-a4ce-4069-b06b-674636e9d6eb",
+    "rating": 5,
+    "comment": "Excellent quality!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Isabella Jackson",
+    "reviewerEmail": "isabella.jackson@x.dummyjson.com"
+  },
+  {
+    "review_id": "c115c02a-bf8b-4c66-b76e-567185629c97",
+    "product_id": "419a2289-a4ce-4069-b06b-674636e9d6eb",
+    "rating": 4,
+    "comment": "Highly recommended!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Liam Garcia",
+    "reviewerEmail": "liam.garcia@x.dummyjson.com"
+  },
+  {
+    "review_id": "b8599d63-1610-4d5e-b48f-90340e98a53e",
+    "product_id": "1a8e0c95-7a4d-4c1c-9be8-f66398cf8707",
+    "rating": 1,
+    "comment": "Not as described!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Lucas Allen",
+    "reviewerEmail": "lucas.allen@x.dummyjson.com"
+  },
+  {
+    "review_id": "fb7f1998-5e7d-41b0-9b5c-db22c6ecc4f2",
+    "product_id": "1a8e0c95-7a4d-4c1c-9be8-f66398cf8707",
+    "rating": 5,
+    "comment": "Highly impressed!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Bella Gonzalez",
+    "reviewerEmail": "bella.gonzalez@x.dummyjson.com"
+  },
+  {
+    "review_id": "de12eafe-0f72-45f3-96ca-a500e7bcf283",
+    "product_id": "1a8e0c95-7a4d-4c1c-9be8-f66398cf8707",
+    "rating": 4,
+    "comment": "Would buy again!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Michael Johnson",
+    "reviewerEmail": "michael.johnson@x.dummyjson.com"
+  },
+  {
+    "review_id": "e6dac147-e5f0-40d3-8d4f-318a49b5a609",
+    "product_id": "0dd0a4c4-9526-49ae-b233-225f7bed031c",
+    "rating": 4,
+    "comment": "Fast shipping!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Emily Brown",
+    "reviewerEmail": "emily.brown@x.dummyjson.com"
+  },
+  {
+    "review_id": "47e0674a-f9a4-44cb-ab88-4dd570dde3e4",
+    "product_id": "0dd0a4c4-9526-49ae-b233-225f7bed031c",
+    "rating": 5,
+    "comment": "Great product!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Liam Smith",
+    "reviewerEmail": "liam.smith@x.dummyjson.com"
+  },
+  {
+    "review_id": "7d7130dd-2fb9-437b-91f6-bff7197407a0",
+    "product_id": "0dd0a4c4-9526-49ae-b233-225f7bed031c",
+    "rating": 3,
+    "comment": "Waste of money!",
+    "date": "2024-05-23T08:56:21.628Z",
+    "reviewerName": "Mila Hernandez",
+    "reviewerEmail": "mila.hernandez@x.dummyjson.com"
+  }
+]

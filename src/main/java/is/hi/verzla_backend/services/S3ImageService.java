@@ -1,5 +1,14 @@
 package is.hi.verzla_backend.services;
 
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Date;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;
+import org.springframework.stereotype.Service;
+import org.springframework.web.multipart.MultipartFile;
+
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.AWSStaticCredentialsProvider;
 import com.amazonaws.auth.BasicAWSCredentials;
@@ -8,14 +17,6 @@ import com.amazonaws.services.s3.AmazonS3;
 import com.amazonaws.services.s3.AmazonS3ClientBuilder;
 import com.amazonaws.services.s3.model.ObjectMetadata;
 import com.amazonaws.services.s3.model.PutObjectRequest;
-
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Service;
-import org.springframework.web.multipart.MultipartFile;
-
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Date;
 
 import jakarta.annotation.PostConstruct;
 
@@ -41,6 +42,7 @@ import jakarta.annotation.PostConstruct;
  * @see org.springframework.web.multipart.MultipartFile
  */
 @Service
+@ConditionalOnProperty(name = "aws.s3.enabled", havingValue = "true")
 public class S3ImageService {
 
     /**

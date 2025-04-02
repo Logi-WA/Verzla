@@ -65,5 +65,6 @@ node_modules
 
 .env
 .env.*
-/src/main/resources/data
+/src/main/resources/data/migration/
 /src/main/resources/*-*.properties
+/logs/

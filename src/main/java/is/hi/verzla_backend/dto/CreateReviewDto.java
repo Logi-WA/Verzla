@@ -18,12 +18,13 @@ public class CreateReviewDto {
     @Max(5)
     private Integer rating;
 
-    @NotEmpty
     private String comment;
 
+    @NotEmpty
     private String reviewerName;
 
     @Email
+    @NotEmpty
     private String reviewerEmail;
 
     public UUID getProductId() {

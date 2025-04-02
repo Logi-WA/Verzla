@@ -59,7 +59,6 @@ public class Review {
     /**
      * The review comment text.
      */
-    @NotEmpty(message = "Comment cannot be empty")
     @Column(columnDefinition = "TEXT")
     private String comment;
 
