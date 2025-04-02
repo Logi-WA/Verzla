@@ -94,12 +94,39 @@ public class S3ImageService {
      */
     @PostConstruct
     private void initializeAmazon() {
+        // Check the enabled flag before doing anything AWS related
         if (enabled) {
-            AWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
-            this.s3client = AmazonS3ClientBuilder.standard()
-                    .withCredentials(new AWSStaticCredentialsProvider(credentials))
-                    .withRegion(Regions.valueOf(region))
-                    .build();
+            // Validate that required properties are present if enabled
+            if (accessKey == null || accessKey.isEmpty() || secretKey == null || secretKey.isEmpty() ||
+                    bucketName == null || bucketName.isEmpty() || region == null || region.isEmpty()) {
+                System.err.println(
+                        "WARN: AWS S3 is enabled but one or more required properties (accessKey, secretKey, bucketName, region) are missing. S3 client will not be initialized.");
+                this.enabled = false; // Prevent further S3 operations
+                return; // Stop initialization
+            }
+
+            try {
+                AWSCredentials credentials = new BasicAWSCredentials(accessKey, secretKey);
+                this.s3client = AmazonS3ClientBuilder.standard()
+                        .withCredentials(new AWSStaticCredentialsProvider(credentials))
+                        // Regions.fromName() instead of valueOf()
+                        .withRegion(Regions.fromName(region))
+                        .build();
+                System.out.println("INFO: AWS S3 Client Initialized for region: " + region); // Confirmation log
+            } catch (IllegalArgumentException e) {
+                System.err.println(
+                        "ERROR: Failed to initialize AWS S3 client. Check region configuration and credentials. Disabling S3 operations. Error: "
+                                + e.getMessage());
+                this.enabled = false; // Disable S3 if initialization fails
+            } catch (Exception e) {
+                // Catch broader exceptions during client building
+                System.err.println(
+                        "ERROR: Unexpected error during AWS S3 client initialization. Disabling S3 operations. Error: "
+                                + e.getMessage());
+                this.enabled = false;
+            }
+        } else {
+            System.out.println("INFO: AWS S3 integration is disabled."); // Log that it's disabled
         }
     }
 
