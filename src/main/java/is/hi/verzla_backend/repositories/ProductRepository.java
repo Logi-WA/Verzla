@@ -1,9 +1,9 @@
 package is.hi.verzla_backend.repositories;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
 import java.util.List;
 import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import is.hi.verzla_backend.entities.Product;
 
@@ -35,18 +35,10 @@ import is.hi.verzla_backend.entities.Product;
 public interface ProductRepository extends JpaRepository<Product, UUID> {
 
     /**
-     * Finds all products associated with a specific category by the category name.
-     *
-     * <p>This method supports the category-based browsing feature of the e-commerce
-     * platform, allowing users to view all products within a particular category.
-     * It leverages the many-to-many relationship between products and categories
-     * to filter the product catalog.</p>
-     *
-     * @param categoryName The name of the category whose products are to be fetched
-     * @return A list of {@link Product} entities belonging to the specified category
-     * @throws IllegalArgumentException if categoryName is null
+     * Finds all products associated with a specific category name, ignoring case.
+     * Uses the single 'category' relationship.
      */
-    List<Product> findByCategories_NameIgnoreCase(String categoryName);
+    List<Product> findByCategory_NameIgnoreCase(String categoryName);
 
     /**
      * Finds a product by its name.

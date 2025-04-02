@@ -1,5 +1,11 @@
 package is.hi.verzla_backend.controllers;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,15 +17,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashSet;
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
-import java.util.stream.Collectors;
-
 import is.hi.verzla_backend.dto.ApiResponse;
 import is.hi.verzla_backend.dto.ProductDto;
+import is.hi.verzla_backend.entities.Category;
 import is.hi.verzla_backend.entities.Product;
 import is.hi.verzla_backend.services.ProductService;
 
@@ -66,8 +66,7 @@ public class ProductController {
      */
     @GetMapping
     public ResponseEntity<ApiResponse<List<ProductDto>>> getProducts(
-            @RequestParam(required = false) String category
-    ) {
+            @RequestParam(required = false) String category) {
         List<Product> products = productService.getProducts(category);
         List<ProductDto> productDtos = products.stream()
                 .map(this::convertToDto)
@@ -123,8 +122,7 @@ public class ProductController {
     @PatchMapping("/{id}")
     public ResponseEntity<?> updateProduct(
             @PathVariable UUID id,
-            @RequestBody Map<String, String> updates
-    ) {
+            @RequestBody Map<String, String> updates) {
         try {
             String newName = updates.get("name");
             String newDescription = updates.get("description");
@@ -145,8 +143,7 @@ public class ProductController {
     @PatchMapping("/{id}/name")
     public ResponseEntity<?> updateProductName(
             @PathVariable UUID id,
-            @RequestBody Map<String, String> updates
-    ) {
+            @RequestBody Map<String, String> updates) {
         try {
             String newName = updates.get("name");
             Product updatedProduct = productService.updateProductName(id, newName);
@@ -166,8 +163,7 @@ public class ProductController {
     @PatchMapping("/{id}/description")
     public ResponseEntity<?> updateProductDescription(
             @PathVariable UUID id,
-            @RequestBody Map<String, String> updates
-    ) {
+            @RequestBody Map<String, String> updates) {
         try {
             String newDescription = updates.get("description");
             Product updatedProduct = productService.updateProductDescription(id, newDescription);
@@ -186,17 +182,16 @@ public class ProductController {
         dto.setDescription(product.getDescription());
         dto.setRating(product.getRating());
         dto.setBrand(product.getBrand());
-        dto.setTags(product.getTags());
+        dto.setTags(product.getTags() != null ? new ArrayList<>(product.getTags()) : new ArrayList<>());
 
-        // Map categories to just their names
-        if (product.getCategories() != null) {
-            Set<String> categoryNames = product.getCategories().stream()
-                    .map(category -> category.getName())
-                    .collect(Collectors.toSet());
-            dto.setCategories(categoryNames);
+        // --- Category Handling ---
+        Category category = product.getCategory();
+        if (category != null) {
+            dto.setCategoryName(category.getName()); // Set the single name directly
         } else {
-            dto.setCategories(new HashSet<>());
+            dto.setCategoryName(null);
         }
+        // --- End Category Handling ---
 
         return dto;
     }

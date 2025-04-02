@@ -41,7 +41,7 @@ public interface CategoryService {
      * @param name The name of the category to retrieve
      * @return The category if found, or null if not found
      */
-    Category getCategoryByName(String name);
+    Optional<Category> getCategoryByName(String name);
 
     /**
      * Creates a new product category.
@@ -91,12 +91,4 @@ public interface CategoryService {
      * @return The number of products in the category
      */
     long getProductCountInCategory(UUID categoryId);
-
-    /**
-     * Gets all categories associated with a specific product.
-     *
-     * @param productId The UUID of the product
-     * @return A list of categories the product belongs to
-     */
-    List<Category> getCategoriesByProductId(UUID productId);
 }

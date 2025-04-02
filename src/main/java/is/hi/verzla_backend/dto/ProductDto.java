@@ -1,9 +1,7 @@
 package is.hi.verzla_backend.dto;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.UUID;
 
 /**
@@ -61,14 +59,7 @@ public class ProductDto {
 
     private List<String> tags = new ArrayList<>();
 
-    /**
-     * Set of category names that this product belongs to.
-     * <p>
-     * This simplifies the many-to-many relationship with categories in the entity model,
-     * providing just the category names which are typically all that's needed for display.
-     * </p>
-     */
-    private Set<String> categories = new HashSet<>();
+    private String categoryName;
 
     /**
      * Default constructor for serialization frameworks.
@@ -174,21 +165,11 @@ public class ProductDto {
         this.tags = tags;
     }
 
-    /**
-     * Gets the set of category names associated with the product.
-     *
-     * @return A set of category name strings
-     */
-    public Set<String> getCategories() {
-        return categories;
+    public String getCategoryName() {
+        return categoryName;
     }
 
-    /**
-     * Sets the categories associated with the product.
-     *
-     * @param categories The set of category names to associate with this product
-     */
-    public void setCategories(Set<String> categories) {
-        this.categories = categories;
+    public void setCategoryName(String categoryName) {
+        this.categoryName = categoryName;
     }
 }

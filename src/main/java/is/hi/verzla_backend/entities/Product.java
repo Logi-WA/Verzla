@@ -1,9 +1,7 @@
 package is.hi.verzla_backend.entities;
 
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.UUID;
 
 import jakarta.persistence.CollectionTable;
@@ -15,8 +13,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.JoinColumn;
-import jakarta.persistence.JoinTable;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.ManyToOne;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotEmpty;
@@ -112,9 +109,9 @@ public class Product {
      * Uses a join table named "product_categories" to represent the relationship.
      * </p>
      */
-    @ManyToMany(fetch = FetchType.LAZY)
-    @JoinTable(name = "product_categories", joinColumns = @JoinColumn(name = "product_id"), inverseJoinColumns = @JoinColumn(name = "category_id"))
-    private Set<Category> categories = new HashSet<>();
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id") // Foreign key column in the product table
+    private Category category;
 
     /**
      * Gets the ID of the product.
@@ -242,21 +239,11 @@ public class Product {
         this.description = description;
     }
 
-    /**
-     * Gets the categories associated with the product.
-     *
-     * @return the categories associated with the product.
-     */
-    public Set<Category> getCategories() {
-        return categories;
+    public Category getCategory() {
+        return category;
     }
 
-    /**
-     * Sets the categories associated with the product.
-     *
-     * @param categories the categories to set.
-     */
-    public void setCategories(Set<Category> categories) {
-        this.categories = categories;
+    public void setCategory(Category category) {
+        this.category = category;
     }
 }

@@ -1,11 +1,11 @@
 package is.hi.verzla_backend.servicesimpl;
 
+import java.util.List;
+import java.util.UUID;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.List;
-import java.util.UUID;
 
 import is.hi.verzla_backend.entities.Product;
 import is.hi.verzla_backend.entities.Review;
@@ -60,7 +60,7 @@ public class ProductServiceImpl implements ProductService {
     @Override
     public List<Product> getProducts(String category) {
         if (category != null && !category.trim().isEmpty()) {
-            return productRepository.findByCategories_NameIgnoreCase(category);
+            return productRepository.findByCategory_NameIgnoreCase(category);
         }
         return productRepository.findAll();
     }

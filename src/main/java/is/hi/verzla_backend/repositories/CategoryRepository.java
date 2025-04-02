@@ -1,11 +1,12 @@
 package is.hi.verzla_backend.repositories;
 
+import java.util.List;
+import java.util.Optional;
+import java.util.UUID;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
-
-import java.util.List;
-import java.util.UUID;
 
 import is.hi.verzla_backend.entities.Category;
 
@@ -52,7 +53,7 @@ public interface CategoryRepository extends JpaRepository<Category, UUID> {
      * @return The {@link Category} entity associated with the specified name, or null if not found
      * @throws IllegalArgumentException if name is null
      */
-    Category findByName(String name);
+    Optional<Category> findByName(String name);
 
     /**
      * Checks if a category with the given name exists.
@@ -69,21 +70,6 @@ public interface CategoryRepository extends JpaRepository<Category, UUID> {
      */
     List<Category> findAllByOrderByNameAsc();
 
-    /**
-     * Counts the number of products in a specific category.
-     *
-     * @param categoryId The UUID of the category
-     * @return The number of products in the specified category
-     */
-    @Query("SELECT COUNT(p) FROM Product p JOIN p.categories c WHERE c.id = :categoryId")
+    @Query("SELECT COUNT(p) FROM Product p WHERE p.category.id = :categoryId")
     long countProductsByCategoryId(@Param("categoryId") UUID categoryId);
-
-    /**
-     * Finds categories that contain a given product.
-     *
-     * @param productId The UUID of the product
-     * @return List of categories that contain the specified product
-     */
-    @Query("SELECT c FROM Category c JOIN c.products p WHERE p.id = :productId")
-    List<Category> findCategoriesByProductId(@Param("productId") UUID productId);
 }

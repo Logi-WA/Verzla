@@ -4,12 +4,16 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.UUID;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
+import jakarta.persistence.CascadeType;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.ManyToMany;
+import jakarta.persistence.OneToMany;
 import jakarta.validation.constraints.NotEmpty;
 
 /**
@@ -63,15 +67,8 @@ public class Category {
     @NotEmpty(message = "Category name cannot be empty")
     private String name;
 
-    /**
-     * The set of products associated with this category.
-     * <p>
-     * This represents a many-to-many relationship where each product can belong to
-     * multiple categories, and each category can contain multiple products. The relationship
-     * is mapped by the "categories" field in the Product entity.
-     * </p>
-     */
-    @ManyToMany(mappedBy = "categories")
+    @OneToMany(mappedBy = "category", cascade = CascadeType.PERSIST, fetch = FetchType.LAZY)
+    @JsonIgnore
     private Set<Product> products = new HashSet<>();
 
     /**

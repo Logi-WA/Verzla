@@ -1,5 +1,11 @@
 package is.hi.verzla_backend.controllers;
 
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.UUID;
+import java.util.stream.Collectors;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,15 +18,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
-import java.util.UUID;
-
 import is.hi.verzla_backend.dto.ApiResponse;
+import is.hi.verzla_backend.dto.CategoryDto;
+import is.hi.verzla_backend.dto.CreateUpdateCategoryDto;
 import is.hi.verzla_backend.entities.Category;
+import is.hi.verzla_backend.exceptions.ResourceNotFoundException;
 import is.hi.verzla_backend.services.CategoryService;
+import jakarta.validation.Valid;
 
 /**
  * REST controller for managing product category operations in the Verzla e-commerce system.
@@ -42,155 +46,86 @@ import is.hi.verzla_backend.services.CategoryService;
  * </p>
  */
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/api/categories")
 public class CategoryController {
 
     @Autowired
     private CategoryService categoryService;
 
-    /**
-     * Retrieves all product categories available in the system.
-     * <p>
-     * This endpoint returns all product categories that can be associated with products.
-     * The categories are used throughout the application for:
-     * <ul>
-     *   <li>Building navigation menus in the storefront</li>
-     *   <li>Filtering product listings by category</li>
-     *   <li>Categorizing new and existing products</li>
-     *   <li>Organizing the product catalog</li>
-     * </ul>
-     * </p>
-     *
-     * @return ResponseEntity containing a list of Category objects representing all
-     * available product categories in the system
-     */
-    @GetMapping("/categories")
-    public ResponseEntity<List<Category>> getCategories() {
+    // Helper to convert Category Entity -> CategoryDto
+    private CategoryDto convertToDto(Category category) {
+        CategoryDto dto = new CategoryDto();
+        dto.setId(category.getId());
+        dto.setName(category.getName());
+        // dto.setProductCount(categoryService.getProductCountInCategory(category.getId())); // add count?
+        return dto;
+    }
+
+    @GetMapping
+    public ResponseEntity<ApiResponse<List<CategoryDto>>> getCategories() {
         List<Category> categories = categoryService.getAllCategoriesSorted();
-        return ResponseEntity.ok(categories);
+        List<CategoryDto> dtos = categories.stream().map(this::convertToDto).collect(Collectors.toList());
+        return ResponseEntity.ok(ApiResponse.success(dtos));
     }
 
-    /**
-     * Retrieves a specific category by its ID.
-     *
-     * @param categoryId The UUID of the category to retrieve
-     * @return ResponseEntity containing the category if found, or not found status
-     */
-    @GetMapping("/categories/{categoryId}")
-    public ResponseEntity<?> getCategoryById(@PathVariable UUID categoryId) {
-        Optional<Category> category = categoryService.getCategoryById(categoryId);
-        return category.map(ResponseEntity::ok)
-                .orElse(ResponseEntity.notFound().build());
+    @GetMapping("/{categoryId}")
+    public ResponseEntity<ApiResponse<CategoryDto>> getCategoryById(@PathVariable UUID categoryId) {
+        Category category = categoryService.getCategoryById(categoryId)
+                .orElseThrow(() -> new ResourceNotFoundException("Category not found with id: " + categoryId));
+        return ResponseEntity.ok(ApiResponse.success(convertToDto(category)));
     }
 
-    /**
-     * Retrieves a category by name.
-     *
-     * @param name The name of the category to retrieve
-     * @return ResponseEntity containing the category if found, or not found status
-     */
-    @GetMapping("/categories/name/{name}")
-    public ResponseEntity<?> getCategoryByName(@PathVariable String name) {
-        Category category = categoryService.getCategoryByName(name);
-        if (category != null) {
-            return ResponseEntity.ok(category);
-        }
-        return ResponseEntity.notFound().build();
+    @GetMapping("/name/{name}")
+    public ResponseEntity<ApiResponse<CategoryDto>> getCategoryByName(@PathVariable String name) {
+        Category category = categoryService.getCategoryByName(name)
+                .orElseThrow(() -> new ResourceNotFoundException("Category not found with name: " + name));
+        return ResponseEntity.ok(ApiResponse.success(convertToDto(category)));
     }
 
-    /**
-     * Creates a new category.
-     *
-     * @param category The category to create
-     * @return ResponseEntity containing the created category
-     */
-    @PostMapping("/categories")
-    public ResponseEntity<?> createCategory(@RequestBody Category category) {
-        if (categoryService.existsByName(category.getName())) {
-            return ResponseEntity
-                    .status(HttpStatus.CONFLICT)
-                    .body(new ApiResponse(false, "Category with this name already exists"));
-        }
-        Category createdCategory = categoryService.createCategory(category);
-        return ResponseEntity.status(HttpStatus.CREATED).body(createdCategory);
+    @PostMapping
+    public ResponseEntity<ApiResponse<CategoryDto>> createCategory(
+            @Valid @RequestBody CreateUpdateCategoryDto categoryDto) { // Use DTO and @Valid
+        // Map DTO to Entity
+        Category newCategory = new Category();
+        newCategory.setName(categoryDto.getName());
+
+        Category createdCategory = categoryService.createCategory(newCategory); // Service handles conflict check
+        return ResponseEntity.status(HttpStatus.CREATED).body(ApiResponse.success(convertToDto(createdCategory)));
     }
 
-    /**
-     * Updates an existing category.
-     *
-     * @param categoryId The UUID of the category to update
-     * @param category   The updated category details
-     * @return ResponseEntity containing the updated category, or appropriate error status
-     */
-    @PutMapping("/categories/{categoryId}")
-    public ResponseEntity<?> updateCategory(@PathVariable UUID categoryId, @RequestBody Category category) {
-        // Check if another category already has this name
-        Category existingWithName = categoryService.getCategoryByName(category.getName());
-        if (existingWithName != null && !existingWithName.getId().equals(categoryId)) {
-            return ResponseEntity
-                    .status(HttpStatus.CONFLICT)
-                    .body(new ApiResponse(false, "Another category with this name already exists"));
-        }
+    @PutMapping("/{categoryId}")
+    public ResponseEntity<ApiResponse<CategoryDto>> updateCategory(
+            @PathVariable UUID categoryId,
+            @Valid @RequestBody CreateUpdateCategoryDto categoryDto) { // Use DTO and @Valid
 
-        Category updatedCategory = categoryService.updateCategory(categoryId, category);
-        if (updatedCategory == null) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(updatedCategory);
+        // Map DTO details to an entity structure for the service update method
+        Category categoryDetails = new Category();
+        categoryDetails.setName(categoryDto.getName()); // Only pass name
+
+        Category updatedCategory = categoryService.updateCategory(categoryId, categoryDetails); // Service handles conflict & not found
+        return ResponseEntity.ok(ApiResponse.success(convertToDto(updatedCategory)));
     }
 
-    /**
-     * Deletes a category.
-     *
-     * @param categoryId The UUID of the category to delete
-     * @return ResponseEntity with success or error status
-     */
-    @DeleteMapping("/categories/{categoryId}")
-    public ResponseEntity<?> deleteCategory(@PathVariable UUID categoryId) {
-        // Check if category has products
-        long productCount = categoryService.getProductCountInCategory(categoryId);
-        if (productCount > 0) {
-            return ResponseEntity
-                    .status(HttpStatus.CONFLICT)
-                    .body(new ApiResponse(false, "Category cannot be deleted because it contains products"));
-        }
-
-        boolean deleted = categoryService.deleteCategory(categoryId);
-        if (!deleted) {
-            return ResponseEntity.notFound().build();
-        }
-        return ResponseEntity.ok(new ApiResponse(true, "Category deleted successfully"));
+    @DeleteMapping("/{categoryId}")
+    public ResponseEntity<ApiResponse<String>> deleteCategory(@PathVariable UUID categoryId) {
+        // Service now throws exceptions for not found or conflict
+        categoryService.deleteCategory(categoryId);
+        return ResponseEntity.ok(ApiResponse.success("Category deleted successfully"));
+        // Use GlobalExceptionHandler to catch ResourceNotFoundException (404)
+        // and ResponseStatusException (409 Conflict) from the service
     }
 
-    /**
-     * Retrieves the number of products in a category.
-     *
-     * @param categoryId The UUID of the category
-     * @return ResponseEntity containing the product count, or not found status
-     */
-    @GetMapping("/categories/{categoryId}/product-count")
-    public ResponseEntity<?> getProductCount(@PathVariable UUID categoryId) {
+    @GetMapping("/{categoryId}/product-count")
+    public ResponseEntity<ApiResponse<Map<String, Object>>> getProductCount(@PathVariable UUID categoryId) {
+        // Check existence first or let service handle it
         if (!categoryService.existsById(categoryId)) {
-            return ResponseEntity.notFound().build();
+            throw new ResourceNotFoundException("Category not found with id: " + categoryId);
         }
-
         long count = categoryService.getProductCountInCategory(categoryId);
         Map<String, Object> response = new HashMap<>();
         response.put("categoryId", categoryId);
         response.put("productCount", count);
-
-        return ResponseEntity.ok(response);
+        return ResponseEntity.ok(ApiResponse.success(response));
     }
 
-    /**
-     * Retrieves all categories that a specific product belongs to.
-     *
-     * @param productId The UUID of the product
-     * @return ResponseEntity containing a list of categories
-     */
-    @GetMapping("/products/{productId}/categories")
-    public ResponseEntity<List<Category>> getCategoriesByProduct(@PathVariable UUID productId) {
-        List<Category> categories = categoryService.getCategoriesByProductId(productId);
-        return ResponseEntity.ok(categories);
-    }
 }
