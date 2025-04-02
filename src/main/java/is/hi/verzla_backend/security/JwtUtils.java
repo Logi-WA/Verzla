@@ -1,14 +1,14 @@
 package is.hi.verzla_backend.security;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Value;
-import org.springframework.stereotype.Component;
-
 import java.nio.charset.StandardCharsets;
 import java.security.Key;
 import java.util.Date;
 import java.util.UUID;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
@@ -48,7 +48,7 @@ public class JwtUtils {
      * Secret key used to sign the JWT tokens, configured in application properties.
      * A default value is provided for development environments.
      */
-    @Value("${app.jwt.secret:defaultSecretKey12345678901234567890}")
+    @Value("${app.jwt.secret}")
     private String jwtSecret;
 
     /**
