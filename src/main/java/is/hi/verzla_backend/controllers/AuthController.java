@@ -6,8 +6,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
+import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,8 +16,6 @@ import org.springframework.web.bind.annotation.RestController;
 import is.hi.verzla_backend.dto.ApiResponse;
 import is.hi.verzla_backend.dto.LoginRequest;
 import is.hi.verzla_backend.dto.LoginResponse;
-import is.hi.verzla_backend.entities.User;
-import is.hi.verzla_backend.repositories.UserRepository;
 import is.hi.verzla_backend.security.JwtUtils;
 import is.hi.verzla_backend.security.UserDetailsImpl;
 
@@ -53,12 +51,6 @@ import is.hi.verzla_backend.security.UserDetailsImpl;
 public class AuthController {
 
     /**
-     * Repository for user data access
-     */
-    @Autowired
-    private UserRepository userRepository;
-
-    /**
      * Spring Security authentication manager
      */
     @Autowired
@@ -70,42 +62,13 @@ public class AuthController {
     @Autowired
     private JwtUtils jwtUtils;
 
-    /**
-     * Password encoder for secure password handling
-     */
-    @Autowired
-    private PasswordEncoder passwordEncoder;
-
-    /**
-     * Handles user login by verifying credentials and issuing a JWT token if successful.
-     *
-     * <p>This endpoint attempts authentication in two ways:
-     * <ol>
-     *   <li>First, using Spring Security's authentication manager (for users with encrypted passwords)</li>
-     *   <li>If that fails, falling back to direct database comparison (for legacy users with plaintext passwords)</li>
-     * </ol>
-     * </p>
-     *
-     * <p>Upon successful authentication, the method:
-     * <ul>
-     *   <li>Generates a JWT token containing the user's identity</li>
-     *   <li>Returns the token along with basic user details</li>
-     *   <li>The client should store this token and include it in the Authorization header of subsequent requests</li>
-     * </ul>
-     * </p>
-     *
-     * @param loginRequest The login request containing username (email) and password
-     * @return ResponseEntity with success message and JWT token if login is successful,
-     * or an error message with UNAUTHORIZED status if credentials are invalid
-     */
     @PostMapping("/login")
     public ResponseEntity<ApiResponse<LoginResponse>> login(
             @RequestBody LoginRequest loginRequest) {
         try {
-            // Try Spring Security authentication first (for new users with encoded passwords)
+            // Use Spring Security authentication ONLY
             Authentication authentication = authenticationManager.authenticate(
-                    new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword())
-            );
+                    new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
 
             // If authentication is successful, proceed with token generation
             SecurityContextHolder.getContext().setAuthentication(authentication);
@@ -117,32 +80,18 @@ public class AuthController {
                     userDetails.getId(),
                     userDetails.getName(),
                     userDetails.getEmail(),
-                    jwt
-            );
+                    jwt);
 
             return ResponseEntity.ok(ApiResponse.success("Login successful", loginResponse));
-        } catch (Exception e) {
-            // If Spring Security authentication fails, try legacy plain text comparison
-            User user = userRepository.findByEmail(loginRequest.getUsername());
-            if (user != null && user.getPassword().equals(loginRequest.getPassword())) {
-                // Plain text password matches, generate token
-                String jwt = jwtUtils.generateJwtToken(user.getEmail(), user.getId());
 
-                // Create response with user details and token
-                LoginResponse loginResponse = new LoginResponse(
-                        user.getId(),
-                        user.getName(),
-                        user.getEmail(),
-                        jwt
-                );
-
-                return ResponseEntity.ok(ApiResponse.success("Login successful", loginResponse));
-            }
-
-            // Both authentication methods failed
+        } catch (AuthenticationException e) { // Catch specific Spring Security exception
             return ResponseEntity
                     .status(HttpStatus.UNAUTHORIZED)
                     .body(ApiResponse.error("Invalid credentials"));
+        } catch (Exception e) {
+            return ResponseEntity
+                    .status(HttpStatus.INTERNAL_SERVER_ERROR)
+                    .body(ApiResponse.error("Login failed due to an internal error."));
         }
     }
 

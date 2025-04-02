@@ -1,8 +1,9 @@
 package is.hi.verzla_backend.repositories;
 
-import org.springframework.data.jpa.repository.JpaRepository;
-
+import java.util.Optional;
 import java.util.UUID;
+
+import org.springframework.data.jpa.repository.JpaRepository;
 
 import is.hi.verzla_backend.entities.User;
 
@@ -43,5 +44,7 @@ public interface UserRepository extends JpaRepository<User, UUID> {
      * @return The {@link User} entity with the specified email, or null if no user is found
      * @throws IllegalArgumentException if email is null
      */
-    User findByEmail(String email);
+    Optional<User> findByEmail(String email);
+
+    boolean existsByEmail(String email);
 }
