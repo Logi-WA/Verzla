@@ -1,5 +1,7 @@
 package is.hi.verzla_backend.services;
 
+import java.util.Optional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -18,10 +20,13 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        User user = userRepository.findByEmail(username);
-        if (user == null) {
-            throw new UsernameNotFoundException("User not found with email: " + username);
-        }
+        Optional<User> userOptional = userRepository.findByEmail(username);
+
+        // Use orElseThrow to get the User or throw the exception if Optional is empty
+        User user = userOptional
+                .orElseThrow(() -> new UsernameNotFoundException("User not found with email: " + username));
+
+        // Build the UserDetails object from the found User entity
         return UserDetailsImpl.build(user);
     }
 }

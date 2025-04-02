@@ -1,8 +1,5 @@
 package is.hi.verzla_backend.exceptions;
 
-import java.util.HashMap;
-import java.util.Map;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.FieldError;
@@ -10,16 +7,19 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import is.hi.verzla_backend.dto.ApiResponse;
 
 /**
  * Global exception handler for the Verzla backend application.
- * 
+ *
  * <p>This class centralizes all exception handling across the API, ensuring
  * consistent error responses regardless of where exceptions occur. It converts
- * various types of exceptions into standardized {@link ApiResponse} objects with 
+ * various types of exceptions into standardized {@link ApiResponse} objects with
  * appropriate HTTP status codes.</p>
- * 
+ *
  * <p>The handler provides specialized handling for:
  * <ul>
  *   <li>Resource not found exceptions (404 Not Found)</li>
@@ -27,7 +27,7 @@ import is.hi.verzla_backend.dto.ApiResponse;
  *   <li>All other unhandled exceptions (500 Internal Server Error)</li>
  * </ul>
  * </p>
- * 
+ *
  * <p>Using this centralized approach offers several benefits:
  * <ul>
  *   <li>Consistent error format across all API endpoints</li>
@@ -36,7 +36,7 @@ import is.hi.verzla_backend.dto.ApiResponse;
  *   <li>Easy addition of new exception types as the API evolves</li>
  * </ul>
  * </p>
- * 
+ *
  * @see is.hi.verzla_backend.dto.ApiResponse
  * @see is.hi.verzla_backend.exceptions.ResourceNotFoundException
  */
@@ -45,7 +45,7 @@ public class GlobalExceptionHandler {
 
     /**
      * Handles exceptions for resources that could not be found.
-     * 
+     *
      * <p>This handler intercepts {@link ResourceNotFoundException} instances, which
      * are typically thrown when a requested resource (product, user, etc.) cannot
      * be found in the database. The response includes the exception message and
@@ -62,12 +62,15 @@ public class GlobalExceptionHandler {
 
     /**
      * Handles validation exceptions from request payload validation.
-     * 
+     *
      * <p>This handler processes {@link MethodArgumentNotValidException} instances,
      * which occur when request payloads fail validation constraints (like @NotNull,
+     *
+     * @param ex The MethodArgumentNotValidException that was thrown
+     * @return A ResponseEntity containing an ApiResponse with validation errors and 400 status
      * @Size, etc.). It extracts all validation errors and their messages, organizing
      * them into a map of field names to error messages.</p>
-     * 
+     *
      * <p>The response includes:
      * <ul>
      *   <li>A general message indicating validation failure</li>
@@ -75,9 +78,6 @@ public class GlobalExceptionHandler {
      *   <li>A 400 Bad Request status code</li>
      * </ul>
      * </p>
-     *
-     * @param ex The MethodArgumentNotValidException that was thrown
-     * @return A ResponseEntity containing an ApiResponse with validation errors and 400 status
      */
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ApiResponse<Map<String, String>>> handleValidationExceptions(MethodArgumentNotValidException ex) {
@@ -87,20 +87,20 @@ public class GlobalExceptionHandler {
             String errorMessage = error.getDefaultMessage();
             errors.put(fieldName, errorMessage);
         });
-        
+
         ApiResponse<Map<String, String>> response = new ApiResponse<>(false, "Validation failed", errors);
         return new ResponseEntity<>(response, HttpStatus.BAD_REQUEST);
     }
 
     /**
      * Default handler for all unhandled exceptions.
-     * 
+     *
      * <p>This catch-all handler intercepts any exceptions not handled by more
      * specific handlers. It creates a generic error response with a sanitized
      * error message that doesn't expose sensitive implementation details.</p>
-     * 
-     * <p>In a production environment, this handler would typically log the 
-     * exception details for troubleshooting while returning only minimal 
+     *
+     * <p>In a production environment, this handler would typically log the
+     * exception details for troubleshooting while returning only minimal
      * information to the client.</p>
      *
      * @param ex The Exception that was thrown

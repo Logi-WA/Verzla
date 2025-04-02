@@ -1,9 +1,9 @@
 package is.hi.verzla_backend.services;
 
-import is.hi.verzla_backend.entities.Product;
-
 import java.util.List;
 import java.util.UUID;
+
+import is.hi.verzla_backend.entities.Product;
 
 /**
  * Service interface for managing products.
@@ -63,4 +63,13 @@ public interface ProductService {
      * @return The updated {@link Product} object.
      */
     Product updateProductDescription(UUID id, String newDescription);
+
+    /**
+     * Calculates and updates the average rating for a given product based on its reviews.
+     * Should be called whenever a review for the product is added, updated (rating changed), or deleted.
+     *
+     * @param productId The ID of the product whose rating needs updating.
+     * @throws RuntimeException if the product is not found.
+     */
+    void updateProductRating(UUID productId);
 }

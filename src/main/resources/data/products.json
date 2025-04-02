@@ -1,0 +1,3082 @@
+[
+  {
+    "id": "000c9b60-61ee-41d8-842e-f21c219265ae",
+    "name": "Calvin Klein CK One",
+    "price": 49.99,
+    "description": "CK One by Calvin Klein is a classic unisex fragrance, known for its fresh and clean scent. It's a versatile fragrance suitable for everyday wear.",
+    "categories": [
+      "fragrances"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "brand": "Calvin Klein",
+    "sku": "DZM2JQZE"
+  },
+  {
+    "id": "a684e566-3b3d-4408-8afc-4f53b734659a",
+    "name": "Dolce Shine Eau de",
+    "price": 69.99,
+    "description": "Dolce Shine by Dolce & Gabbana is a vibrant and fruity fragrance, featuring notes of mango, jasmine, and blonde woods. It's a joyful and youthful scent.",
+    "categories": [
+      "fragrances"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "brand": "Dolce & Gabbana",
+    "sku": "1NBFK980"
+  },
+  {
+    "id": "4a8817c0-99c9-40b2-b81d-c36f3bbf5649",
+    "name": "Chanel Coco Noir Eau De",
+    "price": 129.99,
+    "description": "Coco Noir by Chanel is an elegant and mysterious fragrance, featuring notes of grapefruit, rose, and sandalwood. Perfect for evening occasions.",
+    "categories": [
+      "fragrances"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "brand": "Chanel",
+    "sku": "K71HBCGS"
+  },
+  {
+    "id": "3f114e47-97f6-4c31-8b5b-044a24487361",
+    "name": "Gucci Bloom Eau de",
+    "price": 79.99,
+    "description": "Gucci Bloom by Gucci is a floral and captivating fragrance, with notes of tuberose, jasmine, and Rangoon creeper. It's a modern and romantic scent.",
+    "categories": [
+      "fragrances"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "brand": "Gucci",
+    "sku": "FFKZ6HOF"
+  },
+  {
+    "id": "db63208b-60cd-44b4-8c2e-7a534fa4774f",
+    "name": "Dior J'adore",
+    "price": 89.99,
+    "description": "J'adore by Dior is a luxurious and floral fragrance, known for its blend of ylang-ylang, rose, and jasmine. It embodies femininity and sophistication.",
+    "categories": [
+      "fragrances"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "fragrances",
+      "perfumes"
+    ],
+    "brand": "Dior",
+    "sku": "E70NB03B"
+  },
+  {
+    "id": "7598d8c0-ef49-4ee5-bdd9-1632065d8775",
+    "name": "Red Lipstick",
+    "price": 12.99,
+    "description": "The Red Lipstick is a classic and bold choice for adding a pop of color to your lips. With a creamy and pigmented formula, it provides a vibrant and long-lasting finish.",
+    "categories": [
+      "beauty"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "beauty",
+      "lipstick"
+    ],
+    "brand": "Chic Cosmetics",
+    "sku": "O5IF1NTA"
+  },
+  {
+    "id": "6da0cec5-d44d-49b0-b097-570602f66273",
+    "name": "Powder Canister",
+    "price": 14.99,
+    "description": "The Powder Canister is a finely milled setting powder designed to set makeup and control shine. With a lightweight and translucent formula, it provides a smooth and matte finish.",
+    "categories": [
+      "beauty"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "beauty",
+      "face powder"
+    ],
+    "brand": "Velvet Touch",
+    "sku": "9EN8WLT2"
+  },
+  {
+    "id": "4590e985-4f0f-420a-a755-8feb96a44903",
+    "name": "Red Nail Polish",
+    "price": 8.99,
+    "description": "The Red Nail Polish offers a rich and glossy red hue for vibrant and polished nails. With a quick-drying formula, it provides a salon-quality finish at home.",
+    "categories": [
+      "beauty"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "beauty",
+      "nail polish"
+    ],
+    "brand": "Nail Couture",
+    "sku": "YUIIIP4W"
+  },
+  {
+    "id": "91867739-a280-4543-8c49-ff2407251d66",
+    "name": "Essence Mascara Lash Princess",
+    "price": 9.99,
+    "description": "The Essence Mascara Lash Princess is a popular mascara known for its volumizing and lengthening effects. Achieve dramatic lashes with this long-lasting and cruelty-free formula.",
+    "categories": [
+      "beauty"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "beauty",
+      "mascara"
+    ],
+    "brand": "Essence",
+    "sku": "RCH45Q1A"
+  },
+  {
+    "id": "14b403c8-bc8e-45ca-8d82-af3f1a5c5e6f",
+    "name": "Eyeshadow Palette with Mirror",
+    "price": 19.99,
+    "description": "The Eyeshadow Palette with Mirror offers a versatile range of eyeshadow shades for creating stunning eye looks. With a built-in mirror, it's convenient for on-the-go makeup application.",
+    "categories": [
+      "beauty"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "beauty",
+      "eyeshadow"
+    ],
+    "brand": "Glamour Beauty",
+    "sku": "MVCFH27F"
+  },
+  {
+    "id": "e2ba0bfc-d14b-4b9e-a582-5c503d061b37",
+    "name": "Annibale Colombo Bed",
+    "price": 1899.99,
+    "description": "The Annibale Colombo Bed is a luxurious and elegant bed frame, crafted with high-quality materials for a comfortable and stylish bedroom.",
+    "categories": [
+      "furniture"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "furniture",
+      "beds"
+    ],
+    "brand": "Annibale Colombo",
+    "sku": "4KMDTZWF"
+  },
+  {
+    "id": "3b3da915-4555-45f2-a044-61b400f14893",
+    "name": "Annibale Colombo Sofa",
+    "price": 2499.99,
+    "description": "The Annibale Colombo Sofa is a sophisticated and comfortable seating option, featuring exquisite design and premium upholstery for your living room.",
+    "categories": [
+      "furniture"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "furniture",
+      "sofas"
+    ],
+    "brand": "Annibale Colombo",
+    "sku": "LUU95CQP"
+  },
+  {
+    "id": "2dd565cc-48ef-4988-82e1-7705d9f7767b",
+    "name": "Bedside Table African Cherry",
+    "price": 299.99,
+    "description": "The Bedside Table in African Cherry is a stylish and functional addition to your bedroom, providing convenient storage space and a touch of elegance.",
+    "categories": [
+      "furniture"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "furniture",
+      "bedside tables"
+    ],
+    "brand": "Furniture Co.",
+    "sku": "OWPLTZYX"
+  },
+  {
+    "id": "ad4d2fca-0833-4f29-881a-ac7ec3472686",
+    "name": "Wooden Bathroom Sink With Mirror",
+    "price": 799.99,
+    "description": "The Wooden Bathroom Sink with Mirror is a unique and stylish addition to your bathroom, featuring a wooden sink countertop and a matching mirror.",
+    "categories": [
+      "furniture"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "furniture",
+      "bathroom"
+    ],
+    "brand": "Bath Trends",
+    "sku": "7OLTIEVO"
+  },
+  {
+    "id": "6fd7c813-6545-4589-a6c0-acd941a9ad06",
+    "name": "Knoll Saarinen Executive Conference Chair",
+    "price": 499.99,
+    "description": "The Knoll Saarinen Executive Conference Chair is a modern and ergonomic chair, perfect for your office or conference room with its timeless design.",
+    "categories": [
+      "furniture"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "furniture",
+      "office chairs"
+    ],
+    "brand": "Knoll",
+    "sku": "RKHVJ4FE"
+  },
+  {
+    "id": "61f6016a-7c8f-4d07-9e53-d83369565396",
+    "name": "Chicken Meat",
+    "price": 9.99,
+    "description": "Fresh and tender chicken meat, suitable for various culinary preparations.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "meat"
+    ],
+    "brand": null,
+    "sku": "G5YEHW7B"
+  },
+  {
+    "id": "495a38d2-27d0-447c-b0fe-a3cca661ed87",
+    "name": "Apple",
+    "price": 1.99,
+    "description": "Fresh and crisp apples, perfect for snacking or incorporating into various recipes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "fruits"
+    ],
+    "brand": null,
+    "sku": "QTROUV79"
+  },
+  {
+    "id": "3743f0d7-8f05-4f02-bda1-84b9faead52f",
+    "name": "Beef Steak",
+    "price": 12.99,
+    "description": "High-quality beef steak, great for grilling or cooking to your preferred level of doneness.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "meat"
+    ],
+    "brand": null,
+    "sku": "BWWA2MSO"
+  },
+  {
+    "id": "3cbf7e75-0b34-4ce2-98c2-a643eec95f50",
+    "name": "Cat Food",
+    "price": 8.99,
+    "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "pet supplies",
+      "cat food"
+    ],
+    "brand": null,
+    "sku": "C3F8QN6O"
+  },
+  {
+    "id": "20dcd74a-f87e-476d-b7a9-c8b1d2ab283b",
+    "name": "Cooking Oil",
+    "price": 4.99,
+    "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "cooking essentials"
+    ],
+    "brand": null,
+    "sku": "Q6ZP1UY8"
+  },
+  {
+    "id": "5ce9e0f1-8eee-438e-814a-6be6ebe1dff9",
+    "name": "Cucumber",
+    "price": 1.49,
+    "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "vegetables"
+    ],
+    "brand": null,
+    "sku": "6KGF2K6Z"
+  },
+  {
+    "id": "51dcafc8-9401-4e33-8d96-aab70c71adb0",
+    "name": "Green Chili Pepper",
+    "price": 0.99,
+    "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "vegetables"
+    ],
+    "brand": null,
+    "sku": "Y4RM3JCB"
+  },
+  {
+    "id": "dfca1e66-5a46-4f1e-86f1-124f7f524296",
+    "name": "Fish Steak",
+    "price": 14.99,
+    "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "seafood"
+    ],
+    "brand": null,
+    "sku": "XNIH1MTA"
+  },
+  {
+    "id": "ec3f8b45-d9d1-436c-9acb-d22fa16b275f",
+    "name": "Eggs",
+    "price": 2.99,
+    "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "dairy"
+    ],
+    "brand": null,
+    "sku": "YA617RI7"
+  },
+  {
+    "id": "a346c826-e50d-4331-bc2d-a0eec20cd9c4",
+    "name": "Dog Food",
+    "price": 10.99,
+    "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "pet supplies",
+      "dog food"
+    ],
+    "brand": null,
+    "sku": "A6QRCH37"
+  },
+  {
+    "id": "42d4c3ba-e732-4d86-b864-5b4625ac4219",
+    "name": "Green Bell Pepper",
+    "price": 1.29,
+    "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "vegetables"
+    ],
+    "brand": null,
+    "sku": "HU7S7VQ0"
+  },
+  {
+    "id": "94ed0548-9cbb-402c-8cc9-1a484a4b8150",
+    "name": "Honey Jar",
+    "price": 6.99,
+    "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "condiments"
+    ],
+    "brand": null,
+    "sku": "BTBNIIOU"
+  },
+  {
+    "id": "e05638cd-2bbd-4ca7-8b21-d1d80f6493a3",
+    "name": "Juice",
+    "price": 3.99,
+    "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "beverages"
+    ],
+    "brand": null,
+    "sku": "M2K19S06"
+  },
+  {
+    "id": "73e69f68-1be9-4676-b705-d764aeedbadc",
+    "name": "Kiwi",
+    "price": 2.49,
+    "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "fruits"
+    ],
+    "brand": null,
+    "sku": "0X3NORB9"
+  },
+  {
+    "id": "97cbda94-9415-44e1-b51c-d820d41fd93c",
+    "name": "Ice Cream",
+    "price": 5.49,
+    "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "desserts"
+    ],
+    "brand": null,
+    "sku": "VEZMU1EQ"
+  },
+  {
+    "id": "e5d3f108-b3eb-4696-9d6f-dfc208713684",
+    "name": "Lemon",
+    "price": 0.79,
+    "description": "Zesty and tangy lemons, versatile for cooking, baking, or making refreshing beverages.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "fruits"
+    ],
+    "brand": null,
+    "sku": "J074TE3H"
+  },
+  {
+    "id": "7b844bed-c338-4dc6-8151-dc1b641abb54",
+    "name": "Milk",
+    "price": 3.49,
+    "description": "Fresh and nutritious milk, a staple for various recipes and daily consumption.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "dairy"
+    ],
+    "brand": null,
+    "sku": "VOZKMF40"
+  },
+  {
+    "id": "f5829f6e-b9b7-4cc0-a9bc-6415c42280ac",
+    "name": "Mulberry",
+    "price": 4.99,
+    "description": "Sweet and juicy mulberries, perfect for snacking or adding to desserts and cereals.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "fruits"
+    ],
+    "brand": null,
+    "sku": "0M1K7RRC"
+  },
+  {
+    "id": "ef08f7f4-5a7a-419d-ab70-701de08df874",
+    "name": "Potatoes",
+    "price": 2.29,
+    "description": "Versatile and starchy potatoes, great for roasting, mashing, or as a side dish.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "vegetables"
+    ],
+    "brand": null,
+    "sku": "W4NOBW45"
+  },
+  {
+    "id": "e9459d3b-18fc-4f2e-b957-8f9843bca9a8",
+    "name": "Nescafe Coffee",
+    "price": 7.99,
+    "description": "Quality coffee from Nescafe, available in various blends for a rich and satisfying cup.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "beverages",
+      "coffee"
+    ],
+    "brand": null,
+    "sku": "FP5H3065"
+  },
+  {
+    "id": "f39dab39-1a40-427f-94cc-0ddbccc75478",
+    "name": "Protein Powder",
+    "price": 19.99,
+    "description": "Nutrient-packed protein powder, ideal for supplementing your diet with essential proteins.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 1.67,
+    "tags": [
+      "health supplements"
+    ],
+    "brand": null,
+    "sku": "BT2QOWKZ"
+  },
+  {
+    "id": "2af716cf-fcf0-4f6a-bc60-6caca2799d65",
+    "name": "Red Onions",
+    "price": 1.99,
+    "description": "Flavorful and aromatic red onions, perfect for adding depth to your savory dishes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "vegetables"
+    ],
+    "brand": null,
+    "sku": "TAF870KJ"
+  },
+  {
+    "id": "1f3ce1ec-6414-4e3c-9695-d792647941b5",
+    "name": "Soft Drinks",
+    "price": 1.99,
+    "description": "Assorted soft drinks in various flavors, perfect for refreshing beverages.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "beverages"
+    ],
+    "brand": null,
+    "sku": "I1ZNSLXJ"
+  },
+  {
+    "id": "f130a791-2439-46e2-8757-2a42f0859ad0",
+    "name": "Strawberry",
+    "price": 3.99,
+    "description": "Sweet and succulent strawberries, great for snacking, desserts, or blending into smoothies.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "fruits"
+    ],
+    "brand": null,
+    "sku": "LPP7I4JZ"
+  },
+  {
+    "id": "6ec888bf-2213-4920-88b8-ab3710b59ec0",
+    "name": "Rice",
+    "price": 5.99,
+    "description": "High-quality rice, a staple for various cuisines and a versatile base for many dishes.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "grains"
+    ],
+    "brand": null,
+    "sku": "905JXMXM"
+  },
+  {
+    "id": "f07c3498-8682-4783-9c13-a9110cdeb036",
+    "name": "Tissue Paper Box",
+    "price": 2.49,
+    "description": "Convenient tissue paper box for everyday use, providing soft and absorbent tissues.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "household essentials"
+    ],
+    "brand": null,
+    "sku": "IQEZWXMJ"
+  },
+  {
+    "id": "e0c30f80-7072-4dfe-b92b-7eb387ef486f",
+    "name": "Water",
+    "price": 0.99,
+    "description": "Pure and refreshing bottled water, essential for staying hydrated throughout the day.",
+    "categories": [
+      "groceries"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "beverages"
+    ],
+    "brand": null,
+    "sku": "LZG5PPHA"
+  },
+  {
+    "id": "43d6835c-2dbd-4b25-a10d-eb6348941a60",
+    "name": "Decoration Swing",
+    "price": 59.99,
+    "description": "The Decoration Swing is a charming addition to your home decor. Crafted with intricate details, it adds a touch of elegance and whimsy to any room.",
+    "categories": [
+      "home-decoration"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "home decor",
+      "swing"
+    ],
+    "brand": null,
+    "sku": "MBEK52ST"
+  },
+  {
+    "id": "623956f4-4af2-4857-8bcd-83f54ef6f4ca",
+    "name": "Family Tree Photo Frame",
+    "price": 29.99,
+    "description": "The Family Tree Photo Frame is a sentimental and stylish way to display your cherished family memories. With multiple photo slots, it tells the story of your loved ones.",
+    "categories": [
+      "home-decoration"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "home decor",
+      "photo frame"
+    ],
+    "brand": null,
+    "sku": "EZOJC792"
+  },
+  {
+    "id": "2d9905ae-b492-47a0-a33e-d4d976298511",
+    "name": "House Showpiece Plant",
+    "price": 39.99,
+    "description": "The House Showpiece Plant is an artificial plant that brings a touch of nature to your home without the need for maintenance. It adds greenery and style to any space.",
+    "categories": [
+      "home-decoration"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "home decor",
+      "artificial plants"
+    ],
+    "brand": null,
+    "sku": "LLNHNIFU"
+  },
+  {
+    "id": "491f9ecf-a5df-4c18-bc65-43f09b589822",
+    "name": "Table Lamp",
+    "price": 49.99,
+    "description": "The Table Lamp is a functional and decorative lighting solution for your living space. With a modern design, it provides both ambient and task lighting, enhancing the atmosphere.",
+    "categories": [
+      "home-decoration"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "home decor",
+      "lighting"
+    ],
+    "brand": null,
+    "sku": "0K9UDIUB"
+  },
+  {
+    "id": "eeb4facf-7a77-412a-bab1-4f6126b3aeed",
+    "name": "Plant Pot",
+    "price": 14.99,
+    "description": "The Plant Pot is a stylish container for your favorite plants. With a sleek design, it complements your indoor or outdoor garden, adding a modern touch to your plant display.",
+    "categories": [
+      "home-decoration"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "home decor",
+      "plant accessories"
+    ],
+    "brand": null,
+    "sku": "M8IWE8MF"
+  },
+  {
+    "id": "2b4de268-ce2f-483f-99e7-069a1eab7653",
+    "name": "Bamboo Spatula",
+    "price": 7.99,
+    "description": "The Bamboo Spatula is a versatile kitchen tool made from eco-friendly bamboo. Ideal for flipping, stirring, and serving various dishes.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "brand": null,
+    "sku": "MYIWU1I6"
+  },
+  {
+    "id": "062e266f-74b4-4ed7-82ec-cc4e460e5569",
+    "name": "Black Whisk",
+    "price": 9.99,
+    "description": "The Black Whisk is a kitchen essential for whisking and beating ingredients. Its ergonomic handle and sleek design make it a practical and stylish tool.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "brand": null,
+    "sku": "0TDFNB1Q"
+  },
+  {
+    "id": "d32d9836-f754-4750-b40a-454aac28e523",
+    "name": "Black Aluminium Cup",
+    "price": 5.99,
+    "description": "The Black Aluminium Cup is a stylish and durable cup suitable for both hot and cold beverages. Its sleek black design adds a modern touch to your drinkware collection.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "drinkware",
+      "cups"
+    ],
+    "brand": null,
+    "sku": "1CSCC3UH"
+  },
+  {
+    "id": "ef6911d5-1553-4946-92ad-73eda3a357a2",
+    "name": "Boxed Blender",
+    "price": 39.99,
+    "description": "The Boxed Blender is a powerful and compact blender perfect for smoothies, shakes, and more. Its convenient design and multiple functions make it a versatile kitchen appliance.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "brand": null,
+    "sku": "6HG6U3Q9"
+  },
+  {
+    "id": "196cc13e-6800-4a53-887b-2ce2ec33626f",
+    "name": "Carbon Steel Wok",
+    "price": 29.99,
+    "description": "The Carbon Steel Wok is a versatile cooking pan suitable for stir-frying, sautéing, and deep frying. Its sturdy construction ensures even heat distribution for delicious meals.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "cookware",
+      "woks"
+    ],
+    "brand": null,
+    "sku": "OOE6KF9I"
+  },
+  {
+    "id": "7500de1c-9113-42b6-87d8-8a1db0583105",
+    "name": "Citrus Squeezer Yellow",
+    "price": 8.99,
+    "description": "The Citrus Squeezer in Yellow is a handy tool for extracting juice from citrus fruits. Its vibrant color adds a cheerful touch to your kitchen gadgets.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "kitchen tools",
+      "juicers"
+    ],
+    "brand": null,
+    "sku": "PIUKVEZ4"
+  },
+  {
+    "id": "4c6f40bf-ae99-4e8d-ba30-5979da355ced",
+    "name": "Chopping Board",
+    "price": 12.99,
+    "description": "The Chopping Board is an essential kitchen accessory for food preparation. Made from durable material, it provides a safe and hygienic surface for cutting and chopping.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "kitchen tools",
+      "cutting boards"
+    ],
+    "brand": null,
+    "sku": "B7MZ3JGK"
+  },
+  {
+    "id": "e741f61e-d699-4a9e-a1a9-11cafd5dfb6c",
+    "name": "Electric Stove",
+    "price": 49.99,
+    "description": "The Electric Stove provides a portable and efficient cooking solution. Ideal for small kitchens or as an additional cooking surface for various culinary needs.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "kitchen appliances",
+      "cooktops"
+    ],
+    "brand": null,
+    "sku": "D88AMROJ"
+  },
+  {
+    "id": "d81f8878-c1ae-474e-b703-b17ce6ec55ad",
+    "name": "Egg Slicer",
+    "price": 6.99,
+    "description": "The Egg Slicer is a convenient tool for slicing boiled eggs evenly. It's perfect for salads, sandwiches, and other dishes where sliced eggs are desired.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "kitchen tools",
+      "slicers"
+    ],
+    "brand": null,
+    "sku": "WG4L41YK"
+  },
+  {
+    "id": "50c61a77-f2b7-4730-969a-748e05a733b9",
+    "name": "Fork",
+    "price": 3.99,
+    "description": "The Fork is a classic utensil for various dining and serving purposes. Its durable and ergonomic design makes it a reliable choice for everyday use.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "brand": null,
+    "sku": "5XHGD6PF"
+  },
+  {
+    "id": "8fc6a936-d19e-4b2e-9763-e26d3ea9f92e",
+    "name": "Fine Mesh Strainer",
+    "price": 9.99,
+    "description": "The Fine Mesh Strainer is a versatile tool for straining liquids and sifting dry ingredients. Its fine mesh ensures efficient filtering for smooth cooking and baking.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "brand": null,
+    "sku": "4XB2EHHJ"
+  },
+  {
+    "id": "c667a84d-a3b3-4e7c-83e6-f16688c2dbec",
+    "name": "Glass",
+    "price": 4.99,
+    "description": "The Glass is a versatile and elegant drinking vessel suitable for a variety of beverages. Its clear design allows you to enjoy the colors and textures of your drinks.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 2.33,
+    "tags": [
+      "drinkware",
+      "glasses"
+    ],
+    "brand": null,
+    "sku": "2RO2KDHM"
+  },
+  {
+    "id": "69382135-d947-4fd1-a7be-9d2991da7aa1",
+    "name": "Grater Black",
+    "price": 10.99,
+    "description": "The Grater in Black is a handy kitchen tool for grating cheese, vegetables, and more. Its sleek design and sharp blades make food preparation efficient and easy.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "kitchen tools",
+      "graters"
+    ],
+    "brand": null,
+    "sku": "UBA8CV8A"
+  },
+  {
+    "id": "fc48bc33-e764-4e82-b2c6-b69bc03e124a",
+    "name": "Hand Blender",
+    "price": 34.99,
+    "description": "The Hand Blender is a versatile kitchen appliance for blending, pureeing, and mixing. Its compact design and powerful motor make it a convenient tool for various recipes.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen appliances",
+      "blenders"
+    ],
+    "brand": null,
+    "sku": "JZNXDL37"
+  },
+  {
+    "id": "c4f656be-9268-48df-94f7-b792092c42bd",
+    "name": "Ice Cube Tray",
+    "price": 5.99,
+    "description": "The Ice Cube Tray is a practical accessory for making ice cubes in various shapes. Perfect for keeping your drinks cool and adding a fun element to your beverages.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "kitchen tools",
+      "ice cube trays"
+    ],
+    "brand": null,
+    "sku": "K0UE7U34"
+  },
+  {
+    "id": "6da39413-7b21-40d8-a6ec-cc2bd04b7dfb",
+    "name": "Knife",
+    "price": 14.99,
+    "description": "The Knife is an essential kitchen tool for chopping, slicing, and dicing. Its sharp blade and ergonomic handle make it a reliable choice for food preparation.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen tools",
+      "cutlery"
+    ],
+    "brand": null,
+    "sku": "NHTTZ30W"
+  },
+  {
+    "id": "c34b3ae2-65c8-4078-b86c-64bbeca8f0c6",
+    "name": "Kitchen Sieve",
+    "price": 7.99,
+    "description": "The Kitchen Sieve is a versatile tool for sifting and straining dry and wet ingredients. Its fine mesh design ensures smooth results in your cooking and baking.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "kitchen tools",
+      "strainers"
+    ],
+    "brand": null,
+    "sku": "4U0L9HB6"
+  },
+  {
+    "id": "ad39a886-dd95-48cf-b593-08a3337dbdee",
+    "name": "Mug Tree Stand",
+    "price": 15.99,
+    "description": "The Mug Tree Stand is a stylish and space-saving solution for organizing your mugs. Keep your favorite mugs easily accessible and neatly displayed in your kitchen.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 1.67,
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "brand": null,
+    "sku": "T4EBCVSS"
+  },
+  {
+    "id": "0f1ae5f2-c938-466a-804d-7f28acc85b2d",
+    "name": "Lunch Box",
+    "price": 12.99,
+    "description": "The Lunch Box is a convenient and portable container for packing and carrying your meals. With compartments for different foods, it's perfect for on-the-go dining.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "kitchen tools",
+      "storage"
+    ],
+    "brand": null,
+    "sku": "T4T5IDXP"
+  },
+  {
+    "id": "73a301f8-4262-408c-9fb4-e622a5d20b4d",
+    "name": "Microwave Oven",
+    "price": 89.99,
+    "description": "The Microwave Oven is a versatile kitchen appliance for quick and efficient cooking, reheating, and defrosting. Its compact size makes it suitable for various kitchen setups.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen appliances",
+      "microwaves"
+    ],
+    "brand": null,
+    "sku": "7CERPRRE"
+  },
+  {
+    "id": "859b9a13-275f-4999-9b12-d02c59d423c2",
+    "name": "Pan",
+    "price": 24.99,
+    "description": "The Pan is a versatile and essential cookware item for frying, sautéing, and cooking various dishes. Its non-stick coating ensures easy food release and cleanup.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "cookware",
+      "pans"
+    ],
+    "brand": null,
+    "sku": "3E1WZOKX"
+  },
+  {
+    "id": "baf79a4d-cf77-4667-b272-0aa2477ede9c",
+    "name": "Plate",
+    "price": 3.99,
+    "description": "The Plate is a classic and essential dishware item for serving meals. Its durable and stylish design makes it suitable for everyday use or special occasions.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "dinnerware",
+      "plates"
+    ],
+    "brand": null,
+    "sku": "S8T5CGBD"
+  },
+  {
+    "id": "d324f8f5-7a76-4155-bd64-e0bdb21331ae",
+    "name": "Red Tongs",
+    "price": 6.99,
+    "description": "The Red Tongs are versatile kitchen tongs suitable for various cooking and serving tasks. Their vibrant color adds a pop of excitement to your kitchen utensils.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "kitchen tools",
+      "tongs"
+    ],
+    "brand": null,
+    "sku": "BTNVE4CT"
+  },
+  {
+    "id": "3167d637-6e04-4d9e-b0a2-0900d945067e",
+    "name": "Silver Pot With Glass Cap",
+    "price": 39.99,
+    "description": "The Silver Pot with Glass Cap is a stylish and functional cookware item for boiling, simmering, and preparing delicious meals. Its glass cap allows you to monitor cooking progress.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "cookware",
+      "pots"
+    ],
+    "brand": null,
+    "sku": "BSFNUA3V"
+  },
+  {
+    "id": "1cb694a2-ae47-4aff-a21c-53149af37d8a",
+    "name": "Slotted Turner",
+    "price": 8.99,
+    "description": "The Slotted Turner is a kitchen utensil designed for flipping and turning food items. Its slotted design allows excess liquid to drain, making it ideal for frying and sautéing.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen tools",
+      "turners"
+    ],
+    "brand": null,
+    "sku": "HCKJ62ZJ"
+  },
+  {
+    "id": "84c56e1e-d441-4b57-b8fb-b3b344c22ead",
+    "name": "Spoon",
+    "price": 4.99,
+    "description": "The Spoon is a versatile kitchen utensil for stirring, serving, and tasting. Its ergonomic design and durable construction make it an essential tool for every kitchen.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "kitchen tools",
+      "utensils"
+    ],
+    "brand": null,
+    "sku": "PPBAZ4TS"
+  },
+  {
+    "id": "493964c7-e2e4-4067-8845-ccbce80abb88",
+    "name": "Spice Rack",
+    "price": 19.99,
+    "description": "The Spice Rack is a convenient organizer for your spices and seasonings. Keep your kitchen essentials within reach and neatly arranged with this stylish spice rack.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "kitchen tools",
+      "organization"
+    ],
+    "brand": null,
+    "sku": "WFKJQQRD"
+  },
+  {
+    "id": "db88f2a0-c9a8-4777-ba73-ffbee32e854e",
+    "name": "Wooden Rolling Pin",
+    "price": 11.99,
+    "description": "The Wooden Rolling Pin is a classic kitchen tool for rolling out dough for baking. Its smooth surface and sturdy handles make it easy to achieve uniform thickness.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "kitchen tools",
+      "baking"
+    ],
+    "brand": null,
+    "sku": "WHUXD7N8"
+  },
+  {
+    "id": "96143bac-966d-4b60-9b54-670405a1c6c6",
+    "name": "Tray",
+    "price": 16.99,
+    "description": "The Tray is a functional and decorative item for serving snacks, appetizers, or drinks. Its stylish design makes it a versatile accessory for entertaining guests.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "serveware",
+      "trays"
+    ],
+    "brand": null,
+    "sku": "PCU0I0A1"
+  },
+  {
+    "id": "43141412-9d93-46f0-abf2-77c43cda72e8",
+    "name": "Yellow Peeler",
+    "price": 5.99,
+    "description": "The Yellow Peeler is a handy tool for peeling fruits and vegetables with ease. Its bright yellow color adds a cheerful touch to your kitchen gadgets.",
+    "categories": [
+      "kitchen-accessories"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "kitchen tools",
+      "peelers"
+    ],
+    "brand": null,
+    "sku": "YR9GLZ3I"
+  },
+  {
+    "id": "ffa952a7-f9e7-49ec-a157-5444b567af26",
+    "name": "Apple MacBook Pro 14 Inch Space Grey",
+    "price": 1999.99,
+    "description": "The MacBook Pro 14 Inch in Space Grey is a powerful and sleek laptop, featuring Apple's M1 Pro chip for exceptional performance and a stunning Retina display.",
+    "categories": [
+      "laptops"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "laptops",
+      "apple"
+    ],
+    "brand": "Apple",
+    "sku": "QDKO6NRJ"
+  },
+  {
+    "id": "d5205649-297a-48ab-a763-a43ce5f7eff6",
+    "name": "Asus Zenbook Pro Dual Screen Laptop",
+    "price": 1799.99,
+    "description": "The Asus Zenbook Pro Dual Screen Laptop is a high-performance device with dual screens, providing productivity and versatility for creative professionals.",
+    "categories": [
+      "laptops"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "laptops"
+    ],
+    "brand": "Asus",
+    "sku": "4A9KFMBG"
+  },
+  {
+    "id": "b1a870ae-e903-46bf-b422-ed9935d3f375",
+    "name": "Huawei Matebook X Pro",
+    "price": 1399.99,
+    "description": "The Huawei Matebook X Pro is a slim and stylish laptop with a high-resolution touchscreen display, offering a premium experience for users on the go.",
+    "categories": [
+      "laptops"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "laptops"
+    ],
+    "brand": "Huawei",
+    "sku": "U2CBNNB0"
+  },
+  {
+    "id": "6b161f05-8d62-418f-8ba3-5c09bab3f610",
+    "name": "Lenovo Yoga 920",
+    "price": 1099.99,
+    "description": "The Lenovo Yoga 920 is a 2-in-1 convertible laptop with a flexible hinge, allowing you to use it as a laptop or tablet, offering versatility and portability.",
+    "categories": [
+      "laptops"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "laptops"
+    ],
+    "brand": "Lenovo",
+    "sku": "MST9WZQY"
+  },
+  {
+    "id": "85507b30-c0b9-49eb-832b-794fedc675db",
+    "name": "New DELL XPS 13 9300 Laptop",
+    "price": 1499.99,
+    "description": "The New DELL XPS 13 9300 Laptop is a compact and powerful device, featuring a virtually borderless InfinityEdge display and high-end performance for various tasks.",
+    "categories": [
+      "laptops"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "laptops"
+    ],
+    "brand": "Dell",
+    "sku": "XBJJ446X"
+  },
+  {
+    "id": "c8630d28-2778-475f-88a7-6a49e181da1f",
+    "name": "Gigabyte Aorus Men Tshirt",
+    "price": 24.99,
+    "description": "The Gigabyte Aorus Men Tshirt is a cool and casual shirt for gaming enthusiasts. With the Aorus logo and sleek design, it's perfect for expressing your gaming style.",
+    "categories": [
+      "mens-shirts"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "clothing",
+      "men's t-shirts"
+    ],
+    "brand": "Gigabyte",
+    "sku": "QA703Y60"
+  },
+  {
+    "id": "0feedb5c-7b38-499f-854d-217b02a0294f",
+    "name": "Blue & Black Check Shirt",
+    "price": 29.99,
+    "description": "The Blue & Black Check Shirt is a stylish and comfortable men's shirt featuring a classic check pattern. Made from high-quality fabric, it's suitable for both casual and semi-formal occasions.",
+    "categories": [
+      "mens-shirts"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Fashion Trends",
+    "sku": "6RJDTVCU"
+  },
+  {
+    "id": "69bf0f72-dd7b-4b29-9da5-b0da0210cc57",
+    "name": "Man Plaid Shirt",
+    "price": 34.99,
+    "description": "The Man Plaid Shirt is a timeless and versatile men's shirt with a classic plaid pattern. Its comfortable fit and casual style make it a wardrobe essential for various occasions.",
+    "categories": [
+      "mens-shirts"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Classic Wear",
+    "sku": "TWL7HRBB"
+  },
+  {
+    "id": "d5feccd2-2b47-4707-9696-d35b9a435583",
+    "name": "Nike Air Jordan 1 Red And Black",
+    "price": 149.99,
+    "description": "The Nike Air Jordan 1 in Red and Black is an iconic basketball sneaker known for its stylish design and high-performance features, making it a favorite among sneaker enthusiasts and athletes.",
+    "categories": [
+      "mens-shoes"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "brand": "Nike",
+    "sku": "84YC5J67"
+  },
+  {
+    "id": "11e7ccb7-adb6-4021-b9eb-11bd8c4b34b7",
+    "name": "Men Check Shirt",
+    "price": 27.99,
+    "description": "The Men Check Shirt is a classic and versatile shirt featuring a stylish check pattern. Suitable for various occasions, it adds a smart and polished touch to your wardrobe.",
+    "categories": [
+      "mens-shirts"
+    ],
+    "rating": 2.0,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Urban Chic",
+    "sku": "L902AU9L"
+  },
+  {
+    "id": "704129d6-bd76-4e60-bf28-d7407ce0dbec",
+    "name": "Nike Baseball Cleats",
+    "price": 79.99,
+    "description": "Nike Baseball Cleats are designed for maximum traction and performance on the baseball field. They provide stability and support for players during games and practices.",
+    "categories": [
+      "mens-shoes"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "footwear",
+      "sports cleats"
+    ],
+    "brand": "Nike",
+    "sku": "81LRTRP5"
+  },
+  {
+    "id": "2556a82c-cb95-4952-8cf2-b2345e7444f9",
+    "name": "Man Short Sleeve Shirt",
+    "price": 19.99,
+    "description": "The Man Short Sleeve Shirt is a breezy and stylish option for warm days. With a comfortable fit and short sleeves, it's perfect for a laid-back yet polished look.",
+    "categories": [
+      "mens-shirts"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "clothing",
+      "men's shirts"
+    ],
+    "brand": "Casual Comfort",
+    "sku": "KEVGVDTV"
+  },
+  {
+    "id": "8d427834-c947-49a0-8525-01ea5b8ad034",
+    "name": "Puma Future Rider Trainers",
+    "price": 89.99,
+    "description": "The Puma Future Rider Trainers offer a blend of retro style and modern comfort. Perfect for casual wear, these trainers provide a fashionable and comfortable option for everyday use.",
+    "categories": [
+      "mens-shoes"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "brand": "Puma",
+    "sku": "64ORN32I"
+  },
+  {
+    "id": "13f8572d-9877-48d4-9dad-0c2437b7ad65",
+    "name": "Sports Sneakers Off White & Red",
+    "price": 119.99,
+    "description": "The Sports Sneakers in Off White and Red combine style and functionality, making them a fashionable choice for sports enthusiasts. The red and off-white color combination adds a bold and energetic touch.",
+    "categories": [
+      "mens-shoes"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "footwear",
+      "athletic shoes"
+    ],
+    "brand": "Off White",
+    "sku": "8SRWW2RM"
+  },
+  {
+    "id": "67ada2ff-a78b-40d1-b39e-f66056108c43",
+    "name": "Sports Sneakers Off White Red",
+    "price": 109.99,
+    "description": "Another variant of the Sports Sneakers in Off White Red, featuring a unique design. These sneakers offer style and comfort for casual occasions.",
+    "categories": [
+      "mens-shoes"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "brand": "Off White",
+    "sku": "1SFJZOT2"
+  },
+  {
+    "id": "5eb69a53-e92b-47b4-ae5a-67ff704455b5",
+    "name": "Brown Leather Belt Watch",
+    "price": 89.99,
+    "description": "The Brown Leather Belt Watch is a stylish timepiece with a classic design. Featuring a genuine leather strap and a sleek dial, it adds a touch of sophistication to your look.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "watches",
+      "leather watches"
+    ],
+    "brand": "Fashion Timepieces",
+    "sku": "WGZ21MSA"
+  },
+  {
+    "id": "b0a94e9c-84bb-46c2-bbce-7c8f778d2d23",
+    "name": "Longines Master Collection",
+    "price": 1499.99,
+    "description": "The Longines Master Collection is an elegant and refined watch known for its precision and craftsmanship. With a timeless design, it's a symbol of luxury and sophistication.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Longines",
+    "sku": "LA7B9XEV"
+  },
+  {
+    "id": "72966440-06e7-48ba-a20c-74b99405d440",
+    "name": "Rolex Cellini Date Black Dial",
+    "price": 8999.99,
+    "description": "The Rolex Cellini Date with Black Dial is a classic and prestigious watch. With a black dial and date complication, it exudes sophistication and is a symbol of Rolex's heritage.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Rolex",
+    "sku": "J3GPKQW0"
+  },
+  {
+    "id": "35dd2271-9e22-4d9b-9c83-6b968b62ebc8",
+    "name": "Rolex Cellini Moonphase",
+    "price": 12999.99,
+    "description": "The Rolex Cellini Moonphase is a masterpiece of horology, featuring a moon phase complication and exquisite design. It reflects Rolex's commitment to precision and elegance.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Rolex",
+    "sku": "LUZDIKKR"
+  },
+  {
+    "id": "dc578f71-a94b-4e07-832e-b6d481fa4525",
+    "name": "Rolex Datejust",
+    "price": 10999.99,
+    "description": "The Rolex Datejust is an iconic and versatile timepiece with a date window. Known for its timeless design and reliability, it's a symbol of Rolex's watchmaking excellence.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Rolex",
+    "sku": "86V20NWJ"
+  },
+  {
+    "id": "fefcb06b-b107-46df-b243-cb63b93c7a79",
+    "name": "Apple Airpower Wireless Charger",
+    "price": 79.99,
+    "description": "The Apple AirPower Wireless Charger provides a convenient way to charge your compatible Apple devices wirelessly. Simply place your devices on the charging mat for effortless charging.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "electronics",
+      "wireless chargers"
+    ],
+    "brand": "Apple",
+    "sku": "CBIU3PMZ"
+  },
+  {
+    "id": "a632312f-7b43-4039-8fc1-6fce7e17ca5e",
+    "name": "Rolex Submariner Watch",
+    "price": 13999.99,
+    "description": "The Rolex Submariner is a legendary dive watch with a rich history. Known for its durability and water resistance, it's a symbol of adventure and exploration.",
+    "categories": [
+      "mens-watches"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Rolex",
+    "sku": "XFGRO0O5"
+  },
+  {
+    "id": "eb9f316b-999f-409b-8b06-de1835ea403d",
+    "name": "Apple Airpods",
+    "price": 129.99,
+    "description": "The Apple Airpods offer a seamless wireless audio experience. With easy pairing, high-quality sound, and Siri integration, they are perfect for on-the-go listening.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "brand": "Apple",
+    "sku": "H76W8TSP"
+  },
+  {
+    "id": "8dd8a1cf-3246-41c3-8005-761b9f7c9bd5",
+    "name": "Amazon Echo Plus",
+    "price": 99.99,
+    "description": "The Amazon Echo Plus is a smart speaker with built-in Alexa voice control. It features premium sound quality and serves as a hub for controlling smart home devices.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "brand": "Amazon",
+    "sku": "YHLK4W9V"
+  },
+  {
+    "id": "d2123075-b4e4-4b68-b56c-2b602aeced7f",
+    "name": "Apple iPhone Charger",
+    "price": 19.99,
+    "description": "The Apple iPhone Charger is a high-quality charger designed for fast and efficient charging of your iPhone. Ensure your device stays powered up and ready to go.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "electronics",
+      "chargers"
+    ],
+    "brand": "Apple",
+    "sku": "YAA6EHI7"
+  },
+  {
+    "id": "13302050-f718-4815-b662-ebbfc936196d",
+    "name": "Apple AirPods Max Silver",
+    "price": 549.99,
+    "description": "The Apple AirPods Max in Silver are premium over-ear headphones with high-fidelity audio, adaptive EQ, and active noise cancellation. Experience immersive sound in style.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "electronics",
+      "over-ear headphones"
+    ],
+    "brand": "Apple",
+    "sku": "HPK82VDE"
+  },
+  {
+    "id": "f78c942d-e6bb-463e-9d41-d95bfdee1809",
+    "name": "Apple HomePod Mini Cosmic Grey",
+    "price": 99.99,
+    "description": "The Apple HomePod Mini in Cosmic Grey is a compact smart speaker that delivers impressive audio and integrates seamlessly with the Apple ecosystem for a smart home experience.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "electronics",
+      "smart speakers"
+    ],
+    "brand": "Apple",
+    "sku": "LDHQAT4B"
+  },
+  {
+    "id": "14a173d3-04a9-4b6d-a822-c12b33faa8b6",
+    "name": "Beats Flex Wireless Earphones",
+    "price": 49.99,
+    "description": "The Beats Flex Wireless Earphones offer a comfortable and versatile audio experience. With magnetic earbuds and up to 12 hours of battery life, they are ideal for everyday use.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "electronics",
+      "wireless earphones"
+    ],
+    "brand": "Beats",
+    "sku": "7N15J2UK"
+  },
+  {
+    "id": "50b9cac6-c130-45c2-9c39-2432bc9b326d",
+    "name": "Monopod",
+    "price": 19.99,
+    "description": "The Monopod is a versatile camera accessory for stable and adjustable shooting. Perfect for capturing selfies, group photos, and videos with ease.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "brand": "TechGear",
+    "sku": "RDEQ0W2L"
+  },
+  {
+    "id": "af965cc2-edaa-48d9-8ddc-9637d08713c4",
+    "name": "iPhone 12 Silicone Case with MagSafe Plum",
+    "price": 29.99,
+    "description": "The iPhone 12 Silicone Case with MagSafe in Plum is a stylish and protective case designed for the iPhone 12. It features MagSafe technology for easy attachment of accessories.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 2.0,
+    "tags": [
+      "electronics",
+      "phone accessories"
+    ],
+    "brand": "Apple",
+    "sku": "3UHE8VLA"
+  },
+  {
+    "id": "ae173b5f-7614-4b1c-8f08-befbe991911a",
+    "name": "Apple MagSafe Battery Pack",
+    "price": 99.99,
+    "description": "The Apple MagSafe Battery Pack is a portable and convenient way to add extra battery life to your MagSafe-compatible iPhone. Attach it magnetically for a secure connection.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "electronics",
+      "power banks"
+    ],
+    "brand": "Apple",
+    "sku": "XNFJURL7"
+  },
+  {
+    "id": "a35430b4-adc1-48e8-93ab-c8af5bfc9f80",
+    "name": "Apple Watch Series 4 Gold",
+    "price": 349.99,
+    "description": "The Apple Watch Series 4 in Gold is a stylish and advanced smartwatch with features like heart rate monitoring, fitness tracking, and a beautiful Retina display.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "electronics",
+      "smartwatches"
+    ],
+    "brand": "Apple",
+    "sku": "ZNXPOEPT"
+  },
+  {
+    "id": "1770d727-3f22-439f-82c4-022b1bffb652",
+    "name": "Selfie Stick Monopod",
+    "price": 12.99,
+    "description": "The Selfie Stick Monopod is a extendable and foldable device for capturing the perfect selfie or group photo. Compatible with smartphones and cameras.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "brand": "SnapTech",
+    "sku": "9T6WSF1E"
+  },
+  {
+    "id": "4410f720-d42e-4df9-af2b-534677f9ec3f",
+    "name": "Selfie Lamp with iPhone",
+    "price": 14.99,
+    "description": "The Selfie Lamp with iPhone is a portable and adjustable LED light designed to enhance your selfies and video calls. Attach it to your iPhone for well-lit photos.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "electronics",
+      "selfie accessories"
+    ],
+    "brand": "GadgetMaster",
+    "sku": "2VZ1ZNMO"
+  },
+  {
+    "id": "8df71832-922d-4dc4-a112-9b48b5c088d0",
+    "name": "TV Studio Camera Pedestal",
+    "price": 499.99,
+    "description": "The TV Studio Camera Pedestal is a professional-grade camera support system for smooth and precise camera movements in a studio setting. Ideal for broadcast and production.",
+    "categories": [
+      "mobile-accessories"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "electronics",
+      "camera accessories"
+    ],
+    "brand": "ProVision",
+    "sku": "8K18CNAH"
+  },
+  {
+    "id": "64669344-a748-47a6-ac6b-0c6983e2d7b2",
+    "name": "Generic Motorcycle",
+    "price": 3999.99,
+    "description": "The Generic Motorcycle is a versatile and reliable bike suitable for various riding preferences. With a balanced design, it provides a comfortable and efficient riding experience.",
+    "categories": [
+      "motorcycle"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "motorcycles"
+    ],
+    "brand": "Generic Motors",
+    "sku": "8MOWO363"
+  },
+  {
+    "id": "6733d0ca-7a66-470c-81a7-ed6d9aabbfc7",
+    "name": "Kawasaki Z800",
+    "price": 8999.99,
+    "description": "The Kawasaki Z800 is a powerful and agile sportbike known for its striking design and performance. It's equipped with advanced features, making it a favorite among motorcycle enthusiasts.",
+    "categories": [
+      "motorcycle"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
+    "brand": "Kawasaki",
+    "sku": "9WBTI8EP"
+  },
+  {
+    "id": "4d308398-d917-4d62-8b4c-822648a2e6ce",
+    "name": "iPhone 5s",
+    "price": 199.99,
+    "description": "The iPhone 5s is a classic smartphone known for its compact design and advanced features during its release. While it's an older model, it still provides a reliable user experience.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "brand": "Apple",
+    "sku": "AZ1L68SM"
+  },
+  {
+    "id": "3ee12a15-6e29-4a40-aff5-dd65a7f94aa5",
+    "name": "MotoGP CI.H1",
+    "price": 14999.99,
+    "description": "The MotoGP CI.H1 is a high-performance motorcycle inspired by MotoGP racing technology. It offers cutting-edge features and precision engineering for an exhilarating riding experience.",
+    "categories": [
+      "motorcycle"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
+    "brand": "MotoGP",
+    "sku": "0ENL5IX6"
+  },
+  {
+    "id": "73f59bfc-50b2-4d18-be13-b713158f7cd5",
+    "name": "iPhone 6",
+    "price": 299.99,
+    "description": "The iPhone 6 is a stylish and capable smartphone with a larger display and improved performance. It introduced new features and design elements, making it a popular choice in its time.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "brand": "Apple",
+    "sku": "ZPXH3X9J"
+  },
+  {
+    "id": "09c2da48-badd-41c2-a308-085005b799f1",
+    "name": "iPhone 13 Pro",
+    "price": 1099.99,
+    "description": "The iPhone 13 Pro is a cutting-edge smartphone with a powerful camera system, high-performance chip, and stunning display. It offers advanced features for users who demand top-notch technology.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "brand": "Apple",
+    "sku": "YGQKHPGK"
+  },
+  {
+    "id": "733ff7d4-4181-48ef-b8c9-f206a64ff293",
+    "name": "Scooter Motorcycle",
+    "price": 2999.99,
+    "description": "The Scooter Motorcycle is a practical and fuel-efficient bike ideal for urban commuting. It features a step-through design and user-friendly controls for easy maneuverability.",
+    "categories": [
+      "motorcycle"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "motorcycles",
+      "scooters"
+    ],
+    "brand": "ScootMaster",
+    "sku": "RGF3EX5E"
+  },
+  {
+    "id": "37b9c073-474a-437e-affb-ab6d2138c892",
+    "name": "Sportbike Motorcycle",
+    "price": 7499.99,
+    "description": "The Sportbike Motorcycle is designed for speed and agility, with a sleek and aerodynamic profile. It's suitable for riders looking for a dynamic and thrilling riding experience.",
+    "categories": [
+      "motorcycle"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "motorcycles",
+      "sportbikes"
+    ],
+    "brand": "SpeedMaster",
+    "sku": "MW0SG302"
+  },
+  {
+    "id": "aa49d874-5431-4fd9-a934-d55fde6f7f30",
+    "name": "Olay Ultra Moisture Shea Butter Body Wash",
+    "price": 12.99,
+    "description": "Olay Ultra Moisture Shea Butter Body Wash is a luxurious body wash that hydrates and nourishes your skin with the moisturizing power of shea butter. Enjoy a rich lather and silky-smooth skin.",
+    "categories": [
+      "skin-care"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "personal care",
+      "body wash"
+    ],
+    "brand": "Olay",
+    "sku": "BZCSD4EX"
+  },
+  {
+    "id": "8b2acf32-764b-4cf7-8f0b-e7e7c46e53af",
+    "name": "iPhone X",
+    "price": 899.99,
+    "description": "The iPhone X is a flagship smartphone featuring a bezel-less OLED display, facial recognition technology (Face ID), and impressive performance. It represents a milestone in iPhone design and innovation.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "smartphones",
+      "apple"
+    ],
+    "brand": "Apple",
+    "sku": "9QN3UDUD"
+  },
+  {
+    "id": "a80ebccc-352d-4115-81a5-2892e96477a8",
+    "name": "Vaseline Men Body and Face Lotion",
+    "price": 9.99,
+    "description": "Vaseline Men Body and Face Lotion is a specially formulated lotion designed to provide long-lasting moisture to men's skin. It absorbs quickly and helps keep the skin hydrated and healthy.",
+    "categories": [
+      "skin-care"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "personal care",
+      "body lotion"
+    ],
+    "brand": "Vaseline",
+    "sku": "31IK2JUC"
+  },
+  {
+    "id": "4ce35847-e081-465b-8f14-cb814abfa27b",
+    "name": "Attitude Super Leaves Hand Soap",
+    "price": 8.99,
+    "description": "Attitude Super Leaves Hand Soap is a natural and nourishing hand soap enriched with the goodness of super leaves. It cleanses and moisturizes your hands, leaving them feeling fresh and soft.",
+    "categories": [
+      "skin-care"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "personal care",
+      "hand soap"
+    ],
+    "brand": "Attitude",
+    "sku": "E6U3C701"
+  },
+  {
+    "id": "3ea6248f-9561-4269-bb27-c684a71b547b",
+    "name": "Oppo F19 Pro Plus",
+    "price": 399.99,
+    "description": "The Oppo F19 Pro Plus is a feature-rich smartphone with a focus on camera capabilities. It boasts advanced photography features and a powerful performance for a premium user experience.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "brand": "Oppo",
+    "sku": "H2TTGWXB"
+  },
+  {
+    "id": "2dd3ee0e-42a5-4388-ab0a-14245853da55",
+    "name": "Realme C35",
+    "price": 149.99,
+    "description": "The Realme C35 is a budget-friendly smartphone with a focus on providing essential features for everyday use. It offers a reliable performance and user-friendly experience.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "brand": "Realme",
+    "sku": "25KENV7J"
+  },
+  {
+    "id": "b1a5c218-2557-4f09-91ff-b6f6ac9ed51c",
+    "name": "Oppo A57",
+    "price": 249.99,
+    "description": "The Oppo A57 is a mid-range smartphone known for its sleek design and capable features. It offers a balance of performance and affordability, making it a popular choice.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "brand": "Oppo",
+    "sku": "J1NO9ULG"
+  },
+  {
+    "id": "76b29377-1072-4e53-92b0-57ad867853a2",
+    "name": "Oppo K1",
+    "price": 299.99,
+    "description": "The Oppo K1 series offers a range of smartphones with various features and specifications. Known for their stylish design and reliable performance, the Oppo K1 series caters to diverse user preferences.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "smartphones",
+      "oppo"
+    ],
+    "brand": "Oppo",
+    "sku": "ELZ94HM3"
+  },
+  {
+    "id": "01af592c-5bf6-44a1-8438-540c23abe66a",
+    "name": "Samsung Galaxy S8",
+    "price": 499.99,
+    "description": "The Samsung Galaxy S8 is a premium smartphone with an Infinity Display, offering a stunning visual experience. It boasts advanced camera capabilities and cutting-edge technology.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "brand": "Samsung",
+    "sku": "GLXQQKBF"
+  },
+  {
+    "id": "09f4a083-de25-4726-b1c9-455d5177624a",
+    "name": "Samsung Galaxy S7",
+    "price": 299.99,
+    "description": "The Samsung Galaxy S7 is a flagship smartphone known for its sleek design and advanced features. It features a high-resolution display, powerful camera, and robust performance.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "brand": "Samsung",
+    "sku": "VZF4Z58Z"
+  },
+  {
+    "id": "f9cb0243-9031-414e-b4f5-eb11986b39cf",
+    "name": "Realme XT",
+    "price": 349.99,
+    "description": "The Realme XT is a feature-rich smartphone with a focus on camera technology. It comes equipped with advanced camera sensors, delivering high-quality photos and videos for photography enthusiasts.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 2.33,
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "brand": "Realme",
+    "sku": "GHDMRAP2"
+  },
+  {
+    "id": "d9a7b768-5622-4367-88b0-2bfdf300834b",
+    "name": "Realme X",
+    "price": 299.99,
+    "description": "The Realme X is a mid-range smartphone known for its sleek design and impressive display. It offers a good balance of performance and camera capabilities for users seeking a quality device.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "smartphones",
+      "realme"
+    ],
+    "brand": "Realme",
+    "sku": "5E11C5C4"
+  },
+  {
+    "id": "dfb41f23-5372-4299-a8a8-028bbc4561ac",
+    "name": "Vivo S1",
+    "price": 249.99,
+    "description": "The Vivo S1 is a stylish and mid-range smartphone offering a blend of design and performance. It features a vibrant display, capable camera system, and reliable functionality.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "brand": "Vivo",
+    "sku": "BG6974E7"
+  },
+  {
+    "id": "f650e9e5-e4ef-466a-b4be-2cb0e89b149e",
+    "name": "Samsung Galaxy S10",
+    "price": 699.99,
+    "description": "The Samsung Galaxy S10 is a flagship device featuring a dynamic AMOLED display, versatile camera system, and powerful performance. It represents innovation and excellence in smartphone technology.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "smartphones",
+      "samsung galaxy"
+    ],
+    "brand": "Samsung",
+    "sku": "5GJFL98I"
+  },
+  {
+    "id": "71eec6aa-093c-4297-a448-a48b66b4f6ad",
+    "name": "Vivo X21",
+    "price": 499.99,
+    "description": "The Vivo X21 is a premium smartphone with a focus on cutting-edge technology. It features an in-display fingerprint sensor, a high-resolution display, and advanced camera capabilities.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "brand": "Vivo",
+    "sku": "KSF00BOC"
+  },
+  {
+    "id": "b2fa1b08-fa1f-4972-a534-c631746919cf",
+    "name": "Vivo V9",
+    "price": 299.99,
+    "description": "The Vivo V9 is a smartphone known for its sleek design and emphasis on capturing high-quality selfies. It features a notch display, dual-camera setup, and a modern design.",
+    "categories": [
+      "smartphones"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "smartphones",
+      "vivo"
+    ],
+    "brand": "Vivo",
+    "sku": "N9WFE2WH"
+  },
+  {
+    "id": "228015f2-441d-4dc8-a9f3-c8e9ee39de53",
+    "name": "Baseball Ball",
+    "price": 8.99,
+    "description": "The Baseball Ball is a standard baseball used in baseball games. It features a durable leather cover and is designed for pitching, hitting, and fielding in the game of baseball.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "brand": null,
+    "sku": "VXE0FZPJ"
+  },
+  {
+    "id": "18259c40-be27-49d2-b1d8-ede442a602b7",
+    "name": "American Football",
+    "price": 19.99,
+    "description": "The American Football is a classic ball used in American football games. It is designed for throwing and catching, making it an essential piece of equipment for the sport.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "sports equipment",
+      "american football"
+    ],
+    "brand": null,
+    "sku": "QLDVAXMJ"
+  },
+  {
+    "id": "dfb9846a-cb74-4112-8173-4a57eb52eadf",
+    "name": "Baseball Glove",
+    "price": 24.99,
+    "description": "The Baseball Glove is a protective glove worn by baseball players. It is designed to catch and field the baseball, providing players with comfort and control during the game.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "brand": null,
+    "sku": "WOP4GLB6"
+  },
+  {
+    "id": "5afb18f5-b421-4871-8bf4-585ca5c86707",
+    "name": "Cricket Bat",
+    "price": 29.99,
+    "description": "The Cricket Bat is an essential piece of cricket equipment used by batsmen to hit the cricket ball. It is made of wood and comes in various sizes and designs.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "brand": null,
+    "sku": "RK7E32YJ"
+  },
+  {
+    "id": "59be7035-f732-4286-9a15-7f87c5f426dc",
+    "name": "Cricket Ball",
+    "price": 12.99,
+    "description": "The Cricket Ball is a hard leather ball used in the sport of cricket. It is bowled and batted in the game, and its hardness and seam contribute to the dynamics of cricket play.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "brand": null,
+    "sku": "8F923MI3"
+  },
+  {
+    "id": "0c4b2e49-c824-44cf-bf7e-046fbf588510",
+    "name": "Basketball Rim",
+    "price": 39.99,
+    "description": "The Basketball Rim is a sturdy hoop and net assembly mounted on a basketball backboard. It provides a target for shooting and scoring in the game of basketball.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
+    "brand": null,
+    "sku": "ENEWIQSR"
+  },
+  {
+    "id": "26e73fa8-d9e0-4d08-bd80-c0b64edb3580",
+    "name": "Cricket Wicket",
+    "price": 29.99,
+    "description": "The Cricket Wicket is a set of three stumps and two bails, forming a wicket used in the sport of cricket. Batsmen aim to protect the wicket while scoring runs.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "brand": null,
+    "sku": "MY2K8E37"
+  },
+  {
+    "id": "6cfceed0-1229-4c8e-8730-dd6299eb0570",
+    "name": "Cricket Helmet",
+    "price": 44.99,
+    "description": "The Cricket Helmet is a protective headgear worn by cricket players, especially batsmen and wicketkeepers. It provides protection against fast bowling and bouncers.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "sports equipment",
+      "cricket"
+    ],
+    "brand": null,
+    "sku": "00M0YHO1"
+  },
+  {
+    "id": "1290ac72-4d27-44e3-9b5b-2f5576f60dc4",
+    "name": "Basketball",
+    "price": 14.99,
+    "description": "The Basketball is a standard ball used in basketball games. It is designed for dribbling, shooting, and passing in the game of basketball, suitable for both indoor and outdoor play.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "sports equipment",
+      "basketball"
+    ],
+    "brand": null,
+    "sku": "EMF68NH8"
+  },
+  {
+    "id": "bcb9b067-c24a-46f8-a3eb-c1ae2507a936",
+    "name": "Feather Shuttlecock",
+    "price": 5.99,
+    "description": "The Feather Shuttlecock is used in the sport of badminton. It features natural feathers and is designed for high-speed play, providing stability and accuracy during matches.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "sports equipment",
+      "badminton"
+    ],
+    "brand": null,
+    "sku": "P2K2L1IZ"
+  },
+  {
+    "id": "0333c849-e5aa-4a58-862a-cd5d4bb05948",
+    "name": "Iron Golf",
+    "price": 49.99,
+    "description": "The Iron Golf is a type of golf club designed for various golf shots. It features a solid metal head and is used for approach shots, chipping, and other golfing techniques.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "brand": null,
+    "sku": "Q5JH7UTR"
+  },
+  {
+    "id": "c35a9205-5c77-4c16-b279-04ebcfe766eb",
+    "name": "Metal Baseball Bat",
+    "price": 29.99,
+    "description": "The Metal Baseball Bat is a durable and lightweight baseball bat made from metal alloys. It is commonly used in baseball games for hitting and batting practice.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "sports equipment",
+      "baseball"
+    ],
+    "brand": null,
+    "sku": "WQ91QZCL"
+  },
+  {
+    "id": "50e5e9d3-03ce-4508-894a-00c04c015dbe",
+    "name": "Golf Ball",
+    "price": 9.99,
+    "description": "The Golf Ball is a small ball used in the sport of golf. It features dimples on its surface, providing aerodynamic lift and distance when struck by a golf club.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "sports equipment",
+      "golf"
+    ],
+    "brand": null,
+    "sku": "QAPLNLL0"
+  },
+  {
+    "id": "9b18b77f-91d4-4648-bba6-bafb3323f794",
+    "name": "Football",
+    "price": 17.99,
+    "description": "The Football, also known as a soccer ball, is the standard ball used in the sport of football (soccer). It is designed for kicking and passing in the game.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "sports equipment",
+      "football"
+    ],
+    "brand": null,
+    "sku": "LJLW0BOI"
+  },
+  {
+    "id": "3075476e-0a68-41ae-a9e1-6df4a4035e33",
+    "name": "Tennis Racket",
+    "price": 49.99,
+    "description": "The Tennis Racket is an essential piece of equipment used in the sport of tennis. It features a frame with strings and a grip, allowing players to hit the tennis ball.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
+    "brand": null,
+    "sku": "NBRQ6V5N"
+  },
+  {
+    "id": "f9ed7c88-0d0b-4bec-bd4f-98f13fffed2c",
+    "name": "Tennis Ball",
+    "price": 6.99,
+    "description": "The Tennis Ball is a standard ball used in the sport of tennis. It is designed for bouncing and hitting with tennis rackets during matches or practice sessions.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 2.33,
+    "tags": [
+      "sports equipment",
+      "tennis"
+    ],
+    "brand": null,
+    "sku": "E2QETULP"
+  },
+  {
+    "id": "2b4a25a8-32ca-4066-9b5e-f7c893fa42f2",
+    "name": "Black Sun Glasses",
+    "price": 29.99,
+    "description": "The Black Sun Glasses are a classic and stylish choice, featuring a sleek black frame and tinted lenses. They provide both UV protection and a fashionable look.",
+    "categories": [
+      "sunglasses"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "572XJQ54"
+  },
+  {
+    "id": "eaad559a-08bb-4a87-a787-41bccda963d8",
+    "name": "Volleyball",
+    "price": 11.99,
+    "description": "The Volleyball is a standard ball used in the sport of volleyball. It is designed for passing, setting, and spiking over the net during volleyball matches.",
+    "categories": [
+      "sports-accessories"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "sports equipment",
+      "volleyball"
+    ],
+    "brand": null,
+    "sku": "0WKXK9YE"
+  },
+  {
+    "id": "92d0e4dd-09aa-4e1f-8c64-f86ade34fd04",
+    "name": "Classic Sun Glasses",
+    "price": 24.99,
+    "description": "The Classic Sun Glasses offer a timeless design with a neutral frame and UV-protected lenses. These sunglasses are versatile and suitable for various occasions.",
+    "categories": [
+      "sunglasses"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "4K0LQT72"
+  },
+  {
+    "id": "ccc3dbe0-bcc8-4a82-9d42-b99bc01ca488",
+    "name": "Green and Black Glasses",
+    "price": 34.99,
+    "description": "The Green and Black Glasses feature a bold combination of green and black colors, adding a touch of vibrancy to your eyewear collection. They are both stylish and eye-catching.",
+    "categories": [
+      "sunglasses"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "6ZLT86N8"
+  },
+  {
+    "id": "31ce4fa5-832a-4851-8884-addb2f1f4815",
+    "name": "Party Glasses",
+    "price": 19.99,
+    "description": "The Party Glasses are designed to add flair to your party outfit. With unique shapes or colorful frames, they're perfect for adding a playful touch to your look during celebrations.",
+    "categories": [
+      "sunglasses"
+    ],
+    "rating": 5.0,
+    "tags": [
+      "eyewear",
+      "party glasses"
+    ],
+    "brand": "Fashion Fun",
+    "sku": "CBO6BLYV"
+  },
+  {
+    "id": "f5acb826-0a8c-4302-bd4e-c8f3fd1d2ac4",
+    "name": "Samsung Galaxy Tab S8 Plus Grey",
+    "price": 599.99,
+    "description": "The Samsung Galaxy Tab S8 Plus in Grey is a high-performance Android tablet by Samsung. With a large AMOLED display, powerful processor, and S Pen support, it's ideal for productivity and entertainment.",
+    "categories": [
+      "tablets"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "brand": "Samsung",
+    "sku": "1SIVLPFN"
+  },
+  {
+    "id": "1cc8fdc7-368b-4c45-a00a-7523488130c2",
+    "name": "iPad Mini 2021 Starlight",
+    "price": 499.99,
+    "description": "The iPad Mini 2021 in Starlight is a compact and powerful tablet from Apple. Featuring a stunning Retina display, powerful A-series chip, and a sleek design, it offers a premium tablet experience.",
+    "categories": [
+      "tablets"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "brand": "Apple",
+    "sku": "L5CSWLNS"
+  },
+  {
+    "id": "53e73168-c6cd-47f5-adf6-74be9558c85e",
+    "name": "Sunglasses",
+    "price": 22.99,
+    "description": "The Sunglasses offer a classic and simple design with a focus on functionality. These sunglasses provide essential UV protection while maintaining a timeless look.",
+    "categories": [
+      "sunglasses"
+    ],
+    "rating": 4.67,
+    "tags": [
+      "eyewear",
+      "sunglasses"
+    ],
+    "brand": "Fashion Shades",
+    "sku": "FCWURP6V"
+  },
+  {
+    "id": "0acac8c4-578f-43b7-9ea1-39b6d0258dd4",
+    "name": "Blue Frock",
+    "price": 29.99,
+    "description": "The Blue Frock is a charming and stylish dress for various occasions. With a vibrant blue color and a comfortable design, it adds a touch of elegance to your wardrobe.",
+    "categories": [
+      "tops"
+    ],
+    "rating": 1.33,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "brand": null,
+    "sku": "YAXY0OOO"
+  },
+  {
+    "id": "e3180cd2-ba31-437b-b57f-cc16018ad4d9",
+    "name": "Samsung Galaxy Tab White",
+    "price": 349.99,
+    "description": "The Samsung Galaxy Tab in White is a sleek and versatile Android tablet. With a vibrant display, long-lasting battery, and a range of features, it offers a great user experience for various tasks.",
+    "categories": [
+      "tablets"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "electronics",
+      "tablets"
+    ],
+    "brand": "Samsung",
+    "sku": "AKJPAPFO"
+  },
+  {
+    "id": "26469f16-b111-4616-a03f-a90820ccdb23",
+    "name": "Girl Summer Dress",
+    "price": 19.99,
+    "description": "The Girl Summer Dress is a cute and breezy dress designed for warm weather. With playful patterns and lightweight fabric, it's perfect for keeping cool and stylish during the summer.",
+    "categories": [
+      "tops"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "clothing",
+      "girls' dresses"
+    ],
+    "brand": null,
+    "sku": "99397X82"
+  },
+  {
+    "id": "7bf25dd9-722b-40d1-a6a6-8be49cc45cf9",
+    "name": "Tartan Dress",
+    "price": 39.99,
+    "description": "The Tartan Dress features a classic tartan pattern, bringing a timeless and sophisticated touch to your wardrobe. Perfect for fall and winter, it adds a hint of traditional charm.",
+    "categories": [
+      "tops"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "brand": null,
+    "sku": "35AA2Y9Z"
+  },
+  {
+    "id": "8b385b9d-ad75-4d6a-9836-4252c1bb4e74",
+    "name": "Gray Dress",
+    "price": 34.99,
+    "description": "The Gray Dress is a versatile and chic option for various occasions. With a neutral gray color, it can be dressed up or down, making it a wardrobe staple for any fashion-forward individual.",
+    "categories": [
+      "tops"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "brand": null,
+    "sku": "GVBVDYSG"
+  },
+  {
+    "id": "303b44cc-14c3-4d1f-bc58-162e0c7b9fc6",
+    "name": "Short Frock",
+    "price": 24.99,
+    "description": "The Short Frock is a playful and trendy dress with a shorter length. Ideal for casual outings or special occasions, it combines style and comfort for a fashionable look.",
+    "categories": [
+      "tops"
+    ],
+    "rating": 3.0,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "brand": null,
+    "sku": "4VA2AFL0"
+  },
+  {
+    "id": "c50100fc-1858-471f-9f11-94984af3fa3a",
+    "name": "300 Touring",
+    "price": 28999.99,
+    "description": "The 300 Touring is a stylish and comfortable sedan, known for its luxurious features and smooth performance.",
+    "categories": [
+      "vehicle"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "sedans",
+      "vehicles"
+    ],
+    "brand": "Chrysler",
+    "sku": "SPG50KEL"
+  },
+  {
+    "id": "1f1f4035-1b5e-4fc5-8ea5-03bbdc1a1b13",
+    "name": "Durango SXT RWD",
+    "price": 36999.99,
+    "description": "The Durango SXT RWD is a spacious and versatile SUV, known for its strong performance and family-friendly features.",
+    "categories": [
+      "vehicle"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "suvs",
+      "vehicles"
+    ],
+    "brand": "Dodge",
+    "sku": "8I1NEZNH"
+  },
+  {
+    "id": "f3dcce46-023b-4555-ae80-37f9ce3edc44",
+    "name": "Dodge Hornet GT Plus",
+    "price": 24999.99,
+    "description": "The Dodge Hornet GT Plus is a compact and agile hatchback, perfect for urban driving with a touch of sportiness.",
+    "categories": [
+      "vehicle"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "hatchbacks",
+      "compact cars",
+      "vehicles"
+    ],
+    "brand": "Dodge",
+    "sku": "FTLDKR58"
+  },
+  {
+    "id": "c5ac3edf-3a1c-47a9-8645-989f94d6fc26",
+    "name": "Blue Women's Handbag",
+    "price": 49.99,
+    "description": "The Blue Women's Handbag is a stylish and spacious accessory for everyday use. With a vibrant blue color and multiple compartments, it combines fashion and functionality.",
+    "categories": [
+      "womens-bags"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
+    "brand": "Fashionista",
+    "sku": "A5HC6SCF"
+  },
+  {
+    "id": "504d86b7-fc8e-4e5d-91f5-cc6c16d30746",
+    "name": "Heshe Women's Leather Bag",
+    "price": 129.99,
+    "description": "The Heshe Women's Leather Bag is a luxurious and high-quality leather bag for the sophisticated woman. With a timeless design and durable craftsmanship, it's a versatile accessory.",
+    "categories": [
+      "womens-bags"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "fashion accessories",
+      "leather bags"
+    ],
+    "brand": "Heshe",
+    "sku": "W8MA1IE7"
+  },
+  {
+    "id": "f88eb5f7-9b2b-4f4c-869f-37060612e17b",
+    "name": "White Faux Leather Backpack",
+    "price": 39.99,
+    "description": "The White Faux Leather Backpack is a trendy and practical backpack for the modern woman. With a sleek white design and ample storage space, it's perfect for both casual and on-the-go styles.",
+    "categories": [
+      "womens-bags"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "fashion accessories",
+      "backpacks"
+    ],
+    "brand": "Urban Chic",
+    "sku": "85TOBG0M"
+  },
+  {
+    "id": "a77f2d61-d3ed-410a-8993-2f97df443ab8",
+    "name": "Prada Women Bag",
+    "price": 599.99,
+    "description": "The Prada Women Bag is an iconic designer bag that exudes elegance and luxury. Crafted with precision and featuring the Prada logo, it's a statement piece for fashion enthusiasts.",
+    "categories": [
+      "womens-bags"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "fashion accessories",
+      "designer bags"
+    ],
+    "brand": "Prada",
+    "sku": "WXX4YTJM"
+  },
+  {
+    "id": "b62c3978-6718-453d-b868-ded1220ee709",
+    "name": "Pacifica Touring",
+    "price": 31999.99,
+    "description": "The Pacifica Touring is a stylish and well-equipped minivan, offering comfort and convenience for family journeys.",
+    "categories": [
+      "vehicle"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "minivans",
+      "vehicles"
+    ],
+    "brand": "Chrysler",
+    "sku": "26P5DXAD"
+  },
+  {
+    "id": "0ce373db-df0d-4227-99f4-958cdc0d9527",
+    "name": "Women Handbag Black",
+    "price": 59.99,
+    "description": "The Women Handbag in Black is a classic and versatile accessory that complements various outfits. With a timeless black color and functional design, it's a must-have in every woman's wardrobe.",
+    "categories": [
+      "womens-bags"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "fashion accessories",
+      "handbags"
+    ],
+    "brand": "Elegance Collection",
+    "sku": "0I2M70SW"
+  },
+  {
+    "id": "80a7f735-3026-41df-8c65-831ba628286d",
+    "name": "Black Women's Gown",
+    "price": 129.99,
+    "description": "The Black Women's Gown is an elegant and timeless evening gown. With a sleek black design, it's perfect for formal events and special occasions, exuding sophistication and style.",
+    "categories": [
+      "womens-dresses"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "clothing",
+      "gowns"
+    ],
+    "brand": null,
+    "sku": "CL0LXEBG"
+  },
+  {
+    "id": "dbb04188-3c02-48ad-8c51-683e4fe47cd4",
+    "name": "Green Crystal Earring",
+    "price": 29.99,
+    "description": "The Green Crystal Earring is a dazzling accessory that features a vibrant green crystal. With a classic design, it adds a touch of elegance to your ensemble, perfect for formal or special occasions.",
+    "categories": [
+      "womens-jewellery"
+    ],
+    "rating": 2.0,
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "brand": null,
+    "sku": "O7LSKAP2"
+  },
+  {
+    "id": "f85818bc-6755-46ff-add7-2cd5d776497d",
+    "name": "Corset With Black Skirt",
+    "price": 79.99,
+    "description": "The Corset With Black Skirt is a chic and versatile outfit that pairs a fashionable corset with a classic black skirt. It offers a trendy and coordinated look for various occasions.",
+    "categories": [
+      "womens-dresses"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "brand": null,
+    "sku": "KM6VKT38"
+  },
+  {
+    "id": "20d15851-c726-4d8c-831d-9272b8f1da50",
+    "name": "Corset Leather With Skirt",
+    "price": 89.99,
+    "description": "The Corset Leather With Skirt is a bold and edgy ensemble that combines a stylish corset with a matching skirt. Ideal for fashion-forward individuals, it makes a statement at any event.",
+    "categories": [
+      "womens-dresses"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "clothing",
+      "corsets",
+      "skirts"
+    ],
+    "brand": null,
+    "sku": "TU384RG4"
+  },
+  {
+    "id": "e136cc7a-f563-44b1-b615-2fc20f6c9f5b",
+    "name": "Dress Pea",
+    "price": 49.99,
+    "description": "The Dress Pea is a stylish and comfortable dress with a pea pattern. Perfect for casual outings, it adds a playful and fun element to your wardrobe, making it a great choice for day-to-day wear.",
+    "categories": [
+      "womens-dresses"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "clothing",
+      "dresses"
+    ],
+    "brand": null,
+    "sku": "EOSIQZU7"
+  },
+  {
+    "id": "acb91d08-c3d6-438d-ad4f-73e9a982ad28",
+    "name": "Marni Red & Black Suit",
+    "price": 179.99,
+    "description": "The Marni Red & Black Suit is a sophisticated and fashion-forward suit ensemble. With a combination of red and black tones, it showcases a modern design for a bold and confident look.",
+    "categories": [
+      "womens-dresses"
+    ],
+    "rating": 2.0,
+    "tags": [
+      "clothing",
+      "suits"
+    ],
+    "brand": null,
+    "sku": "MWF43VM5"
+  },
+  {
+    "id": "af1abcf7-af31-42fd-b2cb-851a21339392",
+    "name": "Green Oval Earring",
+    "price": 24.99,
+    "description": "The Green Oval Earring is a stylish and versatile accessory with a unique oval shape. Whether for casual or dressy occasions, its green hue and contemporary design make it a standout piece.",
+    "categories": [
+      "womens-jewellery"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "brand": null,
+    "sku": "OCEA4CEQ"
+  },
+  {
+    "id": "fcfb5958-b973-4f29-a655-1604163dd030",
+    "name": "Tropical Earring",
+    "price": 19.99,
+    "description": "The Tropical Earring is a fun and playful accessory inspired by tropical elements. Featuring vibrant colors and a lively design, it's perfect for adding a touch of summer to your look.",
+    "categories": [
+      "womens-jewellery"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "fashion accessories",
+      "earrings"
+    ],
+    "brand": null,
+    "sku": "8F1O6KAS"
+  },
+  {
+    "id": "0757381a-e8a1-4d2b-9c43-ceeb2e9894eb",
+    "name": "Black & Brown Slipper",
+    "price": 19.99,
+    "description": "The Black & Brown Slipper is a comfortable and stylish choice for casual wear. Featuring a blend of black and brown colors, it adds a touch of sophistication to your relaxation.",
+    "categories": [
+      "womens-shoes"
+    ],
+    "rating": 2.67,
+    "tags": [
+      "footwear",
+      "slippers"
+    ],
+    "brand": "Comfort Trends",
+    "sku": "0EVS1LOK"
+  },
+  {
+    "id": "1d619899-61b4-4ec0-a18d-0252aad5b69d",
+    "name": "Charger SXT RWD",
+    "price": 32999.99,
+    "description": "The Charger SXT RWD is a powerful and sporty rear-wheel-drive sedan, offering a blend of performance and practicality.",
+    "categories": [
+      "vehicle"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "sedans",
+      "sports cars",
+      "vehicles"
+    ],
+    "brand": "Dodge",
+    "sku": "AWI8JXJ4"
+  },
+  {
+    "id": "48a616d1-dea7-4e41-8b2a-108bd7d02b14",
+    "name": "Calvin Klein Heel Shoes",
+    "price": 79.99,
+    "description": "Calvin Klein Heel Shoes are elegant and sophisticated, designed for formal occasions. With a classic design and high-quality materials, they complement your stylish ensemble.",
+    "categories": [
+      "womens-shoes"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "footwear",
+      "heel shoes"
+    ],
+    "brand": "Calvin Klein",
+    "sku": "9U4PYRXS"
+  },
+  {
+    "id": "bb092d66-8ac3-467d-8221-f1f29230baed",
+    "name": "Golden Shoes Woman",
+    "price": 49.99,
+    "description": "The Golden Shoes for Women are a glamorous choice for special occasions. Featuring a golden hue and stylish design, they add a touch of luxury to your outfit.",
+    "categories": [
+      "womens-shoes"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
+    "brand": "Fashion Diva",
+    "sku": "U52NOLI2"
+  },
+  {
+    "id": "e1fe0e88-94d9-4b95-84f2-7e66d346bde9",
+    "name": "Red Shoes",
+    "price": 34.99,
+    "description": "The Red Shoes make a bold statement with their vibrant red color. Whether for a party or a casual outing, these shoes add a pop of color and style to your wardrobe.",
+    "categories": [
+      "womens-shoes"
+    ],
+    "rating": 4.33,
+    "tags": [
+      "footwear",
+      "women's shoes"
+    ],
+    "brand": "Fashion Express",
+    "sku": "H8JNELSB"
+  },
+  {
+    "id": "4ac0433e-42fa-4986-bef8-3aabb4d9181c",
+    "name": "Pampi Shoes",
+    "price": 29.99,
+    "description": "Pampi Shoes offer a blend of comfort and style for everyday use. With a versatile design, they are suitable for various casual occasions, providing a trendy and relaxed look.",
+    "categories": [
+      "womens-shoes"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "footwear",
+      "casual shoes"
+    ],
+    "brand": "Pampi",
+    "sku": "MJGF2DUO"
+  },
+  {
+    "id": "945985d0-b91d-44ac-b26b-cd4b567cf9b6",
+    "name": "IWC Ingenieur Automatic Steel",
+    "price": 4999.99,
+    "description": "The IWC Ingenieur Automatic Steel watch is a durable and sophisticated timepiece. With a stainless steel case and automatic movement, it combines precision and style for watch enthusiasts.",
+    "categories": [
+      "womens-watches"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "IWC",
+    "sku": "OJF7AK1J"
+  },
+  {
+    "id": "7ab2d132-2e77-4628-8b82-333e3b582e6e",
+    "name": "Rolex Cellini Moonphase",
+    "price": 15999.99,
+    "description": "The Rolex Cellini Moonphase watch is a masterpiece of horology. Featuring a moon phase complication, it showcases the craftsmanship and elegance that Rolex is renowned for.",
+    "categories": [
+      "womens-watches"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "watches",
+      "luxury watches"
+    ],
+    "brand": "Rolex",
+    "sku": "E8CYFYQL"
+  },
+  {
+    "id": "419a2289-a4ce-4069-b06b-674636e9d6eb",
+    "name": "Rolex Datejust Women",
+    "price": 10999.99,
+    "description": "The Rolex Datejust Women's watch is an iconic timepiece designed for women. With a timeless design and a date complication, it offers both elegance and functionality.",
+    "categories": [
+      "womens-watches"
+    ],
+    "rating": 3.67,
+    "tags": [
+      "watches",
+      "luxury watches",
+      "women's watches"
+    ],
+    "brand": "Rolex",
+    "sku": "VKQ2UNB9"
+  },
+  {
+    "id": "1a8e0c95-7a4d-4c1c-9be8-f66398cf8707",
+    "name": "Watch Gold for Women",
+    "price": 799.99,
+    "description": "The Gold Women's Watch is a stunning accessory that combines luxury and style. Featuring a gold-plated case and a chic design, it adds a touch of glamour to any outfit.",
+    "categories": [
+      "womens-watches"
+    ],
+    "rating": 3.33,
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
+    "brand": "Fashion Gold",
+    "sku": "N6I9YEWM"
+  },
+  {
+    "id": "0dd0a4c4-9526-49ae-b233-225f7bed031c",
+    "name": "Women's Wrist Watch",
+    "price": 129.99,
+    "description": "The Women's Wrist Watch is a versatile and fashionable timepiece for everyday wear. With a comfortable strap and a simple yet elegant design, it complements various styles.",
+    "categories": [
+      "womens-watches"
+    ],
+    "rating": 4.0,
+    "tags": [
+      "watches",
+      "women's watches"
+    ],
+    "brand": "Fashion Co.",
+    "sku": "36T6X4M3"
+  }
+]
