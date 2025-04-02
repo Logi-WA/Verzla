@@ -1,9 +1,9 @@
 package is.hi.verzla_backend.repositories;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import java.util.List;
 import java.util.UUID;
-
-import org.springframework.data.jpa.repository.JpaRepository;
 
 import is.hi.verzla_backend.entities.Product;
 
