@@ -65,4 +65,5 @@ node_modules
 
 .env
 .env.*
-/src/main/resources/db
+/src/main/resources/data
+/src/main/resources/*-*.properties
